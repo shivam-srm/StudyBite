@@ -57,8 +57,8 @@ const TimetablePage = () => {
         </div>
 
         {/* Selector Dropdown */}
-        <div className="flex justify-center mb-6 sm:mb-8 animate-fade-in" style={{ animationDelay: "150ms" }}>
-          <div className="relative w-full max-w-sm">
+        <div className="flex justify-center mb-6 sm:mb-8 animate-fade-in relative z-40" style={{ animationDelay: "150ms" }}>
+          <div className="relative w-full max-w-sm z-40">
             <button
               onClick={() => setIsDropdownOpen(!isDropdownOpen)}
               className="w-full flex items-center justify-between px-3 sm:px-4 py-2.5 sm:py-3 bg-card border border-border rounded-xl text-foreground hover:bg-muted hover:border-primary/50 transition-all duration-300 card-hover group"
