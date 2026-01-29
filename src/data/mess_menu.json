@@ -1,383 +1,52 @@
 {
-  "hostel": "AHS (Annai's Hospitality & Health and Science)",
-  "valid_from": "08-12-2025",
+  "hostel": "Para Medical Hostel",
+  "valid_from": "17.04.2025",
   "menu": {
     "Monday": {
-      "breakfast": [
-        "PONGAL",
-        "SAMBAR",
-        "COCONUT CHUTNEY",
-        "MEDU VADA",
-        "CHAPPATHI",
-        "SOYA ALOO",
-        "BREAD",
-        "BUTTER",
-        "JAM",
-        "MILK",
-        "COFFEE",
-        "TEA",
-        "BOILED EGG"
-      ],
-      "lunch": [
-        "METHI CHAPPATHI",
-        "BLACK CHANNA MASALA",
-        "VEG PULAO",
-        "STEAMED RICE",
-        "ARACHIVITTA SAMBAR",
-        "KEERAI KOOTU",
-        "RASAM",
-        "BUTTERMILK",
-        "FRYUMS",
-        "PICKLE"
-      ],
-      "snacks": [
-        "SAMOSA/VEG ROLL",
-        "MILK",
-        "LEMON JUICE",
-        "TEA",
-        "BREAD",
-        "BUTTER",
-        "JAM"
-      ],
-      "dinner": [
-        "IDLI",
-        "SAMBAR",
-        "CHUTNEY",
-        "CHAPPATHI",
-        "TOMATO DAL",
-        "STEAMED RICE",
-        "RASAM",
-        "IDLI PODI",
-        "OIL",
-        "BUTTERMILK",
-        "PICKLE",
-        "SALAD",
-        "MILK",
-        "BANANA",
-        "FISH GRAVY (FLAVORED GRAVY)/CHICKEN GRAVY(FLAVORED GRAVY)"
-      ]
+      "breakfast": ["Bread", "Butter", "Jam", "Pongal", "Sambar", "Coconut Chutney", "Vada", "Chapathi", "Soya Aloo", "Tea/Coffee/Milk"],
+      "lunch": ["Mint Chappathi", "Black Channa Masala", "Mutter Pulao", "Steamed Rice", "Arachivitta Sambar", "Keerai Kootu", "Rasam", "Butter Milk", "Frymes", "Pickle"],
+      "snacks": ["Samosa", "Veg Spring Roll", "Tea", "Lemon Juice", "Milk", "Bread", "Butter", "Jam"],
+      "dinner": ["Chappathi", "Tomato Dal", "Idli", "Chutney", "Sambar", "Idli Podi", "Oil", "Steamed Rice", "Rasam", "Buttermilk", "Pickle", "Salad", "Milk", "Banana", "Fish Gravy"]
     },
     "Tuesday": {
-      "breakfast": [
-        "VEG RAVA",
-        "KITCHADI/VEGETABLE UPMA",
-        "SAMBAR",
-        "CHUTNEY",
-        "POORI",
-        "ALOO MASALA",
-        "BREAD",
-        "BUTTER",
-        "JAM",
-        "MILK",
-        "COFFEE",
-        "TEA",
-        "BOILED EGG"
-      ],
-      "lunch": [
-        "CHAPPATHI",
-        "WHITE PEAS CURRY",
-        "JEERA PULAO",
-        "STEAMED RICE",
-        "KARAKUZHAMBU/MORI KUZHAMBU",
-        "BEETROOT PORIYAL",
-        "RASAM",
-        "BUTTERMILK",
-        "FRYUMS",
-        "PICKLE",
-        "PAAYSAM"
-      ],
-      "snacks": [
-        "PANINI PORI/PAV BHAJI",
-        "MILK",
-        "COFFEE",
-        "TEA",
-        "BREAD",
-        "BUTTER",
-        "JAM"
-      ],
-      "dinner": [
-        "KAL DOSA",
-        "SAMBAR",
-        "CHUTNEY",
-        "MILLET CHAPPATHI",
-        "DAL PANCHARATHAN",
-        "STEAMED RICE",
-        "RASAM",
-        "IDLI PODI",
-        "OIL",
-        "BUTTERMILK",
-        "PICKLE",
-        "SALAD",
-        "MILK",
-        "BANANA",
-        "MUTTON KUZHAMBU(FLAVORED GRAVY)"
-      ]
+      "breakfast": ["Bread", "Butter", "Jam", "Poori", "Aloo Masala", "Veg Rava Kitchadi", "Sambar", "Chutney", "Tea/Coffee/Milk"],
+      "lunch": ["Payasam", "Chappathi", "White Peas Curry", "Jeera Pulao", "Steamed Rice", "Kara Kuzhambu", "Rasam", "Cabbage Kootu", "Butter Milk", "Frymes", "Pickle"],
+      "snacks": ["Panni Pori", "Pav Bhaji", "Tea", "Coffee", "Milk", "Bread", "Butter", "Jam"],
+      "dinner": ["Millet Chappati", "Black Channa Masala", "Kal Dosa", "Sambar", "Chutney", "Idli Podi", "Oil", "Steamed Rice", "Rasam", "Buttermilk", "Salad", "Pickle", "Milk", "Banana", "Mutton Kulambu"]
     },
     "Wednesday": {
-      "breakfast": [
-        "IDIYAPPAM",
-        "VADA",
-        "POTATO STEW",
-        "MINT CHUTNEY",
-        "BREAD",
-        "BUTTER",
-        "JAM",
-        "MILK",
-        "COFFEE",
-        "TEA"
-      ],
-      "lunch": [
-        "CHAPPATHI",
-        "RAJMA MASALA",
-        "CURD RICE",
-        "LURU(PLAI KARA CURRY)",
-        "STEAMED RICE",
-        "RASAM",
-        "BUTTERMILK",
-        "APPALAM",
-        "PICKLE"
-      ],
-      "snacks": [
-        "CREAM BUN/BROWNIE/COOKIES",
-        "MILK",
-        "COFFEE",
-        "TEA",
-        "BREAD",
-        "BUTTER",
-        "JAM"
-      ],
-      "dinner": [
-        "CHAPPATHI",
-        "PANEER BUTTER MASALA/KADAI PANEER",
-        "STEAMED RICE",
-        "SAMBAR",
-        "BUTTERMILK",
-        "PICKLE",
-        "MILK",
-        "BANANA",
-        "CHICKEN GRAVY/CHICKEN BIRYANI"
-      ]
+      "breakfast": ["Bread", "Butter", "Jam", "Idiyappam", "Vada Curry", "Veg Stew", "Poha", "Mint Chutney", "Tea/Coffee/Milk"],
+      "lunch": ["Chappati", "Rajma Masala", "Variety Rice", "Curd Rice", "Urulai Kara Masala", "Steamed Rice", "Rasam", "Appalam", "Pickle"],
+      "snacks": ["Bakery Snacks", "Tea", "Coffee", "Milk", "Bread", "Butter", "Jam"],
+      "dinner": ["Chappathi", "Paneer Butter Masala", "Steamed Rice", "Sambar", "Jeera Rasam", "Butter Milk", "Pickle", "Milk", "Banana", "Chicken Gravy", "Chicken Biryani"]
     },
     "Thursday": {
-      "breakfast": [
-        "IDLI",
-        "SAMBAR",
-        "GROUNDNUT CHUTNEY",
-        "CHAPPATHI",
-        "DAL PALAK",
-        "IDLI PODI",
-        "OIL",
-        "BREAD",
-        "BUTTER",
-        "JAM",
-        "MILK",
-        "COFFEE",
-        "TEA",
-        "BOILED EGG"
-      ],
-      "lunch": [
-        "CHAPPATHI",
-        "VEGETABLE SABBI",
-        "GHEE RICE",
-        "STEAMED RICE",
-        "VATHANUKHAMBU",
-        "VEGETABLE KOOTU",
-        "RASAM",
-        "BUTTERMILK",
-        "FRYUMS",
-        "PICKLE",
-        "KESARI/BONDHI"
-      ],
-      "snacks": [
-        "NAVADHANYA SUNDAL/MASALA SUNDAL",
-        "MILK",
-        "COFFEE",
-        "TEA",
-        "BREAD",
-        "BUTTER",
-        "JAM"
-      ],
-      "dinner": [
-        "DOSA",
-        "SAMBAR",
-        "CHUTNEY",
-        "CHAPPATHI",
-        "CHANNA MASALA",
-        "STEAMED RICE",
-        "RASAM",
-        "BUTTERMILK",
-        "PICKLE",
-        "MILK",
-        "BANANA",
-        "MUTTON KUZHAMBU(FLAVORED GRAVY)"
-      ]
+      "breakfast": ["Bread", "Butter", "Jam", "Idli", "Groundnut Chutney", "Sambar", "Idli Podi", "Oil", "Chapathi", "White Peas Masala", "Tea/Coffee/Milk"],
+      "lunch": ["Sweet Pongal", "Boondhi", "Beetroot Chappathi", "Gobi Capsicum", "Veg Pulso Curry", "Steamed Rice", "Karai Kuzhambu", "Keerai Kootu", "Rasam", "Buttermilk", "Frymes", "Pickle"],
+      "snacks": ["Kadhanya Sundal", "Tea", "Coffee", "Milk", "Bread", "Butter", "Jam"],
+      "dinner": ["Chappati", "Channa Masala", "Kal Dosa", "Sambar", "Masala Chutney", "Steamed Rice", "Rasam", "Buttermilk", "Salad", "Pickle", "Milk", "Cup Ice Cream", "Chicken Gravy", "Banana"]
     },
     "Friday": {
-      "breakfast": [
-        "KAL DOSA",
-        "SAMBAR",
-        "ONION/TOMATO CHUTNEY",
-        "SEMIYA BATH",
-        "IDLI PODI",
-        "OIL",
-        "BREAD",
-        "BUTTER",
-        "JAM",
-        "MILK",
-        "COFFEE",
-        "TEA",
-        "OMELETTE"
-      ],
-      "lunch": [
-        "CHAPPATHI",
-        "TINDY MASALA",
-        "PEAS PULAO",
-        "STEAMED RICE",
-        "SAMBAR",
-        "RASAM",
-        "BUTTERMILK",
-        "FRYUMS",
-        "PICKLE"
-      ],
-      "snacks": [
-        "BAJJI/CHUTNEY/MURUKU",
-        "HORLICKS MILK/BADAM MILK",
-        "COFFEE",
-        "TEA",
-        "BREAD",
-        "BUTTER",
-        "JAM"
-      ],
-      "dinner": [
-        "SOUP",
-        "CHAPPATHI",
-        "KADAI VEGETABLES",
-        "STEAMED RICE(TOMATO/VEG NOODLES/FRIED RICE)",
-        "STEAMED RICE",
-        "SAMBAR",
-        "RASAM",
-        "BUTTERMILK",
-        "PICKLE",
-        "SALAD",
-        "MILK",
-        "BANANA",
-        "CHICKEN GRAVY(FLAVORED GRAVY)"
-      ]
+      "breakfast": ["Bread", "Butter", "Jam", "Chappathi", "Channa Dal", "Kal Dosa", "Sambar", "Kara Chutney", "Tea/Coffee/Milk", "Idli Podi", "Oil", "Omelette"],
+      "lunch": ["Chappathi", "Peas Pulao", "Spinach Aloo", "Steamed Rice", "Sambar", "Mix Veg Poriyal", "Rasam", "Buttermilk", "Frymes", "Pickle"],
+      "snacks": ["Bajji", "Mysore Bonda", "Chutney", "Tea", "Rose Milk", "Milk", "Bread", "Butter", "Jam"],
+      "dinner": ["Veg Soup", "Chappathi", "Veg Manchurian Gravy", "Fried Rice", "Noodles", "Steamed Rice", "Rasam", "Buttermilk", "Milk", "Salad", "Pickle", "Chicken Gravy", "Banana"]
     },
     "Saturday": {
-      "breakfast": [
-        "IDLI",
-        "SAMBAR",
-        "GROUNDNUT CHUTNEY",
-        "ALOO PARATHA",
-        "CURD",
-        "IDLI PODI",
-        "OIL",
-        "BREAD",
-        "BUTTER",
-        "JAM",
-        "MILK",
-        "COFFEE",
-        "TEA",
-        "BOILED EGG"
-      ],
-      "lunch": [
-        "CHAPPATHI",
-        "VEGI MAKER KURMA",
-        "ALOO RICE",
-        "RATHA",
-        "STEAMED RICE",
-        "RASAM",
-        "KEERAI KOOTU",
-        "CURD RICE",
-        "BUTTERMILK",
-        "FRYUMS",
-        "PICKLE",
-        "GULABJIAMUN/BADHUSHA"
-      ],
-      "snacks": [
-        "CAKE VARIETY/RUSK",
-        "MILK",
-        "COFFEE",
-        "TEA",
-        "BREAD",
-        "BUTTER",
-        "JAM"
-      ],
-      "dinner": [
-        "KAL DOSA",
-        "SAMBAR",
-        "CHUTNEY",
-        "PANROTTA",
-        "VEG SAIBA",
-        "STEAMED RICE",
-        "RASAM",
-        "IDLI PODI",
-        "OIL",
-        "BUTTERMILK",
-        "PICKLE",
-        "SALAD",
-        "MILK",
-        "BANANA",
-        "CHICKEN GRAVY(FLAVORED GRAVY)"
-      ]
+      "breakfast": ["Bread", "Butter", "Jam", "Aloo Paratha", "Curd", "Idli", "Groundnut Chutney", "Sambar", "Idli Podi", "Oil", "Boiled Egg", "Tea/Coffee/Milk"],
+      "lunch": ["Gulabjamun", "Millet Payasam", "Chappati", "Meal Maker Curry", "Veg Biryani", "Raitha", "Curd Rice", "Steamed Rice", "Rasam", "Keerai Kootu", "Frymes", "Pickle"],
+      "snacks": ["Cake Variety", "Tea", "Coffee", "Milk", "Bread", "Butter", "Jam"],
+      "dinner": ["Paratha", "Veg Salna", "Dosa", "Chutney", "Tiffin Sambar", "Idli Podi", "Oil", "Steamed Rice", "Rasam", "Buttermilk", "Milk", "Pickle", "Mutton Gravy", "Banana"]
     },
     "Sunday": {
-      "breakfast": [
-        "CHOLE BHATURE",
-        "BANANA MASALA",
-        "PAVA UPMA",
-        "COCONUT CHUTNEY",
-        "SAMBAR",
-        "BREAD",
-        "BUTTER",
-        "JAM",
-        "MILK",
-        "COFFEE",
-        "TEA"
-      ],
-      "lunch": [
-        "CHAPPATHI",
-        "CHICKEN/SOYABET",
-        "PINEAPPLE COCONUT",
-        "STEAMED RICE",
-        "SAMBAR",
-        "PORIYAL",
-        "RASAM",
-        "BUTTERMILK",
-        "FRYUMS",
-        "PICKLE",
-        "CUP ICE CREAM"
-      ],
-      "snacks": [
-        "CHANNA SUNDAL(WHITE/BLACK)",
-        "MILK",
-        "COFFEE",
-        "TEA",
-        "BREAD",
-        "BUTTER",
-        "JAM"
-      ],
-      "dinner": [
-        "CHAPPATHI",
-        "MIX VEG CURRY",
-        "DAL BITOHARI",
-        "STEAMED RICE",
-        "RASAM",
-        "PORIYAL",
-        "BUTTERMILK",
-        "PICKLE",
-        "SALAD",
-        "MILK",
-        "SEASONAL FRUITS",
-        "CHICKEN GRAVY(FLAVORED GRAVY)"
-      ]
+      "breakfast": ["Bread", "Butter", "Jam", "Chole Bhature", "Chenna Masala", "Rava Upma", "Coconut Chutney", "Sambar", "Tea/Coffee/Milk"],
+      "lunch": ["Chappathi", "Chicken Gravy", "Paneer Mutter Masala", "Steamed Rice", "Sambar", "Garlic Rasam", "Poriyal", "Ice Cream Cup", "Buttermilk", "Frymes", "Pickle"],
+      "snacks": ["Peanut Sundal", "Channa Sundal", "Tea", "Coffee", "Milk", "Bread", "Butter", "Jam"],
+      "dinner": ["Chappathi", "Mix Veg Curry", "Dal Fry", "Chicken Gravy", "Steamed Rice", "Kadamba Sambar", "Rasam", "Poriyal", "Buttermilk", "Milk", "Pickle", "Seasonal Fruit"]
     }
   },
   "notes": [
-    "KINDLY NOTE",
-    "THE ABOVE MENU WILL CHANGE SUBJECT TO THE NON-AVAILABILITY OF ITEMS",
-    "BIRYANI - EVERY FRIDAY WILL BE SERVED CHICKEN AND VEG BIRYANI",
-    "2 & 4 TH WEDNESDAY WILL BE SERVED CHICKEN AND VEG BIRYANI"
+    "KINDLY NOTE: THE ABOVE MENU WILL CHANGE SUBJECT TO THE NON-AVAILABILITY OF VEGETABLE/PROVISIONS",
+    "Biryani: Every Month, 2nd and 4th Wednesday will be served Chicken and Veg-Biryani"
   ]
 }
