@@ -50,7 +50,7 @@ const TimetablePage = () => {
         <div className="text-center mb-6 sm:mb-8 animate-fade-in-up">
           <h1 className="text-2xl sm:text-3xl md:text-4xl font-bold mb-1 sm:mb-2">
             <span className="inline-block px-4 sm:px-6 py-2 bg-gradient-to-r from-primary/20 via-primary/10 to-primary/20 rounded-2xl border border-primary/30 shadow-lg shadow-primary/10 animate-glow">
-              <span className="gradient-text">Class Timetable</span>
+              <span className="text-primary font-bold">Class Timetable</span>
             </span>
           </h1>
           <p className="text-sm sm:text-base text-muted-foreground animate-fade-in" style={{ animationDelay: "100ms" }}>
