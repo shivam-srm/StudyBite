@@ -1,6 +1,7 @@
 import { Link, useLocation } from "react-router-dom";
 import { UtensilsCrossed, Calendar, Moon, Sun } from "lucide-react";
 import { useState, useEffect } from "react";
+import logo from "@/assets/logo.png";
 
 const Navbar = () => {
   const location = useLocation();
@@ -31,8 +32,8 @@ const Navbar = () => {
     >
       <nav className="container mx-auto px-4 h-16 flex items-center justify-between">
         <Link to="/mess" className="flex items-center gap-2 group">
-          <div className="w-10 h-10 rounded-xl bg-gradient-to-br from-primary to-primary/80 flex items-center justify-center shadow-lg group-hover:shadow-primary/25 transition-all duration-300 group-hover:scale-105">
-            <span className="text-primary-foreground font-bold text-lg">S</span>
+          <div className="w-10 h-10 rounded-xl bg-gradient-to-br from-primary/20 to-primary/10 flex items-center justify-center shadow-lg group-hover:shadow-primary/25 transition-all duration-300 group-hover:scale-105 overflow-hidden">
+            <img src={logo} alt="Logo" className="w-10 h-10 object-cover" />
           </div>
           <div className="hidden sm:block">
             <h1 className="font-semibold text-foreground group-hover:text-primary transition-colors">
