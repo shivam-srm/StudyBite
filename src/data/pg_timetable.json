@@ -53,23 +53,15 @@
         "Day 1": [
           {
             "slot": "SESSION I",
-            "subject": "Operating Systems",
-            "code": "OS-TS",
-            "type": "theory"
+            "subject": "OS -TS"
           },
           {
             "slot": "SESSION II",
-            "subject": "Elective Lab",
-            "code": "SPM/MA/DVT",
-            "type": "lab",
-            "room": "POLY1/POLY2/POLY5/402/403/708/908"
+            "subject": "I MCA ELECTIVE (SPM1-BN(POLY1), SPM2-MRS(POLY2),SPM3-JB (POLY5), MA1-GM(402),  DVT1-DG(403), DVT2-SJ(708)) -LAB, DVT3 - TS(908)"
           },
           {
             "slot": "SESSION III",
-            "subject": "Elective Lab",
-            "code": "SPM/MA/DVT",
-            "type": "lab",
-            "room": "POLY1/POLY2/POLY5/402/403/708/908"
+            "subject": "I MCA ELECTIVE (SPM1-BN(POLY1), SPM2-MRS(POLY2),SPM3-JB (POLY5), MA1-GM(402),  DVT1-DG(403), DVT2-SJ(708)) -LAB, DVT3 - TS(908)"
           },
           {
             "slot": "BREAK",
@@ -78,221 +70,127 @@
           },
           {
             "slot": "SESSION IV",
-            "subject": "Python Lab",
-            "code": "PY-SV",
-            "type": "lab",
-            "room": "908"
+            "subject": "PYTHON LAB - 908 (SV)"
           },
           {
             "slot": "SESSION V",
-            "subject": "Mathematics",
-            "type": "theory"
+            "subject": "MATHS"
           },
           {
             "slot": "LUNCH",
-            "subject": "Online",
-            "type": "online"
-          },
-          {
-            "slot": "SESSION VII",
-            "subject": "Python",
-            "code": "PY-SV",
-            "type": "theory"
+            "subject": "PYTHON -SV"
           }
         ],
         "Day 2": [
           {
             "slot": "SESSION I",
-            "subject": "CDC",
-            "type": "theory"
+            "subject": "CDC"
           },
           {
             "slot": "SESSION II",
-            "subject": "Mathematics",
-            "type": "theory"
+            "subject": "MATHS"
           },
           {
             "slot": "SESSION III",
-            "subject": "AIML",
-            "code": "AIML-SAR",
-            "type": "theory"
-          },
-          {
-            "slot": "BREAK",
-            "subject": "Break",
-            "type": "break"
+            "subject": "AIML-SAR"
           },
           {
             "slot": "SESSION IV",
-            "subject": "Python",
-            "code": "PY-SV",
-            "type": "theory"
+            "subject": "PY-SV"
           },
           {
             "slot": "SESSION V",
-            "subject": "IoT",
-            "code": "IOT-RS",
-            "type": "theory"
+            "subject": "IOT-RS"
           },
           {
             "slot": "LUNCH",
-            "subject": "Online",
-            "type": "online"
-          },
-          {
-            "slot": "SESSION VII",
-            "subject": "AIML",
-            "code": "AIML-SAR",
-            "type": "theory"
+            "subject": "AIML-SAR"
           }
         ],
         "Day 3": [
           {
             "slot": "SESSION I",
-            "subject": "Operating Systems",
-            "code": "OS-TS",
-            "type": "online"
+            "subject": "OS-TS(ONLINE)"
           },
           {
             "slot": "SESSION II",
-            "subject": "Elective Theory",
-            "code": "SPM/MA/DVT",
-            "type": "theory"
+            "subject": "I MCA ELECTIVE (SPM1-BN(901), SPM2-MRS(902),SPM3-JB(903), MA1-GM(906), DVT 1-DG(907), DVT2-SJ(806), DVT3 - TS(807))"
           },
           {
             "slot": "SESSION III",
-            "subject": "Mathematics",
-            "type": "theory"
-          },
-          {
-            "slot": "BREAK",
-            "subject": "Break",
-            "type": "break"
+            "subject": "MATHS"
           },
           {
             "slot": "SESSION IV",
-            "subject": "Operating Systems",
-            "code": "OS-TS",
-            "type": "theory"
+            "subject": "OS -TS"
           },
           {
             "slot": "SESSION V",
-            "subject": "Library",
-            "type": "library"
+            "subject": "LIBRARY"
           },
           {
             "slot": "LUNCH",
-            "subject": "Online",
-            "type": "online"
+            "subject": "CDC"
           },
           {
             "slot": "SESSION VII",
-            "subject": "AIML Lab",
-            "code": "AIML-SAR",
-            "type": "lab",
-            "room": "402"
+            "subject": "AIML LAB -402(SAR)"
           },
           {
             "slot": "SESSION VIII",
-            "subject": "AIML Lab",
-            "code": "AIML-SAR",
-            "type": "lab",
-            "room": "402"
+            "subject": "AIML LAB -402(SAR)"
           }
         ],
         "Day 4": [
           {
             "slot": "SESSION I",
-            "subject": "IoT Lab",
-            "code": "IOT-RS",
-            "type": "lab",
-            "room": "403"
+            "subject": "IOT LAB - 403 (RS)"
           },
           {
             "slot": "SESSION II",
-            "subject": "Python",
-            "code": "PY-SV",
-            "type": "theory"
+            "subject": "PYTHON -SV"
           },
           {
             "slot": "SESSION III",
-            "subject": "Python Lab",
-            "code": "PY-SV",
-            "type": "lab",
-            "room": "402"
-          },
-          {
-            "slot": "BREAK",
-            "subject": "Break",
-            "type": "break"
+            "subject": "PYTHON LAB -402 (SV)"
           },
           {
             "slot": "SESSION IV",
-            "subject": "Elective Theory",
-            "code": "SPM/MA/DVT",
-            "type": "theory"
+            "subject": "I MCA ELECTIVE (SPM1-BN(901), SPM2-MRS(902),SPM3-JB(903), MA1-GM(906), DVT 1-DG(907), DVT2-SJ(806), DVT3 - TS(807))"
           },
           {
             "slot": "SESSION V",
-            "subject": "IoT Lab",
-            "code": "IOT-RS",
-            "type": "lab",
-            "room": "403"
+            "subject": "IOT LAB - 403 (RS)"
           },
           {
             "slot": "LUNCH",
-            "subject": "Online IoT Lab",
-            "code": "IOT-RS",
-            "type": "online"
+            "subject": "IOT LAB(ONLINE)-RS"
           }
         ],
         "Day 5": [
           {
             "slot": "SESSION I",
-            "subject": "AIML",
-            "code": "AIML-SAR",
-            "type": "theory"
+            "subject": "AIML-SAR"
           },
           {
             "slot": "SESSION II",
-            "subject": "Elective Theory",
-            "code": "SPM/MA/DVT",
-            "type": "theory"
+            "subject": "I MCA ELECTIVE (SPM1-BN(901), SPM2-MRS(902),SPM3-JB(903), MA1-GM(906), DVT 1-DG(907), DVT2-SJ(806), DVT3 - TS(807))"
           },
           {
             "slot": "SESSION III",
-            "subject": "Operating Systems Lab",
-            "code": "OS-TS",
-            "type": "lab",
-            "room": "402"
-          },
-          {
-            "slot": "BREAK",
-            "subject": "Break",
-            "type": "break"
+            "subject": "OS LAB - 402 (TS)"
           },
           {
             "slot": "SESSION IV",
-            "subject": "Operating Systems Lab",
-            "code": "OS-TS",
-            "type": "lab",
-            "room": "402"
+            "subject": "OS LAB - 402 (TS)"
           },
           {
             "slot": "SESSION V",
-            "subject": "IoT",
-            "code": "IOT-RS",
-            "type": "theory"
+            "subject": "IOT-RS"
           },
           {
             "slot": "LUNCH",
-            "subject": "Online",
-            "type": "online"
-          },
-          {
-            "slot": "SESSION VII",
-            "subject": "Mathematics",
-            "type": "theory"
+            "subject": "MATHS"
           }
         ]
       }
@@ -305,24 +203,15 @@
         "Day 1": [
           {
             "slot": "SESSION I",
-            "subject": "AIML Lab",
-            "code": "AIML-AR",
-            "type": "lab",
-            "room": "POLY2"
+            "subject": "AIML LAB POLY 2 (AR)"
           },
           {
             "slot": "SESSION II",
-            "subject": "Elective Lab",
-            "code": "SPM/MA/DVT",
-            "type": "lab",
-            "room": "POLY1/POLY2/POLY5/402/403/708/908"
+            "subject": "I MCA ELECTIVE (SPM1-BN(POLY1), SPM2-MRS(POLY2),SPM3-JB (POLY5), MA1-GM(402),  DVT1-DG(403), DVT2-SJ(708)) -LAB, DVT3 - TS(908)"
           },
           {
             "slot": "SESSION III",
-            "subject": "Elective Lab",
-            "code": "SPM/MA/DVT",
-            "type": "lab",
-            "room": "POLY1/POLY2/POLY5/402/403/708/908"
+            "subject": "I MCA ELECTIVE (SPM1-BN(POLY1), SPM2-MRS(POLY2),SPM3-JB (POLY5), MA1-GM(402),  DVT1-DG(403), DVT2-SJ(708)) -LAB, DVT3 - TS(908)"
           },
           {
             "slot": "BREAK",
@@ -331,226 +220,123 @@
           },
           {
             "slot": "SESSION IV",
-            "subject": "Operating Systems Lab",
-            "code": "OS-MP",
-            "type": "lab",
-            "room": "908"
+            "subject": "OS-MP"
           },
           {
             "slot": "SESSION V",
-            "subject": "Operating Systems Lab",
-            "code": "OS-MP",
-            "type": "lab",
-            "room": "908"
+            "subject": "OS LAB - 908 (MP)"
           },
           {
             "slot": "LUNCH",
-            "subject": "CDC",
-            "type": "theory"
-          },
-          {
-            "slot": "SESSION VII",
-            "subject": "None",
-            "type": "free"
+            "subject": "CDC"
           }
         ],
         "Day 2": [
           {
             "slot": "SESSION I",
-            "subject": "Python",
-            "code": "PY-RR",
-            "type": "theory"
+            "subject": "PY-RR"
           },
           {
             "slot": "SESSION II",
-            "subject": "Mathematics",
-            "type": "theory"
+            "subject": "MATHS"
           },
           {
             "slot": "SESSION III",
-            "subject": "CDC",
-            "type": "theory"
-          },
-          {
-            "slot": "BREAK",
-            "subject": "Break",
-            "type": "break"
+            "subject": "CDC"
           },
           {
             "slot": "SESSION IV",
-            "subject": "Operating Systems Lab",
-            "code": "OS-MP",
-            "type": "lab",
-            "room": "908"
+            "subject": "OS LAB - 908 (MP)"
           },
           {
             "slot": "SESSION V",
-            "subject": "IoT",
-            "code": "IOT-PC",
-            "type": "theory"
+            "subject": "IOT-PC"
           },
           {
             "slot": "LUNCH",
-            "subject": "Online",
-            "type": "online"
-          },
-          {
-            "slot": "SESSION VII",
-            "subject": "AIML",
-            "code": "AIML-AR",
-            "type": "theory"
+            "subject": "AIML-AR"
           }
         ],
         "Day 3": [
           {
             "slot": "SESSION I",
-            "subject": "Python Lab",
-            "code": "PY-RR",
-            "type": "lab",
-            "room": "708"
+            "subject": "PYTHON LAB - 708 (RR)"
           },
           {
             "slot": "SESSION II",
-            "subject": "Elective Theory",
-            "code": "SPM/MA/DVT",
-            "type": "theory"
+            "subject": "I MCA ELECTIVE (SPM1-BN(901), SPM2-MRS(902),SPM3-JB(903), MA1-GM(906), DVT 1-DG(907), DVT2-SJ(806), DVT3 - TS(807))"
           },
           {
             "slot": "SESSION III",
-            "subject": "Mathematics",
-            "type": "theory"
-          },
-          {
-            "slot": "BREAK",
-            "subject": "Break",
-            "type": "break"
+            "subject": "MATHS"
           },
           {
             "slot": "SESSION IV",
-            "subject": "Python",
-            "code": "PY-RR",
-            "type": "theory"
+            "subject": "PY-RR"
           },
           {
             "slot": "SESSION V",
-            "subject": "AIML Lab",
-            "code": "AIML-AR",
-            "type": "lab",
-            "room": "POLY2"
+            "subject": "AIML LAB POLY2 (AR)"
           },
           {
             "slot": "LUNCH",
-            "subject": "Online",
-            "type": "online"
-          },
-          {
-            "slot": "SESSION VII",
-            "subject": "Operating Systems",
-            "code": "OS-MP",
-            "type": "theory"
+            "subject": "OS-MP"
           }
         ],
         "Day 4": [
           {
-            "slot": "SESSION I",
-            "subject": "None",
-            "type": "free"
-          },
-          {
             "slot": "SESSION II",
-            "subject": "IoT",
-            "code": "IOT-PC",
-            "type": "theory"
+            "subject": "IOT-PC"
           },
           {
             "slot": "SESSION III",
-            "subject": "AIML",
-            "code": "AIML-AR",
-            "type": "theory"
-          },
-          {
-            "slot": "BREAK",
-            "subject": "Break",
-            "type": "break"
+            "subject": "AIML-AR"
           },
           {
             "slot": "SESSION IV",
-            "subject": "Elective Theory",
-            "code": "SPM/MA/DVT",
-            "type": "theory"
+            "subject": "I MCA ELECTIVE (SPM1-BN(901), SPM2-MRS(902),SPM3-JB(903), MA1-GM(906), DVT 1-DG(907), DVT2-SJ(806), DVT3 - TS(807))"
           },
           {
             "slot": "SESSION V",
-            "subject": "IoT Lab (ONLINE)",
-            "code": "IOT-PC",
-            "type": "online"
+            "subject": "IOT LAB(ONLINE)"
           },
           {
             "slot": "LUNCH",
-            "subject": "Mathematics",
-            "type": "theory"
+            "subject": "MATHS"
           },
           {
             "slot": "SESSION VII",
-            "subject": "IoT Lab",
-            "code": "IOT-PC",
-            "type": "lab",
-            "room": "908"
+            "subject": "IOT LAB - 908 (PC)"
           },
           {
             "slot": "SESSION VIII",
-            "subject": "IoT Lab",
-            "code": "IOT-PC",
-            "type": "lab",
-            "room": "908"
+            "subject": "IOT LAB - 908 (PC)"
           }
         ],
         "Day 5": [
           {
             "slot": "SESSION I",
-            "subject": "AIML",
-            "code": "AIML-AR",
-            "type": "theory"
+            "subject": "AIML-AR"
           },
           {
             "slot": "SESSION II",
-            "subject": "Elective Theory",
-            "code": "SPM/MA/DVT",
-            "type": "theory"
+            "subject": "I MCA ELECTIVE (SPM1-BN(901), SPM2-MRS(902),SPM3-JB(903), MA1-GM(906), DVT 1-DG(907), DVT2-SJ(806), DVT3 - TS(807))"
           },
           {
             "slot": "SESSION III",
-            "subject": "Mathematics",
-            "type": "theory"
-          },
-          {
-            "slot": "BREAK",
-            "subject": "Break",
-            "type": "break"
+            "subject": "MATHS"
           },
           {
             "slot": "SESSION IV",
-            "subject": "Python Lab",
-            "code": "PY-RR",
-            "type": "lab",
-            "room": "708"
+            "subject": "PYTHON LAB - 708 (RR)"
           },
           {
             "slot": "SESSION V",
-            "subject": "Operating Systems",
-            "code": "OS-MP",
-            "type": "theory"
+            "subject": "OS-MP"
           },
           {
             "slot": "LUNCH",
-            "subject": "Online",
-            "type": "online"
-          },
-          {
-            "slot": "SESSION VII",
-            "subject": "Python",
-            "code": "PY-RR",
-            "type": "theory"
+            "subject": "PY-RR"
           }
         ]
       }
@@ -563,24 +349,15 @@
         "Day 1": [
           {
             "slot": "SESSION I",
-            "subject": "AIML Lab",
-            "code": "AIML-DH",
-            "type": "lab",
-            "room": "403"
+            "subject": "AIML LAB -403 (DH)"
           },
           {
             "slot": "SESSION II",
-            "subject": "Elective Lab",
-            "code": "SPM/MA/DVT",
-            "type": "lab",
-            "room": "POLY1/POLY2/POLY5/402/403/708/908"
+            "subject": "I MCA ELECTIVE (SPM1-BN(POLY1), SPM2-MRS(POLY2),SPM3-JB (POLY5), MA1-GM(402),  DVT1-DG(403), DVT2-SJ(708)) -LAB, DVT3 - TS(908)"
           },
           {
             "slot": "SESSION III",
-            "subject": "Elective Lab",
-            "code": "SPM/MA/DVT",
-            "type": "lab",
-            "room": "POLY1/POLY2/POLY5/402/403/708/908"
+            "subject": "I MCA ELECTIVE (SPM1-BN(POLY1), SPM2-MRS(POLY2),SPM3-JB (POLY5), MA1-GM(402),  DVT1-DG(403), DVT2-SJ(708)) -LAB, DVT3 - TS(908)"
           },
           {
             "slot": "BREAK",
@@ -589,225 +366,123 @@
           },
           {
             "slot": "SESSION IV",
-            "subject": "Mathematics",
-            "type": "theory"
+            "subject": "MATHS"
           },
           {
             "slot": "SESSION V",
-            "subject": "Operating Systems",
-            "code": "OS-RS",
-            "type": "theory"
+            "subject": "OS-RS"
           },
           {
             "slot": "LUNCH",
-            "subject": "Online",
-            "type": "online"
-          },
-          {
-            "slot": "SESSION VII",
-            "subject": "AIML",
-            "code": "AIML-DH",
-            "type": "theory"
+            "subject": "AIML-DH"
           }
         ],
         "Day 2": [
           {
             "slot": "SESSION I",
-            "subject": "Python Lab",
-            "code": "PY-TMS",
-            "type": "lab",
-            "room": "708"
+            "subject": "PYTHON LAB 708 (TMS)"
           },
           {
             "slot": "SESSION II",
-            "subject": "Mathematics",
-            "type": "theory"
+            "subject": "MATHS"
           },
           {
             "slot": "SESSION III",
-            "subject": "AIML",
-            "code": "AIML-DH",
-            "type": "theory"
-          },
-          {
-            "slot": "BREAK",
-            "subject": "Break",
-            "type": "break"
+            "subject": "AIML-DH"
           },
           {
             "slot": "SESSION IV",
-            "subject": "IoT Lab",
-            "code": "IOT-RR",
-            "type": "lab",
-            "room": "403"
+            "subject": "IOT LAB 403 (RR)"
           },
           {
             "slot": "SESSION V",
-            "subject": "IoT Lab",
-            "code": "IOT-RR",
-            "type": "lab",
-            "room": "403"
+            "subject": "IOT LAB 403 (RR)"
           },
           {
             "slot": "LUNCH",
-            "subject": "Online",
-            "type": "online"
-          },
-          {
-            "slot": "SESSION VII",
-            "subject": "Operating Systems",
-            "code": "OS-RS",
-            "type": "theory"
+            "subject": "OS-RS"
           }
         ],
         "Day 3": [
           {
             "slot": "SESSION I",
-            "subject": "Operating Systems",
-            "code": "OS-RS",
-            "type": "theory"
+            "subject": "OS-RS"
           },
           {
             "slot": "SESSION II",
-            "subject": "Elective Theory",
-            "code": "SPM/MA/DVT",
-            "type": "theory"
+            "subject": "I MCA ELECTIVE (SPM1-BN(901), SPM2-MRS(902),SPM3-JB(903), MA1-GM(906), DVT 1-DG(907), DVT2-SJ(806), DVT3 - TS(807))"
           },
           {
             "slot": "SESSION III",
-            "subject": "CDC",
-            "type": "theory"
-          },
-          {
-            "slot": "BREAK",
-            "subject": "Break",
-            "type": "break"
+            "subject": "CDC"
           },
           {
             "slot": "SESSION IV",
-            "subject": "AIML",
-            "code": "AIML-DH",
-            "type": "theory"
+            "subject": "AIML-DH"
           },
           {
             "slot": "SESSION V",
-            "subject": "Python",
-            "code": "PY-TMS",
-            "type": "theory"
+            "subject": "PY-TMS"
           },
           {
             "slot": "LUNCH",
-            "subject": "Online",
-            "type": "online"
-          },
-          {
-            "slot": "SESSION VII",
-            "subject": "Mathematics",
-            "type": "theory"
+            "subject": "MATHS"
           }
         ],
         "Day 4": [
           {
             "slot": "SESSION I",
-            "subject": "Python",
-            "code": "PY-TMS",
-            "type": "theory"
+            "subject": "PY-TMS"
           },
           {
             "slot": "SESSION II",
-            "subject": "AIML Lab",
-            "code": "AIML-DH",
-            "type": "lab",
-            "room": "403"
+            "subject": "AIML LAB -403 (DH)"
           },
           {
             "slot": "SESSION III",
-            "subject": "Python Lab",
-            "code": "PY-TMS",
-            "type": "lab",
-            "room": "708"
-          },
-          {
-            "slot": "BREAK",
-            "subject": "Break",
-            "type": "break"
+            "subject": "PYTHON LAB 708 (TMS)"
           },
           {
             "slot": "SESSION IV",
-            "subject": "Elective Theory",
-            "code": "SPM/MA/DVT",
-            "type": "theory"
+            "subject": "I MCA ELECTIVE (SPM1-BN(901), SPM2-MRS(902),SPM3-JB(903), MA1-GM(906), DVT 1-DG(907), DVT2-SJ(806), DVT3 - TS(807))"
           },
           {
             "slot": "SESSION V",
-            "subject": "IoT",
-            "code": "IOT-RR",
-            "type": "theory"
+            "subject": "IOT-RR"
           },
           {
             "slot": "LUNCH",
-            "subject": "Online",
-            "type": "online"
-          },
-          {
-            "slot": "SESSION VII",
-            "subject": "CDC",
-            "type": "theory"
+            "subject": "CDC"
           }
         ],
         "Day 5": [
           {
             "slot": "SESSION I",
-            "subject": "IoT (ONLINE)",
-            "code": "IOT-RR",
-            "type": "online"
+            "subject": "IOT LAB(ONLINE)"
           },
           {
             "slot": "SESSION II",
-            "subject": "Elective Theory",
-            "code": "SPM/MA/DVT",
-            "type": "theory"
+            "subject": "I MCA ELECTIVE (SPM1-BN(901), SPM2-MRS(902),SPM3-JB(903), MA1-GM(906), DVT 1-DG(907), DVT2-SJ(806), DVT3 - TS(807))"
           },
           {
             "slot": "SESSION III",
-            "subject": "IoT",
-            "code": "IOT-RR",
-            "type": "theory"
-          },
-          {
-            "slot": "BREAK",
-            "subject": "Break",
-            "type": "break"
+            "subject": "IOT-RR"
           },
           {
             "slot": "SESSION IV",
-            "subject": "Mathematics",
-            "type": "theory"
-          },
-          {
-            "slot": "SESSION V",
-            "subject": "None",
-            "type": "free"
+            "subject": "MATHS"
           },
           {
             "slot": "LUNCH",
-            "subject": "Python Lab (ONLINE)",
-            "code": "PY-TMS",
-            "type": "online"
+            "subject": "PY-TMS"
           },
           {
             "slot": "SESSION VII",
-            "subject": "Operating Systems Lab",
-            "code": "OS-RS",
-            "type": "lab",
-            "room": "908"
+            "subject": "OS LAB - 908 (RS)"
           },
           {
             "slot": "SESSION VIII",
-            "subject": "Operating Systems Lab",
-            "code": "OS-RS",
-            "type": "lab",
-            "room": "908"
+            "subject": "OS LAB - 908 (RS)"
           }
         ]
       }
@@ -820,23 +495,15 @@
         "Day 1": [
           {
             "slot": "SESSION I",
-            "subject": "Python",
-            "code": "PY-SL",
-            "type": "theory"
+            "subject": "PY-SL"
           },
           {
             "slot": "SESSION II",
-            "subject": "Elective Lab",
-            "code": "SPM/MA/DVT",
-            "type": "lab",
-            "room": "POLY1/POLY2/POLY5/402/403/708/908"
+            "subject": "I MCA ELECTIVE (SPM1-BN(POLY1), SPM2-MRS(POLY2),SPM3-JB (POLY5), MA1-GM(402),  DVT1-DG(403), DVT2-SJ(708)) -LAB, DVT3 - TS(908)"
           },
           {
             "slot": "SESSION III",
-            "subject": "Elective Lab",
-            "code": "SPM/MA/DVT",
-            "type": "lab",
-            "room": "POLY1/POLY2/POLY5/402/403/708/908"
+            "subject": "I MCA ELECTIVE (SPM1-BN(POLY1), SPM2-MRS(POLY2),SPM3-JB (POLY5), MA1-GM(402),  DVT1-DG(403), DVT2-SJ(708)) -LAB, DVT3 - TS(908)"
           },
           {
             "slot": "BREAK",
@@ -845,226 +512,123 @@
           },
           {
             "slot": "SESSION IV",
-            "subject": "AIML",
-            "code": "AIML-BM",
-            "type": "theory"
+            "subject": "AIML-BM"
           },
           {
             "slot": "SESSION V",
-            "subject": "Mathematics",
-            "type": "theory"
+            "subject": "MATHS"
           },
           {
             "slot": "LUNCH",
-            "subject": "CDC",
-            "type": "theory"
-          },
-          {
-            "slot": "SESSION VII",
-            "subject": "None",
-            "type": "free"
+            "subject": "CDC"
           }
         ],
         "Day 2": [
           {
             "slot": "SESSION I",
-            "subject": "Python",
-            "code": "PY-SL",
-            "type": "theory"
+            "subject": "PY-SL"
           },
           {
             "slot": "SESSION II",
-            "subject": "IoT Lab",
-            "code": "IOT-MK",
-            "type": "lab",
-            "room": "708"
+            "subject": "IOT LAB - 708 (MK)"
           },
           {
             "slot": "SESSION III",
-            "subject": "IoT Lab",
-            "code": "IOT-MK",
-            "type": "lab",
-            "room": "708"
-          },
-          {
-            "slot": "BREAK",
-            "subject": "Break",
-            "type": "break"
+            "subject": "IOT LAB - 708 (MK)"
           },
           {
             "slot": "SESSION IV",
-            "subject": "Mathematics",
-            "type": "theory"
+            "subject": "MATHS"
           },
           {
             "slot": "SESSION V",
-            "subject": "AIML Lab",
-            "code": "AIML-BM",
-            "type": "lab",
-            "room": "908"
+            "subject": "AIML LAB -908  (BM)"
           },
           {
             "slot": "LUNCH",
-            "subject": "Online",
-            "type": "online"
-          },
-          {
-            "slot": "SESSION VII",
-            "subject": "AIML",
-            "code": "AIML-BM",
-            "type": "theory"
+            "subject": "AIML-BM"
           }
         ],
         "Day 3": [
           {
             "slot": "SESSION I",
-            "subject": "Operating Systems Lab",
-            "code": "OS-NA",
-            "type": "lab",
-            "room": "908"
+            "subject": "OS LAB - 908 (NA)"
           },
           {
             "slot": "SESSION II",
-            "subject": "Elective Theory",
-            "code": "SPM/MA/DVT",
-            "type": "theory"
+            "subject": "I MCA ELECTIVE (SPM1-BN(901), SPM2-MRS(902),SPM3-JB(903), MA1-GM(906), DVT 1-DG(907), DVT2-SJ(806), DVT3 - TS(807))"
           },
           {
             "slot": "SESSION III",
-            "subject": "IoT",
-            "code": "IOT-MK",
-            "type": "theory"
-          },
-          {
-            "slot": "BREAK",
-            "subject": "Break",
-            "type": "break"
+            "subject": "IOT-MK"
           },
           {
             "slot": "SESSION IV",
-            "subject": "AIML",
-            "code": "AIML-BM",
-            "type": "theory"
+            "subject": "AIML-BM"
           },
           {
             "slot": "SESSION V",
-            "subject": "Operating Systems",
-            "code": "OS-NA",
-            "type": "theory"
+            "subject": "OS-NA"
           },
           {
             "slot": "LUNCH",
-            "subject": "Online",
-            "type": "online"
-          },
-          {
-            "slot": "SESSION VII",
-            "subject": "Mathematics",
-            "type": "theory"
+            "subject": "MATHS"
           }
         ],
         "Day 4": [
           {
             "slot": "SESSION I",
-            "subject": "IoT",
-            "code": "IOT-MK",
-            "type": "theory"
+            "subject": "IOT-MK"
           },
           {
             "slot": "SESSION II",
-            "subject": "Operating Systems",
-            "code": "OS-NA",
-            "type": "theory"
+            "subject": "OS-NA"
           },
           {
             "slot": "SESSION III",
-            "subject": "AIML Lab",
-            "code": "AIML-BM",
-            "type": "lab",
-            "room": "908"
-          },
-          {
-            "slot": "BREAK",
-            "subject": "Break",
-            "type": "break"
+            "subject": "AIML LAB -908  (BM)"
           },
           {
             "slot": "SESSION IV",
-            "subject": "Elective Theory",
-            "code": "SPM/MA/DVT",
-            "type": "theory"
+            "subject": "I MCA ELECTIVE (SPM1-BN(901), SPM2-MRS(902),SPM3-JB(903), MA1-GM(906), DVT 1-DG(907), DVT2-SJ(806), DVT3 - TS(807))"
           },
           {
             "slot": "SESSION V",
-            "subject": "CDC",
-            "type": "theory"
+            "subject": "CDC"
           },
           {
             "slot": "LUNCH",
-            "subject": "Online",
-            "type": "online"
-          },
-          {
-            "slot": "SESSION VII",
-            "subject": "Python",
-            "code": "PY-SL",
-            "type": "theory"
+            "subject": "PY-SL"
           }
         ],
         "Day 5": [
           {
             "slot": "SESSION I",
-            "subject": "Operating Systems (ONLINE)",
-            "code": "OS-NA",
-            "type": "online"
+            "subject": "OS-NA-ONLINE"
           },
           {
             "slot": "SESSION II",
-            "subject": "Elective Theory",
-            "code": "SPM/MA/DVT",
-            "type": "theory"
+            "subject": "I MCA ELECTIVE (SPM1-BN(901), SPM2-MRS(902),SPM3-JB(903), MA1-GM(906), DVT 1-DG(907), DVT2-SJ(806), DVT3 - TS(807))"
           },
           {
             "slot": "SESSION III",
-            "subject": "Operating Systems Lab",
-            "code": "OS-NA",
-            "type": "lab",
-            "room": "908"
-          },
-          {
-            "slot": "BREAK",
-            "subject": "Break",
-            "type": "break"
+            "subject": "OS LAB - 908 (NA)"
           },
           {
             "slot": "SESSION IV",
-            "subject": "Mathematics",
-            "type": "theory"
-          },
-          {
-            "slot": "SESSION V",
-            "subject": "None",
-            "type": "free"
+            "subject": "MATHS"
           },
           {
             "slot": "LUNCH",
-            "subject": "IoT Lab (ONLINE)",
-            "code": "IOT-MK",
-            "type": "online"
+            "subject": "IOT LAB(ONLINE)"
           },
           {
             "slot": "SESSION VII",
-            "subject": "Python Lab",
-            "code": "PY-SL",
-            "type": "lab",
-            "room": "403"
+            "subject": "PY LAB - 403 (SL)"
           },
           {
             "slot": "SESSION VIII",
-            "subject": "Python Lab",
-            "code": "PY-SL",
-            "type": "lab",
-            "room": "403"
+            "subject": "PY LAB - 403 (SL)"
           }
         ]
       }
@@ -1077,24 +641,15 @@
         "Day 1": [
           {
             "slot": "SESSION I",
-            "subject": "AIML Lab",
-            "code": "AIML-AS",
-            "type": "lab",
-            "room": "908"
+            "subject": "AIML LAB - 908 (AS)"
           },
           {
             "slot": "SESSION II",
-            "subject": "Elective Lab",
-            "code": "SPM/MA/DVT",
-            "type": "lab",
-            "room": "POLY1/POLY2/POLY5/402/403/708/908"
+            "subject": "I MCA ELECTIVE (SPM1-BN(POLY1), SPM2-MRS(POLY2),SPM3-JB (POLY5), MA1-GM(402),  DVT1-DG(403), DVT2-SJ(708)) -LAB, DVT3 - TS(908)"
           },
           {
             "slot": "SESSION III",
-            "subject": "Elective Lab",
-            "code": "SPM/MA/DVT",
-            "type": "lab",
-            "room": "POLY1/POLY2/POLY5/402/403/708/908"
+            "subject": "I MCA ELECTIVE (SPM1-BN(POLY1), SPM2-MRS(POLY2),SPM3-JB (POLY5), MA1-GM(402),  DVT1-DG(403), DVT2-SJ(708)) -LAB, DVT3 - TS(908)"
           },
           {
             "slot": "BREAK",
@@ -1103,223 +658,123 @@
           },
           {
             "slot": "SESSION IV",
-            "subject": "Mathematics",
-            "type": "theory"
+            "subject": "MATHS"
           },
           {
             "slot": "SESSION V",
-            "subject": "AIML Lab",
-            "code": "AIML-AS",
-            "type": "lab",
-            "room": "708"
+            "subject": "AIML LAB - 708 (AS)"
           },
           {
             "slot": "LUNCH",
-            "subject": "Python (ONLINE)",
-            "code": "PY-AN",
-            "type": "online"
-          },
-          {
-            "slot": "SESSION VII",
-            "subject": "None",
-            "type": "free"
+            "subject": "PY-AN-ONLINE"
           }
         ],
         "Day 2": [
           {
             "slot": "SESSION I",
-            "subject": "Python",
-            "code": "PY-AN",
-            "type": "theory"
+            "subject": "PY-AN"
           },
           {
             "slot": "SESSION II",
-            "subject": "AIML",
-            "code": "AIML-AS",
-            "type": "theory"
+            "subject": "AIML-AS"
           },
           {
             "slot": "SESSION III",
-            "subject": "Mathematics",
-            "type": "theory"
-          },
-          {
-            "slot": "BREAK",
-            "subject": "Break",
-            "type": "break"
+            "subject": "MATHS"
           },
           {
             "slot": "SESSION IV",
-            "subject": "Operating Systems",
-            "code": "OS-AT",
-            "type": "theory"
+            "subject": "OS-AT"
           },
           {
             "slot": "SESSION V",
-            "subject": "IoT",
-            "code": "IOT-LB",
-            "type": "theory"
+            "subject": "IOT-LB"
           },
           {
             "slot": "LUNCH",
-            "subject": "Online",
-            "type": "online"
-          },
-          {
-            "slot": "SESSION VII",
-            "subject": "CDC",
-            "type": "theory"
+            "subject": "CDC"
           }
         ],
         "Day 3": [
           {
             "slot": "SESSION I",
-            "subject": "Operating Systems (ONLINE)",
-            "code": "OS-AT",
-            "type": "online"
+            "subject": "OS-AT (ONLINE)"
           },
           {
             "slot": "SESSION II",
-            "subject": "Elective Theory",
-            "code": "SPM/MA/DVT",
-            "type": "theory"
+            "subject": "I MCA ELECTIVE (SPM1-BN(901), SPM2-MRS(902),SPM3-JB(903), MA1-GM(906), DVT 1-DG(907), DVT2-SJ(806), DVT3 - TS(807))"
           },
           {
             "slot": "SESSION III",
-            "subject": "Operating Systems",
-            "code": "OS-AT",
-            "type": "theory"
-          },
-          {
-            "slot": "BREAK",
-            "subject": "Break",
-            "type": "break"
+            "subject": "OS-AT"
           },
           {
             "slot": "SESSION IV",
-            "subject": "Python",
-            "code": "PY-AN",
-            "type": "theory"
-          },
-          {
-            "slot": "SESSION V",
-            "subject": "None",
-            "type": "free"
+            "subject": "PY-AN"
           },
           {
             "slot": "LUNCH",
-            "subject": "Online",
-            "type": "online"
+            "subject": "AIML-AS"
           },
           {
             "slot": "SESSION VII",
-            "subject": "AIML",
-            "code": "AIML-AS",
-            "type": "theory"
+            "subject": "PYTHON LAB - POLY2 (AN)"
           },
           {
             "slot": "SESSION VIII",
-            "subject": "Python Lab",
-            "code": "PY-AN",
-            "type": "lab",
-            "room": "POLY2"
+            "subject": "PYTHON LAB - POLY2 (AN)"
           }
         ],
         "Day 4": [
           {
             "slot": "SESSION I",
-            "subject": "IoT Lab",
-            "code": "IOT-LB",
-            "type": "lab",
-            "room": "708"
+            "subject": "IOT LAB - 708 (LB)"
           },
           {
             "slot": "SESSION II",
-            "subject": "Operating Systems Lab",
-            "code": "OS-AT",
-            "type": "lab",
-            "room": "708"
+            "subject": "OS LAB - 708 (AT)"
           },
           {
             "slot": "SESSION III",
-            "subject": "AIML",
-            "code": "AIML-AS",
-            "type": "theory"
-          },
-          {
-            "slot": "BREAK",
-            "subject": "Break",
-            "type": "break"
+            "subject": "AIML-AS"
           },
           {
             "slot": "SESSION IV",
-            "subject": "Elective Theory",
-            "code": "SPM/MA/DVT",
-            "type": "theory"
+            "subject": "I MCA ELECTIVE (SPM1-BN(901), SPM2-MRS(902),SPM3-JB(903), MA1-GM(906), DVT 1-DG(907), DVT2-SJ(806), DVT3 - TS(807))"
           },
           {
             "slot": "SESSION V",
-            "subject": "IoT",
-            "code": "IOT-LB",
-            "type": "theory"
+            "subject": "IOT-LB"
           },
           {
             "slot": "LUNCH",
-            "subject": "Online",
-            "type": "online"
-          },
-          {
-            "slot": "SESSION VII",
-            "subject": "Mathematics",
-            "type": "theory"
+            "subject": "MATHS"
           }
         ],
         "Day 5": [
           {
             "slot": "SESSION I",
-            "subject": "Mathematics",
-            "type": "theory"
+            "subject": "MATHS"
           },
           {
             "slot": "SESSION II",
-            "subject": "Elective Theory",
-            "code": "SPM/MA/DVT",
-            "type": "theory"
+            "subject": "I MCA ELECTIVE (SPM1-BN(901), SPM2-MRS(902),SPM3-JB(903), MA1-GM(906), DVT 1-DG(907), DVT2-SJ(806), DVT3 - TS(807))"
           },
           {
             "slot": "SESSION III",
-            "subject": "Operating Systems Lab",
-            "code": "OS-AT",
-            "type": "lab",
-            "room": "708"
-          },
-          {
-            "slot": "BREAK",
-            "subject": "Break",
-            "type": "break"
+            "subject": "OS LAB - 708 (AT)"
           },
           {
             "slot": "SESSION IV",
-            "subject": "CDC",
-            "type": "theory"
+            "subject": "CDC"
           },
           {
             "slot": "SESSION V",
-            "subject": "IoT Lab",
-            "code": "IOT-LB",
-            "type": "lab",
-            "room": "708"
+            "subject": "IOT LAB - 708 (LB)"
           },
           {
             "slot": "LUNCH",
-            "subject": "IoT Lab (ONLINE)",
-            "code": "IOT-LB",
-            "type": "online"
-          },
-          {
-            "slot": "SESSION VII",
-            "subject": "None",
-            "type": "free"
+            "subject": "IOT LAB (ONLINE) -LB"
           }
         ]
       }
@@ -1332,23 +787,15 @@
         "Day 1": [
           {
             "slot": "SESSION I",
-            "subject": "IoT Lab (ONLINE)",
-            "code": "IOT-AT",
-            "type": "online"
+            "subject": "IOT LAB(ONLINE)-AT"
           },
           {
             "slot": "SESSION II",
-            "subject": "Elective Lab",
-            "code": "SPM/MA/DVT",
-            "type": "lab",
-            "room": "POLY1/POLY2/POLY5/402/403/708/908"
+            "subject": "I MCA ELECTIVE (SPM1-BN(POLY1), SPM2-MRS(POLY2),SPM3-JB (POLY5), MA1-GM(402),  DVT1-DG(403), DVT2-SJ(708)) -LAB, DVT3 - TS(908)"
           },
           {
             "slot": "SESSION III",
-            "subject": "Elective Lab",
-            "code": "SPM/MA/DVT",
-            "type": "lab",
-            "room": "POLY1/POLY2/POLY5/402/403/708/908"
+            "subject": "I MCA ELECTIVE (SPM1-BN(POLY1), SPM2-MRS(POLY2),SPM3-JB (POLY5), MA1-GM(402),  DVT1-DG(403), DVT2-SJ(708)) -LAB, DVT3 - TS(908)"
           },
           {
             "slot": "BREAK",
@@ -1357,226 +804,123 @@
           },
           {
             "slot": "SESSION IV",
-            "subject": "IoT",
-            "code": "IOT-AT",
-            "type": "theory"
-          },
-          {
-            "slot": "SESSION V",
-            "subject": "None",
-            "type": "free"
+            "subject": "IOT-AT"
           },
           {
             "slot": "LUNCH",
-            "subject": "Mathematics",
-            "type": "theory"
+            "subject": "MATHS"
           },
           {
             "slot": "SESSION VII",
-            "subject": "IoT Lab",
-            "code": "IOT-AT",
-            "type": "lab",
-            "room": "403"
+            "subject": "IOT LAB -403(AT)"
           },
           {
             "slot": "SESSION VIII",
-            "subject": "IoT Lab",
-            "code": "IOT-AT",
-            "type": "lab",
-            "room": "403"
+            "subject": "IOT LAB -403(AT)"
           }
         ],
         "Day 2": [
           {
             "slot": "SESSION I",
-            "subject": "Operating Systems",
-            "code": "OS-AG",
-            "type": "theory"
+            "subject": "OS-AG"
           },
           {
             "slot": "SESSION II",
-            "subject": "Mathematics",
-            "type": "theory"
+            "subject": "MATHS"
           },
           {
             "slot": "SESSION III",
-            "subject": "AIML Lab",
-            "code": "AIML-JB",
-            "type": "lab",
-            "room": "402"
-          },
-          {
-            "slot": "BREAK",
-            "subject": "Break",
-            "type": "break"
+            "subject": "AIML LAB - 402 (JB)"
           },
           {
             "slot": "SESSION IV",
-            "subject": "AIML Lab",
-            "code": "AIML-JB",
-            "type": "lab",
-            "room": "402"
+            "subject": "AIML LAB - 402 (JB)"
           },
           {
             "slot": "SESSION V",
-            "subject": "IoT",
-            "code": "IOT-AT",
-            "type": "theory"
+            "subject": "IOT-AT"
           },
           {
             "slot": "LUNCH",
-            "subject": "Online",
-            "type": "online"
-          },
-          {
-            "slot": "SESSION VII",
-            "subject": "Python",
-            "code": "PY-SAB",
-            "type": "theory"
+            "subject": "PY-SAB"
           }
         ],
         "Day 3": [
           {
             "slot": "SESSION I",
-            "subject": "Mathematics",
-            "type": "theory"
+            "subject": "MATHS"
           },
           {
             "slot": "SESSION II",
-            "subject": "Elective Theory",
-            "code": "SPM/MA/DVT",
-            "type": "theory"
+            "subject": "I MCA ELECTIVE (SPM1-BN(901), SPM2-MRS(902),SPM3-JB(903), MA1-GM(906), DVT 1-DG(907), DVT2-SJ(806), DVT3 - TS(807))"
           },
           {
             "slot": "SESSION III",
-            "subject": "AIML",
-            "code": "AIML-JB",
-            "type": "theory"
-          },
-          {
-            "slot": "BREAK",
-            "subject": "Break",
-            "type": "break"
+            "subject": "AIML-JB"
           },
           {
             "slot": "SESSION IV",
-            "subject": "Python",
-            "code": "PY-SAB",
-            "type": "theory"
+            "subject": "PY-SAB"
           },
           {
             "slot": "SESSION V",
-            "subject": "Operating Systems",
-            "code": "OS-AG",
-            "type": "theory"
+            "subject": "OS-AG"
           },
           {
             "slot": "LUNCH",
-            "subject": "Online",
-            "type": "online"
-          },
-          {
-            "slot": "SESSION VII",
-            "subject": "Operating Systems",
-            "code": "OS-AG",
-            "type": "theory"
+            "subject": "OS-AG"
           }
         ],
         "Day 4": [
           {
             "slot": "SESSION I",
-            "subject": "Python Lab",
-            "code": "PY-SAB",
-            "type": "lab",
-            "room": "POLY2"
+            "subject": "PYTHON LAB - POLY2(SAB)"
           },
           {
             "slot": "SESSION II",
-            "subject": "Python",
-            "code": "PY-SAB",
-            "type": "theory"
+            "subject": "PY-SAB"
           },
           {
             "slot": "SESSION III",
-            "subject": "AIML",
-            "code": "AIML-JB",
-            "type": "theory"
-          },
-          {
-            "slot": "BREAK",
-            "subject": "Break",
-            "type": "break"
+            "subject": "AIML-JB"
           },
           {
             "slot": "SESSION IV",
-            "subject": "Elective Theory",
-            "code": "SPM/MA/DVT",
-            "type": "theory"
+            "subject": "I MCA ELECTIVE (SPM1-BN(901), SPM2-MRS(902),SPM3-JB(903), MA1-GM(906), DVT 1-DG(907), DVT2-SJ(806), DVT3 - TS(807))"
           },
           {
             "slot": "SESSION V",
-            "subject": "Operating Systems Lab",
-            "code": "OS-AG",
-            "type": "lab",
-            "room": "708"
+            "subject": "OS LAB -708 (AG)"
           },
           {
             "slot": "LUNCH",
-            "subject": "Online",
-            "type": "online"
-          },
-          {
-            "slot": "SESSION VII",
-            "subject": "CDC",
-            "type": "theory"
+            "subject": "CDC"
           }
         ],
         "Day 5": [
           {
             "slot": "SESSION I",
-            "subject": "Operating Systems Lab",
-            "code": "OS-AG",
-            "type": "lab",
-            "room": "708"
+            "subject": "OS LAB -708 (AG)"
           },
           {
             "slot": "SESSION II",
-            "subject": "Elective Theory",
-            "code": "SPM/MA/DVT",
-            "type": "theory"
+            "subject": "I MCA ELECTIVE (SPM1-BN(901), SPM2-MRS(902),SPM3-JB(903), MA1-GM(906), DVT 1-DG(907), DVT2-SJ(806), DVT3 - TS(807))"
           },
           {
             "slot": "SESSION III",
-            "subject": "CDC",
-            "type": "theory"
-          },
-          {
-            "slot": "BREAK",
-            "subject": "Break",
-            "type": "break"
+            "subject": "CDC"
           },
           {
             "slot": "SESSION IV",
-            "subject": "Mathematics",
-            "type": "theory"
+            "subject": "MATHS"
           },
           {
             "slot": "SESSION V",
-            "subject": "Python Lab",
-            "code": "PY-SAB",
-            "type": "lab",
-            "room": "POLY2"
+            "subject": "PYTHON LAB - POLY2(SAB)"
           },
           {
             "slot": "LUNCH",
-            "subject": "Online",
-            "type": "online"
-          },
-          {
-            "slot": "SESSION VII",
-            "subject": "AIML",
-            "code": "AIML-JB",
-            "type": "theory"
+            "subject": "AIML-JB"
           }
         ]
       }
@@ -1589,23 +933,15 @@
         "Day 1": [
           {
             "slot": "SESSION I",
-            "subject": "Python",
-            "code": "PY-SH",
-            "type": "theory"
+            "subject": "PY-SH"
           },
           {
             "slot": "SESSION II",
-            "subject": "Elective Lab",
-            "code": "SPM/MA/DVT",
-            "type": "lab",
-            "room": "POLY1/POLY2/POLY5/402/403/708/908"
+            "subject": "I MCA ELECTIVE (SPM1-BN(POLY1), SPM2-MRS(POLY2),SPM3-JB (POLY5), MA1-GM(402),  DVT1-DG(403), DVT2-SJ(708)) -LAB, DVT3 - TS(908)"
           },
           {
             "slot": "SESSION III",
-            "subject": "Elective Lab",
-            "code": "SPM/MA/DVT",
-            "type": "lab",
-            "room": "POLY1/POLY2/POLY5/402/403/708/908"
+            "subject": "I MCA ELECTIVE (SPM1-BN(POLY1), SPM2-MRS(POLY2),SPM3-JB (POLY5), MA1-GM(402),  DVT1-DG(403), DVT2-SJ(708)) -LAB, DVT3 - TS(908)"
           },
           {
             "slot": "BREAK",
@@ -1614,193 +950,144 @@
           },
           {
             "slot": "SESSION IV",
-            "subject": "Mathematics",
-            "type": "theory"
+            "subject": "MATHS"
           },
           {
             "slot": "SESSION V",
-            "subject": "IoT",
-            "code": "IOT-AG",
-            "type": "theory"
+            "subject": "IOT-AG"
           },
           {
             "slot": "LUNCH",
-            "subject": "CDC",
-            "type": "theory"
-          },
-          {
-            "slot": "SESSION VII",
-            "subject": "None",
-            "type": "free"
+            "subject": "CDC"
           }
         ],
         "Day 2": [
           {
             "slot": "SESSION I",
-            "subject": "Operating Systems Lab",
-            "code": "OS-GE",
-            "type": "lab",
-            "room": "908"
+            "subject": "OS LAB -908 (GE)"
           },
           {
             "slot": "SESSION II",
-            "subject": "IoT",
-            "code": "IOT-AG",
-            "type": "theory"
+            "subject": "IOT-AG"
           },
           {
             "slot": "SESSION III",
-            "subject": "Mathematics",
-            "type": "theory"
-          },
-          {
-            "slot": "BREAK",
-            "subject": "Break",
-            "type": "break"
+            "subject": "MATHS"
           },
           {
             "slot": "SESSION IV",
-            "subject": "IoT Lab",
-            "code": "IOT-AG",
-            "type": "lab",
-            "room": "708"
+            "subject": "IOT LAB 708 ( AG)"
           },
           {
             "slot": "SESSION V",
-            "subject": "IoT Lab",
-            "code": "IOT-AG",
-            "type": "lab",
-            "room": "708"
+            "subject": "IOT LAB 708 ( AG)"
           },
           {
             "slot": "LUNCH",
-            "subject": "Online",
-            "type": "online"
-          },
-          {
-            "slot": "SESSION VII",
-            "subject": "Operating Systems",
-            "code": "OS-GE",
-            "type": "theory"
+            "subject": "OS-GE"
           }
         ],
         "Day 3": [
           {
             "slot": "SESSION I",
-            "subject": "IoT Lab (ONLINE)",
-            "code": "IOT-AG",
-            "type": "online"
+            "subject": "IOT LAB (ONLINE) -AG"
           },
           {
             "slot": "SESSION II",
-            "subject": "Elective Theory",
-            "code": "SPM/MA/DVT",
-            "type": "theory"
+            "subject": "I MCA ELECTIVE (SPM1-BN(901), SPM2-MRS(902),SPM3-JB(903), MA1-GM(906), DVT 1-DG(907), DVT2-SJ(806), DVT3 - TS(807))"
           },
           {
             "slot": "SESSION III",
-            "subject": "Operating Systems",
-            "code": "OS-GE",
-            "type": "theory"
-          },
-          {
-            "slot": "BREAK",
-            "subject": "Break",
-            "type": "break"
+            "subject": "OS-GE"
           },
           {
             "slot": "SESSION IV",
-            "subject": "AIML",
-            "code": "AIML-SS",
-            "type": "theory"
-          },
-          {
-            "slot": "SESSION V",
-            "subject": "None",
-            "type": "free"
+            "subject": "AIML-SS"
           },
           {
             "slot": "LUNCH",
-            "subject": "Online",
-            "type": "online"
+            "subject": "MATHS"
           },
           {
             "slot": "SESSION VII",
-            "subject": "Mathematics",
-            "type": "theory"
+            "subject": "PYTHON LAB  - 908 (SH)"
           },
           {
             "slot": "SESSION VIII",
-            "subject": "Python Lab",
-            "code": "PY-SH",
-            "type": "lab",
-            "room": "908"
+            "subject": "PYTHON LAB  - 908 (SH)"
           }
         ],
         "Day 4": [
           {
             "slot": "SESSION I",
-            "subject": "CDC",
-            "type": "theory"
+            "subject": "CDC"
           },
           {
             "slot": "SESSION II",
-            "subject": "Mathematics",
-            "type": "theory"
+            "subject": "MATHS"
           },
           {
             "slot": "SESSION III",
-            "subject": "Operating Systems",
-            "code": "OS-GE",
-            "type": "theory"
-          },
-          {
-            "slot": "BREAK",
-            "subject": "Break",
-            "type": "break"
+            "subject": "OS-GE"
           },
           {
             "slot": "SESSION IV",
-            "subject": "AIML Lab",
-            "code": "AIML-SS",
-            "type": "lab",
-            "room": "908"
+            "subject": "I MCA ELECTIVE (SPM1-BN(901), SPM2-MRS(902),SPM3-JB(903), MA1-GM(906), DVT 1-DG(907), DVT2-SJ(806), DVT3 - TS(807))"
           },
           {
             "slot": "SESSION V",
-            "subject": "AIML",
-            "code": "AIML-SS",
-            "type": "theory"
+            "subject": "AIML LAB -908 (SS)"
           },
           {
             "slot": "LUNCH",
-            "subject": "Online",
-            "type": "online"
-          },
-          {
-            "slot": "SESSION VII",
-            "subject": "None",
-            "type": "free"
+            "subject": "AIML-SS"
           }
         ],
         "Day 5": [
           {
             "slot": "SESSION I",
-            "subject": "AIML",
-            "code": "AIML-SS",
-            "type": "theory"
+            "subject": "AIML-SS"
           },
           {
             "slot": "SESSION II",
-            "subject": "Elective Theory",
-            "code": "SPM/MA/DVT",
-            "type": "theory"
+            "subject": "I MCA ELECTIVE (SPM1-BN(901), SPM2-MRS(902),SPM3-JB(903), MA1-GM(906), DVT 1-DG(907), DVT2-SJ(806), DVT3 - TS(807))"
           },
           {
             "slot": "SESSION III",
-            "subject": "Python",
-            "code": "PY-SH",
-            "type": "theory"
+            "subject": "PY-SH"
+          },
+          {
+            "slot": "SESSION IV",
+            "subject": "OS LAB - 908 (GE)"
+          },
+          {
+            "slot": "SESSION V",
+            "subject": "AIML LAB -908 (SS)"
+          },
+          {
+            "slot": "LUNCH",
+            "subject": "PY-SH"
+          }
+        ]
+      }
+    },
+    "I_MSC_ADS_A": {
+      "program": "MSC Applied Data Science",
+      "class_name": "I MSC ADS A",
+      "room": "FSH1 305",
+      "timetable": {
+        "Day 1": [
+          {
+            "slot": "SESSION I",
+            "subject": "SQL LAB -ONLINE-GE"
+          },
+          {
+            "slot": "SESSION II",
+            "subject": "ELECTIVE (TS-BLOCK2-17 - VENMANI, MDS-BLOCK2-26 - SARAVANAN ,RL-BLOCK1-305-SL)"
+          },
+          {
+            "slot": "SESSION III",
+            "subject": "CV-RK"
           },
           {
             "slot": "BREAK",
@@ -1809,28 +1096,999 @@
           },
           {
             "slot": "SESSION IV",
-            "subject": "Operating Systems Lab",
-            "code": "OS-GE",
-            "type": "lab",
-            "room": "908"
-          },
-          {
-            "slot": "SESSION V",
-            "subject": "AIML Lab",
-            "code": "AIML-SS",
-            "type": "lab",
-            "room": "908"
+            "subject": "SQL-GE"
           },
           {
             "slot": "LUNCH",
-            "subject": "Online",
-            "type": "online"
+            "subject": "CV-RK"
           },
           {
             "slot": "SESSION VII",
-            "subject": "Python",
-            "code": "PY-SH",
-            "type": "theory"
+            "subject": "NLP LAB - 908 (NA)"
+          },
+          {
+            "slot": "SESSION VIII",
+            "subject": "NLP LAB - 908 (NA)"
+          }
+        ],
+        "Day 2": [
+          {
+            "slot": "SESSION I",
+            "subject": "ML-PC"
+          },
+          {
+            "slot": "SESSION II",
+            "subject": "NLP-NA"
+          },
+          {
+            "slot": "SESSION III",
+            "subject": "CV LAB -403 (RK)"
+          },
+          {
+            "slot": "SESSION IV",
+            "subject": "CV-RK"
+          },
+          {
+            "slot": "SESSION V",
+            "subject": "ELECTIVE (TS-BLOCK2-17 - VENMANI, MDS-BLOCK2-26 - SARAVANAN ,RL-BLOCK1-305-SL)"
+          },
+          {
+            "slot": "LUNCH",
+            "subject": "CDC"
+          }
+        ],
+        "Day 3": [
+          {
+            "slot": "SESSION I",
+            "subject": "CDC"
+          },
+          {
+            "slot": "SESSION II",
+            "subject": "ML-PC"
+          },
+          {
+            "slot": "SESSION III",
+            "subject": "SMTA-NI"
+          },
+          {
+            "slot": "SESSION IV",
+            "subject": "SQL LAB - 708 (GE)"
+          },
+          {
+            "slot": "SESSION V",
+            "subject": "SQL LAB - 708 (GE)"
+          },
+          {
+            "slot": "LUNCH",
+            "subject": "SMTA-NI"
+          }
+        ],
+        "Day 4": [
+          {
+            "slot": "SESSION I",
+            "subject": "SMTA LAB - 402 (NI)"
+          },
+          {
+            "slot": "SESSION II",
+            "subject": "SMTA LAB - 402 (NI)"
+          },
+          {
+            "slot": "SESSION III",
+            "subject": "CV LAB -403 (RK)"
+          },
+          {
+            "slot": "SESSION IV",
+            "subject": "ELECTIVE (TS-BLOCK2-17 - VENMANI, MDS-BLOCK2-26 - SARAVANAN ,RL-BLOCK1-305-SL)"
+          },
+          {
+            "slot": "SESSION V",
+            "subject": "NLP-NA"
+          },
+          {
+            "slot": "LUNCH",
+            "subject": "NLP-NA"
+          }
+        ],
+        "Day 5": [
+          {
+            "slot": "SESSION I",
+            "subject": "ML LAB - POLY1(PC)"
+          },
+          {
+            "slot": "SESSION II",
+            "subject": "ML LAB - POLY1(PC)"
+          },
+          {
+            "slot": "SESSION III",
+            "subject": "ELECTIVE (TS-BLOCK2-17 - VENMANI, MDS-BLOCK2-26 - SARAVANAN ,RL-BLOCK1-305-SL)"
+          },
+          {
+            "slot": "SESSION IV",
+            "subject": "SMTA-NI"
+          },
+          {
+            "slot": "SESSION V",
+            "subject": "SQL-GE"
+          },
+          {
+            "slot": "LUNCH",
+            "subject": "ML-PC"
+          }
+        ]
+      }
+    },
+    "I_MSC_ADS_B": {
+      "program": "MSC Applied Data Science",
+      "class_name": "I MSC ADS B",
+      "room": "FSH2 16",
+      "timetable": {
+        "Day 1": [
+          {
+            "slot": "SESSION I",
+            "subject": "SQL LAB - ONLINE-SSK"
+          },
+          {
+            "slot": "SESSION II",
+            "subject": "ELECTIVE (TS-BLOCK2-17 - VENMANI, MDS-BLOCK2-26 - SARAVANAN ,RL-BLOCK1-305-SL)"
+          },
+          {
+            "slot": "SESSION III",
+            "subject": "CDC"
+          },
+          {
+            "slot": "BREAK",
+            "subject": "Break",
+            "type": "break"
+          },
+          {
+            "slot": "SESSION IV",
+            "subject": "SQL-SSK"
+          },
+          {
+            "slot": "LUNCH",
+            "subject": "SMTA-SH"
+          },
+          {
+            "slot": "SESSION VII",
+            "subject": "I MSC ADS B SQL,NOSQL  LAB - 708 (SSK)"
+          },
+          {
+            "slot": "SESSION VIII",
+            "subject": "I MSC ADS B SQL,NOSQL  LAB - 708 (SSK)"
+          }
+        ],
+        "Day 2": [
+          {
+            "slot": "SESSION I",
+            "subject": "CV-PP"
+          },
+          {
+            "slot": "SESSION II",
+            "subject": "ML-SH"
+          },
+          {
+            "slot": "SESSION III",
+            "subject": "NLP-MP"
+          },
+          {
+            "slot": "SESSION IV",
+            "subject": "SMTA-SH"
+          },
+          {
+            "slot": "SESSION V",
+            "subject": "ELECTIVE (TS-BLOCK2-17 - VENMANI, MDS-BLOCK2-26 - SARAVANAN ,RL-BLOCK1-305-SL)"
+          },
+          {
+            "slot": "LUNCH",
+            "subject": "CV-PP"
+          }
+        ],
+        "Day 3": [
+          {
+            "slot": "SESSION I",
+            "subject": "ML LAB - POLY1 (SH)"
+          },
+          {
+            "slot": "SESSION II",
+            "subject": "ML LAB - POLY1 (SH)"
+          },
+          {
+            "slot": "SESSION III",
+            "subject": "SQL-SSK"
+          },
+          {
+            "slot": "SESSION IV",
+            "subject": "CV LAB - 908 (PP)"
+          },
+          {
+            "slot": "SESSION V",
+            "subject": "CV LAB - 908 (PP)"
+          },
+          {
+            "slot": "LUNCH",
+            "subject": "CDC"
+          }
+        ],
+        "Day 4": [
+          {
+            "slot": "SESSION I",
+            "subject": "NLP LAB -908 (MP)"
+          },
+          {
+            "slot": "SESSION II",
+            "subject": "NLP LAB -908 (MP)"
+          },
+          {
+            "slot": "SESSION III",
+            "subject": "ML-SH"
+          },
+          {
+            "slot": "SESSION IV",
+            "subject": "ELECTIVE (TS-BLOCK2-17 - VENMANI, MDS-BLOCK2-26 - SARAVANAN ,RL-BLOCK1-305-SL)"
+          },
+          {
+            "slot": "SESSION V",
+            "subject": "NLP-MP"
+          },
+          {
+            "slot": "LUNCH",
+            "subject": "ML-SH"
+          }
+        ],
+        "Day 5": [
+          {
+            "slot": "SESSION I",
+            "subject": "SMTA-SH"
+          },
+          {
+            "slot": "SESSION II",
+            "subject": "CV-PP"
+          },
+          {
+            "slot": "SESSION III",
+            "subject": "ELECTIVE (TS-BLOCK2-17 - VENMANI, MDS-BLOCK2-26 - SARAVANAN ,RL-BLOCK1-305-SL)"
+          },
+          {
+            "slot": "SESSION IV",
+            "subject": "SMTA LAB - 403 (SH)"
+          },
+          {
+            "slot": "SESSION V",
+            "subject": "SMTA LAB - 403 (SH)"
+          },
+          {
+            "slot": "LUNCH",
+            "subject": "NLP-MP"
+          }
+        ]
+      }
+    },
+    "I_MSC_ADS_C": {
+      "program": "MSC Applied Data Science",
+      "class_name": "I MSC ADS C",
+      "room": "FSH2 25",
+      "timetable": {
+        "Day 1": [
+          {
+            "slot": "SESSION I",
+            "subject": "SMTA LAB - 708 (NI)"
+          },
+          {
+            "slot": "SESSION II",
+            "subject": "ELECTIVE (TS-BLOCK2-17 - VENMANI, MDS-BLOCK2-26 - SARAVANAN ,RL-BLOCK1-305-SL)"
+          },
+          {
+            "slot": "SESSION III",
+            "subject": "SMTA-NI"
+          },
+          {
+            "slot": "BREAK",
+            "subject": "Break",
+            "type": "break"
+          },
+          {
+            "slot": "SESSION IV",
+            "subject": "SMTA LAB - 708 (NI)"
+          },
+          {
+            "slot": "SESSION V",
+            "subject": "ML LAB - POLY2 (DG)"
+          },
+          {
+            "slot": "LUNCH",
+            "subject": "SMTA-NI"
+          }
+        ],
+        "Day 2": [
+          {
+            "slot": "SESSION I",
+            "subject": "ML-DG"
+          },
+          {
+            "slot": "SESSION II",
+            "subject": "NLP LAB -908 (AE)"
+          },
+          {
+            "slot": "SESSION III",
+            "subject": "NLP LAB -908 (AE)"
+          },
+          {
+            "slot": "SESSION IV",
+            "subject": "SQL-MN"
+          },
+          {
+            "slot": "SESSION V",
+            "subject": "ELECTIVE (TS-BLOCK2-17 - VENMANI, MDS-BLOCK2-26 - SARAVANAN ,RL-BLOCK1-305-SL)"
+          },
+          {
+            "slot": "LUNCH",
+            "subject": "CV-AN"
+          }
+        ],
+        "Day 3": [
+          {
+            "slot": "SESSION I",
+            "subject": "SQL- ONLINE (MN)"
+          },
+          {
+            "slot": "SESSION II",
+            "subject": "CDC"
+          },
+          {
+            "slot": "SESSION III",
+            "subject": "CV-AN"
+          },
+          {
+            "slot": "SESSION IV",
+            "subject": "SMTA-NI"
+          },
+          {
+            "slot": "LUNCH",
+            "subject": "ML-DG"
+          },
+          {
+            "slot": "SESSION VII",
+            "subject": "NOSQL LAB - 708 (MN)"
+          },
+          {
+            "slot": "SESSION VIII",
+            "subject": "NOSQL LAB - 708 (MN)"
+          }
+        ],
+        "Day 4": [
+          {
+            "slot": "SESSION I",
+            "subject": "CV-AN"
+          },
+          {
+            "slot": "SESSION II",
+            "subject": "ML-DG"
+          },
+          {
+            "slot": "SESSION III",
+            "subject": "SQL-MN"
+          },
+          {
+            "slot": "SESSION IV",
+            "subject": "ELECTIVE (TS-BLOCK2-17 - VENMANI, MDS-BLOCK2-26 - SARAVANAN ,RL-BLOCK1-305-SL)"
+          },
+          {
+            "slot": "SESSION V",
+            "subject": "NLP-AE"
+          },
+          {
+            "slot": "LUNCH",
+            "subject": "CDC"
+          }
+        ],
+        "Day 5": [
+          {
+            "slot": "SESSION I",
+            "subject": "CV LAB -908 (AN)"
+          },
+          {
+            "slot": "SESSION II",
+            "subject": "CV LAB -908 (AN)"
+          },
+          {
+            "slot": "SESSION III",
+            "subject": "ELECTIVE (TS-BLOCK2-17 - VENMANI, MDS-BLOCK2-26 - SARAVANAN ,RL-BLOCK1-305-SL)"
+          },
+          {
+            "slot": "SESSION IV",
+            "subject": "ML LAB - POLY2 (DG)"
+          },
+          {
+            "slot": "SESSION V",
+            "subject": "NLP-AE"
+          },
+          {
+            "slot": "LUNCH",
+            "subject": "NLP-AE"
+          }
+        ]
+      }
+    },
+    "I_MCA_GEN_AI_A": {
+      "program": "MCA - Generative AI",
+      "class_name": "I MCA GEN AI-A",
+      "room": "601",
+      "timetable": {
+        "Day 1": [
+          {
+            "slot": "SESSION I",
+            "subject": "PROMPT LAB - 402(SAB)"
+          },
+          {
+            "slot": "SESSION II",
+            "subject": "MATHS"
+          },
+          {
+            "slot": "SESSION III",
+            "subject": "ELECTIVE THEORY ( ARVR- 601 -FG/LLM(BATCH1) - 602-GY/ IOTC-  606-AR/LLM (BATCH2 - 607- SS)"
+          },
+          {
+            "slot": "BREAK",
+            "subject": "Break",
+            "type": "break"
+          },
+          {
+            "slot": "SESSION IV",
+            "subject": "PYTHON LAB - 402(PP)"
+          },
+          {
+            "slot": "SESSION V",
+            "subject": "PYTHON LAB - 402 (PP)"
+          },
+          {
+            "slot": "LUNCH",
+            "subject": "PY-PP"
+          }
+        ],
+        "Day 2": [
+          {
+            "slot": "SESSION I",
+            "subject": "PROMPT LAB - 402(SAB)"
+          },
+          {
+            "slot": "SESSION II",
+            "subject": "PY-PP"
+          },
+          {
+            "slot": "SESSION III",
+            "subject": "PE-SAB"
+          },
+          {
+            "slot": "SESSION IV",
+            "subject": "ELECTIVE THEORY ( ARVR- 601 -FG/LLM(BATCH1) - 602-GY/ IOTC-  606-AR/LLM (BATCH2 - 607- SS)"
+          },
+          {
+            "slot": "SESSION V",
+            "subject": "AIML-DH"
+          },
+          {
+            "slot": "LUNCH",
+            "subject": "OS-AS"
+          }
+        ],
+        "Day 3": [
+          {
+            "slot": "SESSION I",
+            "subject": "PROMPT ONLINE (SAB)"
+          },
+          {
+            "slot": "SESSION II",
+            "subject": "ELECTIVE LAB( ARVR-908  -FG/LLM(BATCH1) - 403-GY/ IOTC-  402-AR/LLM (BATCH2 - 708- SS)"
+          },
+          {
+            "slot": "SESSION III",
+            "subject": "ELECTIVE LAB( ARVR-908  -FG/LLM(BATCH1) - 403-GY/ IOTC-  402-AR/LLM (BATCH2 - 708- SS)"
+          },
+          {
+            "slot": "SESSION IV",
+            "subject": "CDC"
+          },
+          {
+            "slot": "LUNCH",
+            "subject": "MATHS"
+          },
+          {
+            "slot": "SESSION VII",
+            "subject": "OS LAB - 403 (AS)"
+          },
+          {
+            "slot": "SESSION VIII",
+            "subject": "OS LAB - 403 (AS)"
+          }
+        ],
+        "Day 4": [
+          {
+            "slot": "SESSION I",
+            "subject": "OS-AS"
+          },
+          {
+            "slot": "SESSION II",
+            "subject": "PY-PP"
+          },
+          {
+            "slot": "SESSION III",
+            "subject": "AIML-DH"
+          },
+          {
+            "slot": "SESSION IV",
+            "subject": "MATHS"
+          },
+          {
+            "slot": "SESSION V",
+            "subject": "PE-SAB"
+          },
+          {
+            "slot": "LUNCH",
+            "subject": "AIML-DH"
+          }
+        ],
+        "Day 5": [
+          {
+            "slot": "SESSION I",
+            "subject": "AIML LAB - 402 ( DH)"
+          },
+          {
+            "slot": "SESSION II",
+            "subject": "OS-AS"
+          },
+          {
+            "slot": "SESSION III",
+            "subject": "MATHS"
+          },
+          {
+            "slot": "SESSION IV",
+            "subject": "ELECTIVE THEORY ( ARVR- 601 -FG/LLM(BATCH1) - 602-GY/ IOTC-  606-AR/LLM (BATCH2 - 607- SS)"
+          },
+          {
+            "slot": "SESSION V",
+            "subject": "AIML LAB - 402 (DH)"
+          },
+          {
+            "slot": "LUNCH",
+            "subject": "CDC"
+          }
+        ]
+      }
+    },
+    "I_MCA_GEN_AI_B": {
+      "program": "MCA - Generative AI",
+      "class_name": "I MCA GEN AI-B",
+      "room": "602",
+      "timetable": {
+        "Day 1": [
+          {
+            "slot": "SESSION I",
+            "subject": "AIML-SAR"
+          },
+          {
+            "slot": "SESSION II",
+            "subject": "MATHS"
+          },
+          {
+            "slot": "SESSION III",
+            "subject": "ELECTIVE THEORY ( ARVR- 601 -FG/LLM(BATCH1) - 602-GY/ IOTC-  606-AR/LLM (BATCH2 - 607- SS)"
+          },
+          {
+            "slot": "BREAK",
+            "subject": "Break",
+            "type": "break"
+          },
+          {
+            "slot": "SESSION IV",
+            "subject": "PE-VA"
+          },
+          {
+            "slot": "SESSION V",
+            "subject": "PY-SK"
+          },
+          {
+            "slot": "LUNCH",
+            "subject": "CDC"
+          }
+        ],
+        "Day 2": [
+          {
+            "slot": "SESSION I",
+            "subject": "PY-SK"
+          },
+          {
+            "slot": "SESSION II",
+            "subject": "PYTHON LAB 403 (SK)"
+          },
+          {
+            "slot": "SESSION III",
+            "subject": "CDC"
+          },
+          {
+            "slot": "SESSION IV",
+            "subject": "ELECTIVE THEORY ( ARVR- 601 -FG/LLM(BATCH1) - 602-GY/ IOTC-  606-AR/LLM (BATCH2 - 607- SS)"
+          },
+          {
+            "slot": "SESSION V",
+            "subject": "PROMPT LAB - 402(VA)"
+          },
+          {
+            "slot": "LUNCH",
+            "subject": "PE LAB -ONLINE"
+          }
+        ],
+        "Day 3": [
+          {
+            "slot": "SESSION I",
+            "subject": "PROMPT LAB 403 (VA)"
+          },
+          {
+            "slot": "SESSION II",
+            "subject": "ELECTIVE LAB( ARVR-908  -FG/LLM(BATCH1) - 403-GY/ IOTC-  402-AR/LLM (BATCH2 - 708- SS)"
+          },
+          {
+            "slot": "SESSION III",
+            "subject": "ELECTIVE LAB( ARVR-908  -FG/LLM(BATCH1) - 403-GY/ IOTC-  402-AR/LLM (BATCH2 - 708- SS)"
+          },
+          {
+            "slot": "SESSION IV",
+            "subject": "PYTHON LAB 403 (SK)"
+          },
+          {
+            "slot": "SESSION V",
+            "subject": "AIML LAB 403 (SAR)"
+          },
+          {
+            "slot": "LUNCH",
+            "subject": "MATHS"
+          }
+        ],
+        "Day 4": [
+          {
+            "slot": "SESSION I",
+            "subject": "OS-AG-ONLINE"
+          },
+          {
+            "slot": "SESSION II",
+            "subject": "AIML-SAR"
+          },
+          {
+            "slot": "SESSION III",
+            "subject": "OS-AG"
+          },
+          {
+            "slot": "SESSION IV",
+            "subject": "MATHS"
+          },
+          {
+            "slot": "LUNCH",
+            "subject": "PY-SK"
+          },
+          {
+            "slot": "SESSION VII",
+            "subject": "OS LAB - 402 (AG)"
+          },
+          {
+            "slot": "SESSION VIII",
+            "subject": "OS LAB - 402 (AG)"
+          }
+        ],
+        "Day 5": [
+          {
+            "slot": "SESSION I",
+            "subject": "PE-VA"
+          },
+          {
+            "slot": "SESSION II",
+            "subject": "OS-AG"
+          },
+          {
+            "slot": "SESSION III",
+            "subject": "AIML LAB 403 (SAR)"
+          },
+          {
+            "slot": "SESSION IV",
+            "subject": "ELECTIVE THEORY ( ARVR- 601 -FG/LLM(BATCH1) - 602-GY/ IOTC-  606-AR/LLM (BATCH2 - 607- SS)"
+          },
+          {
+            "slot": "SESSION V",
+            "subject": "MATHS"
+          },
+          {
+            "slot": "LUNCH",
+            "subject": "AIML-SAR"
+          }
+        ]
+      }
+    },
+    "I_MCA_GEN_AI_C": {
+      "program": "MCA - Generative AI",
+      "class_name": "I MCA GEN AI-C",
+      "room": "606",
+      "timetable": {
+        "Day 1": [
+          {
+            "slot": "SESSION I",
+            "subject": "PE-RR"
+          },
+          {
+            "slot": "SESSION II",
+            "subject": "OS-BM"
+          },
+          {
+            "slot": "SESSION III",
+            "subject": "ELECTIVE THEORY ( ARVR- 601 -FG/LLM(BATCH1) - 602-GY/ IOTC-  606-AR/LLM (BATCH2 - 607- SS)"
+          },
+          {
+            "slot": "BREAK",
+            "subject": "Break",
+            "type": "break"
+          },
+          {
+            "slot": "SESSION IV",
+            "subject": "MATHS"
+          },
+          {
+            "slot": "SESSION V",
+            "subject": "AIML-MK"
+          },
+          {
+            "slot": "LUNCH",
+            "subject": "AIML-MK"
+          }
+        ],
+        "Day 2": [
+          {
+            "slot": "SESSION I",
+            "subject": "OS LAB -403 (BM)"
+          },
+          {
+            "slot": "SESSION II",
+            "subject": "PYTHON LAB -402 (AR)"
+          },
+          {
+            "slot": "SESSION III",
+            "subject": "PE-RR"
+          },
+          {
+            "slot": "SESSION IV",
+            "subject": "ELECTIVE THEORY ( ARVR- 601 -FG/LLM(BATCH1) - 602-GY/ IOTC-  606-AR/LLM (BATCH2 - 607- SS)"
+          },
+          {
+            "slot": "SESSION V",
+            "subject": "MATHS"
+          },
+          {
+            "slot": "LUNCH",
+            "subject": "CDC"
+          }
+        ],
+        "Day 3": [
+          {
+            "slot": "SESSION I",
+            "subject": "PYTHON LAB -402 (AR)"
+          },
+          {
+            "slot": "SESSION II",
+            "subject": "ELECTIVE LAB( ARVR-908  -FG/LLM(BATCH1) - 403-GY/ IOTC-  402-AR/LLM (BATCH2 - 708- SS)"
+          },
+          {
+            "slot": "SESSION III",
+            "subject": "ELECTIVE LAB( ARVR-908  -FG/LLM(BATCH1) - 403-GY/ IOTC-  402-AR/LLM (BATCH2 - 708- SS)"
+          },
+          {
+            "slot": "SESSION IV",
+            "subject": "AIML LAB - 402 (MK)"
+          },
+          {
+            "slot": "SESSION V",
+            "subject": "AIML LAB - 402 (MK)"
+          },
+          {
+            "slot": "LUNCH",
+            "subject": "OS-BM"
+          }
+        ],
+        "Day 4": [
+          {
+            "slot": "SESSION I",
+            "subject": "PE LAB -ONLINE"
+          },
+          {
+            "slot": "SESSION II",
+            "subject": "PY-AR"
+          },
+          {
+            "slot": "SESSION III",
+            "subject": "CDC"
+          },
+          {
+            "slot": "SESSION IV",
+            "subject": "OS-BM"
+          },
+          {
+            "slot": "LUNCH",
+            "subject": "MATHS"
+          },
+          {
+            "slot": "SESSION VII",
+            "subject": "PE LAB - 403 (RR)"
+          },
+          {
+            "slot": "SESSION VIII",
+            "subject": "PE LAB - 403 (RR)"
+          }
+        ],
+        "Day 5": [
+          {
+            "slot": "SESSION I",
+            "subject": "AIML-MK"
+          },
+          {
+            "slot": "SESSION II",
+            "subject": "OS LAB -403(BM)"
+          },
+          {
+            "slot": "SESSION III",
+            "subject": "PY-AR"
+          },
+          {
+            "slot": "SESSION IV",
+            "subject": "ELECTIVE THEORY ( ARVR- 601 -FG/LLM(BATCH1) - 602-GY/ IOTC-  606-AR/LLM (BATCH2 - 607- SS)"
+          },
+          {
+            "slot": "SESSION V",
+            "subject": "MATHS"
+          },
+          {
+            "slot": "LUNCH",
+            "subject": "PY-AR"
+          }
+        ]
+      }
+    },
+    "I_MCA_GEN_AI_D": {
+      "program": "MCA - Generative AI",
+      "class_name": "I MCA GEN AI-D",
+      "room": "607",
+      "timetable": {
+        "Day 1": [
+          {
+            "slot": "SESSION I",
+            "subject": "PE-LN"
+          },
+          {
+            "slot": "SESSION II",
+            "subject": "MATHS"
+          },
+          {
+            "slot": "SESSION III",
+            "subject": "ELECTIVE THEORY ( ARVR- 601 -FG/LLM(BATCH1) - 602-GY/ IOTC-  606-AR/LLM (BATCH2 - 607- SS)"
+          },
+          {
+            "slot": "BREAK",
+            "subject": "Break",
+            "type": "break"
+          },
+          {
+            "slot": "SESSION IV",
+            "subject": "AIML LAB - 403 (PC)"
+          },
+          {
+            "slot": "SESSION V",
+            "subject": "AIML LAB - 403 (PC)"
+          },
+          {
+            "slot": "LUNCH",
+            "subject": "AIML-PC"
+          }
+        ],
+        "Day 2": [
+          {
+            "slot": "SESSION II",
+            "subject": "OS-SSK"
+          },
+          {
+            "slot": "SESSION III",
+            "subject": "AIML-PC"
+          },
+          {
+            "slot": "SESSION IV",
+            "subject": "ELECTIVE THEORY ( ARVR- 601 -FG/LLM(BATCH1) - 602-GY/ IOTC-  606-AR/LLM (BATCH2 - 607- SS)"
+          },
+          {
+            "slot": "SESSION V",
+            "subject": "PE LAB ONLINE"
+          },
+          {
+            "slot": "LUNCH",
+            "subject": "MATHS"
+          },
+          {
+            "slot": "SESSION VII",
+            "subject": "PE LAB - 402 (LN)"
+          },
+          {
+            "slot": "SESSION VIII",
+            "subject": "PE LAB - 402 (LN)"
+          }
+        ],
+        "Day 3": [
+          {
+            "slot": "SESSION I",
+            "subject": "MATHS"
+          },
+          {
+            "slot": "SESSION II",
+            "subject": "ELECTIVE LAB( ARVR-908  -FG/LLM(BATCH1) - 403-GY/ IOTC-  402-AR/LLM (BATCH2 - 708- SS)"
+          },
+          {
+            "slot": "SESSION III",
+            "subject": "ELECTIVE LAB( ARVR-908  -FG/LLM(BATCH1) - 403-GY/ IOTC-  402-AR/LLM (BATCH2 - 708- SS)"
+          },
+          {
+            "slot": "SESSION IV",
+            "subject": "PY -SL"
+          },
+          {
+            "slot": "SESSION V",
+            "subject": "PE-LN"
+          },
+          {
+            "slot": "LUNCH",
+            "subject": "PY-SL"
+          }
+        ],
+        "Day 4": [
+          {
+            "slot": "SESSION I",
+            "subject": "AIML-PC"
+          },
+          {
+            "slot": "SESSION II",
+            "subject": "OS-SSK"
+          },
+          {
+            "slot": "SESSION III",
+            "subject": "PY-SL"
+          },
+          {
+            "slot": "SESSION IV",
+            "subject": "OS LAB - 403 (SSK)"
+          },
+          {
+            "slot": "SESSION V",
+            "subject": "PYTHON LAB - 402 (SL)"
+          },
+          {
+            "slot": "LUNCH",
+            "subject": "CDC"
+          }
+        ],
+        "Day 5": [
+          {
+            "slot": "SESSION I",
+            "subject": "OS LAB - 403 (SSK)"
+          },
+          {
+            "slot": "SESSION II",
+            "subject": "PYTHON LAB - 402 (SL)"
+          },
+          {
+            "slot": "SESSION III",
+            "subject": "MATHS"
+          },
+          {
+            "slot": "SESSION IV",
+            "subject": "ELECTIVE THEORY ( ARVR- 601 -FG/LLM(BATCH1) - 602-GY/ IOTC-  606-AR/LLM (BATCH2 - 607- SS)"
+          },
+          {
+            "slot": "SESSION V",
+            "subject": "CDC"
+          },
+          {
+            "slot": "LUNCH",
+            "subject": "OS-SSK"
           }
         ]
       }
