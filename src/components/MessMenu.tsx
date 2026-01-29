@@ -7,46 +7,122 @@ type MealType = "breakfast" | "lunch" | "snacks" | "dinner";
 
 const menuData: Record<string, Record<MealType, string[]>> = {
   Monday: {
-    breakfast: ["Idli", "Sambar", "Coconut Chutney", "Pongal", "Tea/Coffee", "Banana"],
-    lunch: ["Rice", "Dal Fry", "Aloo Gobi", "Chapati", "Curd", "Pickle", "Papad"],
-    snacks: ["Samosa", "Green Chutney", "Tea"],
-    dinner: ["Rice", "Rasam", "Cabbage Curry", "Chapati", "Sweet (Kesari)"],
+    breakfast: [
+      "Pongal", "Sambar", "Coconut Chutney", "Medu Vada", "Chappathi", 
+      "Soya Aloo", "Bread", "Butter", "Jam", "Milk", "Coffee", "Tea", "Boiled Egg"
+    ],
+    lunch: [
+      "Methi Chappathi", "Black Channa Masala", "Veg Pulao", "Steamed Rice",
+      "Arachivitta Sambar", "Keerai Kootu", "Rasam", "Buttermilk", "Frymes", "Pickle"
+    ],
+    snacks: ["Samosa / Veg Roll", "Milk", "Lemon Juice", "Tea", "Bread", "Butter", "Jam"],
+    dinner: [
+      "Idli", "Sambar", "Chutney", "Chappathi", "Tomato Dal", "Steamed Rice",
+      "Rasam", "Idli Podi", "Oil", "Buttermilk", "Pickle", "Salad", "Milk", "Banana",
+      "Fish Gravy / Chicken Gravy (Flavored Gravy)"
+    ],
   },
   Tuesday: {
-    breakfast: ["Dosa", "Sambar", "Tomato Chutney", "Upma", "Tea/Coffee", "Apple"],
-    lunch: ["Rice", "Sambar", "Potato Fry", "Chapati", "Buttermilk", "Pickle"],
-    snacks: ["Biscuits", "Juice"],
-    dinner: ["Rice", "Dal Tadka", "Bhindi Fry", "Chapati", "Sweet (Kheer)"],
+    breakfast: [
+      "Veg Rava", "Kitchadi / Vegetable Upma", "Sambar", "Chutney", "Poori",
+      "Aloo Masala", "Bread", "Butter", "Jam", "Milk", "Coffee", "Tea", "Boiled Egg"
+    ],
+    lunch: [
+      "Chappathi", "White Peas Curry", "Jeera Pulao", "Steamed Rice",
+      "Karakuzhambu / More Kuzhambu", "Beetroot Poriyal", "Rasam", 
+      "Buttermilk", "Frymes", "Pickle", "Payasam"
+    ],
+    snacks: ["Panni Puri / Pav Bhaji", "Milk", "Coffee", "Tea", "Bread", "Butter", "Jam"],
+    dinner: [
+      "Kal Dosa", "Sambar", "Chutney", "Millet Chappathi", "Dal Pancharathan",
+      "Steamed Rice", "Rasam", "Idli Podi", "Oil", "Buttermilk", "Pickle", "Salad",
+      "Milk", "Banana", "Mutton Kuzhambu (Flavored Gravy)"
+    ],
   },
   Wednesday: {
-    breakfast: ["Poori", "Potato Masala", "Chutney", "Milk", "Tea/Coffee", "Banana"],
-    lunch: ["Veg Biryani", "Raita", "Mirchi Ka Salan", "Boiled Egg/Paneer"],
-    snacks: ["Vada", "Sambar", "Tea"],
-    dinner: ["Rice", "Rasam", "Mixed Veg", "Chapati", "Ice Cream"],
+    breakfast: [
+      "Idiyappam", "Vada Curry / Egg Stew", "Poha", "Mint Chutney", "Dal Palak",
+      "Idli Podi", "Bread", "Butter", "Jam", "Milk", "Coffee", "Tea", "Boiled Egg"
+    ],
+    lunch: [
+      "Chappathi", "Rajma Masala", "Variety Rice", "Curd Rice",
+      "Urulai Kara Curry", "Steamed Rice", "Vegetable Kootu", "Rasam",
+      "Buttermilk", "Appalam", "Pickle", "Kesari / Bondhi"
+    ],
+    snacks: ["Cream Bun / Brownie / Cookies", "Milk", "Coffee", "Tea", "Bread", "Butter", "Jam"],
+    dinner: [
+      "Chappathi", "Paneer Butter Masala / Kadai Paneer", "Steamed Rice",
+      "Sambar", "Chappathi", "Channa Masala", "Steamed Rice", "Rasam",
+      "Buttermilk", "Pickle", "Salad", "Milk", "Banana",
+      "Chicken Gravy / Chicken Biryani", "Ice Cream"
+    ],
   },
   Thursday: {
-    breakfast: ["Idli", "Sambar", "Peanut Chutney", "Semiya Upma", "Tea/Coffee"],
-    lunch: ["Rice", "Kootu", "Brinjal Curry", "Chapati", "Curd", "Papad"],
-    snacks: ["Bread Pakoda", "Sauce", "Tea"],
-    dinner: ["Rice", "Dal Palak", "Gobi 65", "Chapati", "Fruit Custard"],
+    breakfast: [
+      "Idli", "Sambar", "Groundnut Chutney", "Chappathi", "Onion Tomato Chutney",
+      "Semiya Bath", "Idli Podi", "Oil", "Bread", "Butter", "Jam", "Milk", 
+      "Coffee", "Tea", "Boiled Egg", "Omelette"
+    ],
+    lunch: [
+      "Chappathi", "Vegetable Sabji", "Ghee Rice", "Steamed Rice",
+      "Vathakuzhambu", "Poriyal", "Rasam", "Buttermilk", "Frymes", "Pickle"
+    ],
+    snacks: ["Navadhanya Sundal / Masala Sundal", "Milk", "Rose Milk / Badam Milk", "Tea", "Bread", "Butter", "Jam"],
+    dinner: [
+      "Dosa", "Sambar", "Chutney", "Chappathi", "Kadai Vegetables",
+      "Pasta (White/Tomato) / Veg Noodles / Fried Rice", "Steamed Rice",
+      "Sambar", "Rasam", "Idli Podi", "Oil", "Buttermilk", "Pickle", "Salad",
+      "Milk", "Banana", "Mutton Kuzhambu (Flavored Gravy)"
+    ],
   },
   Friday: {
-    breakfast: ["Uttapam", "Sambar", "Coconut Chutney", "Poha", "Tea/Coffee", "Orange"],
-    lunch: ["Rice", "Sambar", "Beans Poriyal", "Chapati", "Buttermilk"],
-    snacks: ["Puffs", "Tea"],
-    dinner: ["Chicken Biryani/Veg Biryani", "Raita", "Chicken Curry/Paneer Butter Masala"],
+    breakfast: [
+      "Kal Dosa", "Sambar", "Groundunt Chutney", "Aloo Paratha", "Curd",
+      "Idli Podi", "Oil", "Bread", "Butter", "Jam", "Milk", "Coffee", "Tea", "Boiled Egg"
+    ],
+    lunch: [
+      "Chappathi", "Tindly Masala", "Peas Pulao", "Steamed Rice", "Sambar",
+      "Keerai Kootu", "Rasam", "Curd Rice", "Buttermilk", "Frymes", "Pickle",
+      "Gulab Jamun / Badhusha"
+    ],
+    snacks: ["Bajji, Chutney / Muruku", "Milk", "Coffee", "Tea", "Bread", "Butter", "Jam"],
+    dinner: [
+      "Soup", "Chappathi", "Sambar", "Chutney", "Parotta", "Steamed Rice",
+      "Veg Salna", "Steamed Rice", "Rasam", "Oil", "Buttermilk", "Pickle",
+      "Salad", "Milk", "Banana", "Chicken Gravy (Flavored Gravy)"
+    ],
   },
   Saturday: {
-    breakfast: ["Masala Dosa", "Sambar", "Chutney", "Cornflakes with Milk", "Tea/Coffee"],
-    lunch: ["Rice", "Chole", "Jeera Aloo", "Chapati", "Pickle", "Papad"],
-    snacks: ["Bhel Puri", "Tea"],
-    dinner: ["Rice", "Rasam", "Drumstick Curry", "Chapati", "Gulab Jamun"],
+    breakfast: [
+      "Idli", "Sambar", "Groundunt Chutney", "Aloo Paratha", "Curd",
+      "Idli Podi", "Oil", "Bread", "Butter", "Jam", "Milk", "Coffee", "Tea", "Boiled Egg"
+    ],
+    lunch: [
+      "Chappathi", "Meal Maker Kurma", "Veg Biryani", "Raitha", "Steamed Rice",
+      "Sambar", "Rasam", "Buttermilk", "Frymes", "Pickle", "Cup Ice Cream"
+    ],
+    snacks: ["Cake Variety / Rusk", "Milk", "Coffee", "Tea", "Bread", "Butter", "Jam"],
+    dinner: [
+      "Kal Dosa", "Sambar", "Chutney", "Steamed Rice", "Kadamba Sambar",
+      "Rasam", "Poriyal", "Buttermilk", "Pickle", "Salad", "Milk",
+      "Seasonal Fruits", "Chicken Gravy (Flavored Gravy)"
+    ],
   },
   Sunday: {
-    breakfast: ["Chole Bhature", "Pickle", "Lassi", "Tea/Coffee", "Banana"],
-    lunch: ["Special Veg Pulao", "Paneer Tikka Masala", "Dal Makhani", "Naan", "Raita"],
-    snacks: ["Cake", "Cold Drink"],
-    dinner: ["Rice", "Dal Fry", "Aloo Matar", "Chapati", "Kheer"],
+    breakfast: [
+      "Chole Bhature", "Chenna Masala", "Rava Upma", "Coconut Chutney", "Sambar",
+      "Bread", "Butter", "Jam", "Milk", "Coffee", "Tea"
+    ],
+    lunch: [
+      "Chappathi", "Paneer Gravy", "Steamed Rice", "Sambar", "Poriyal", "Rasam",
+      "Buttermilk", "Frymes", "Pickle"
+    ],
+    snacks: ["Channa Sundal (White / Black)", "Milk", "Coffee", "Tea", "Bread", "Butter", "Jam"],
+    dinner: [
+      "Chappathi", "Mix Veg Curry", "Dal Kitchadi", "Steamed Rice",
+      "Rasam", "Poriyal", "Buttermilk", "Pickle", "Salad", "Milk",
+      "Chicken Gravy (Flavored Gravy)"
+    ],
   },
 };
 
@@ -72,7 +148,7 @@ const MessMenu = () => {
           Mess Menu
         </h2>
         <p className="text-muted-foreground">
-          Hostel Mess • Main Block
+          Anand Hospitality Services • Dental & Health Science Block
         </p>
       </div>
 
@@ -116,13 +192,13 @@ const MessMenu = () => {
               </div>
             </div>
 
-            <ul className="space-y-2">
+            <ul className="space-y-1.5 max-h-48 overflow-y-auto">
               {menuData[activeDay]?.[meal]?.map((item, itemIndex) => (
                 <li
                   key={itemIndex}
                   className="flex items-center gap-2 text-sm"
                 >
-                  <span className="w-1.5 h-1.5 rounded-full bg-current opacity-60" />
+                  <span className="w-1.5 h-1.5 rounded-full bg-current opacity-60 flex-shrink-0" />
                   {item}
                 </li>
               ))}
@@ -131,12 +207,18 @@ const MessMenu = () => {
         ))}
       </div>
 
-      {/* Note */}
-      <div className="mt-6 p-4 bg-muted rounded-xl border border-border">
-        <p className="text-sm text-muted-foreground">
-          <strong>Note:</strong> Menu is subject to change based on availability. 
-          Special dietary requirements can be requested at the mess office.
-        </p>
+      {/* Notes */}
+      <div className="mt-6 space-y-2">
+        <div className="p-4 bg-muted rounded-xl border border-border">
+          <p className="text-sm text-muted-foreground">
+            <strong>Note:</strong> The above menu will change subject to the non-availability of items.
+          </p>
+        </div>
+        <div className="p-4 bg-secondary/30 rounded-xl border border-secondary">
+          <p className="text-sm text-foreground">
+            <strong>Special:</strong> Biryani - Every month 2nd & 4th Wednesday will be served Chicken and Veg Biryani.
+          </p>
+        </div>
       </div>
     </section>
   );
