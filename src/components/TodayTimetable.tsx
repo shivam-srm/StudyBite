@@ -1,23 +1,20 @@
-import { classTimetables, timeSlots, getDayOrderFromDate, getCurrentPeriodIndex } from "@/data/timetable";
+import { getClassTimetable, timeSlots, getDayOrderFromDate, getCurrentPeriodIndex, PeriodData, getPeriodTypeStyle } from "@/data/timetable";
 import { Clock, MapPin } from "lucide-react";
 
 interface TodayTimetableProps {
   selectedClass?: string;
 }
 
-const TodayTimetable = ({ selectedClass = "I BCA DS A" }: TodayTimetableProps) => {
+const TodayTimetable = ({ selectedClass = "I MCA A" }: TodayTimetableProps) => {
   const currentDay = getDayOrderFromDate();
   const currentPeriodIndex = getCurrentPeriodIndex();
-  const schedule = classTimetables[selectedClass]?.[currentDay] || {};
+  const timetable = getClassTimetable(selectedClass);
+  const schedule = timetable?.[currentDay] || [];
 
-  const upcomingPeriods = Object.entries(schedule)
-    .map(([slotIndex, period]) => ({
-      slotIndex: parseInt(slotIndex),
-      period,
-      timeSlot: timeSlots[parseInt(slotIndex)],
-    }))
-    .filter(({ period }) => period !== null)
-    .sort((a, b) => a.slotIndex - b.slotIndex);
+  // Filter out breaks and free periods for display
+  const upcomingPeriods = schedule
+    .map((period, idx) => ({ period, slotIndex: idx, timeSlot: timeSlots[idx] }))
+    .filter(({ period }) => period.type !== "break" && period.type !== "free" && period.subject !== "None");
 
   return (
     <div className="bg-card rounded-2xl border border-border overflow-hidden">
@@ -49,21 +46,13 @@ const TodayTimetable = ({ selectedClass = "I BCA DS A" }: TodayTimetableProps) =
               >
                 <div className="flex items-start gap-3">
                   <div
-                    className={`w-10 h-10 rounded-xl flex items-center justify-center text-sm font-medium ${
-                      period?.type === "lab"
-                        ? "bg-green-500/10 text-green-600 dark:text-green-400"
-                        : period?.type === "online"
-                        ? "bg-purple-500/10 text-purple-600 dark:text-purple-400"
-                        : period?.type === "project"
-                        ? "bg-orange-500/10 text-orange-600 dark:text-orange-400"
-                        : "bg-primary/10 text-primary"
-                    }`}
+                    className={`w-10 h-10 rounded-xl flex items-center justify-center text-sm font-medium ${getPeriodTypeStyle(period.type)}`}
                   >
-                    {period?.type === "lab" ? "L" : period?.type === "online" ? "O" : period?.type === "project" ? "P" : "T"}
+                    {period.type === "lab" ? "L" : period.type === "online" ? "O" : period.type === "library" ? "📚" : "T"}
                   </div>
                   <div className="flex-1 min-w-0">
                     <div className="flex items-center gap-2 mb-1">
-                      <h3 className="font-medium text-foreground">{period?.subject}</h3>
+                      <h3 className="font-medium text-foreground">{period.subject}</h3>
                       {isCurrent && (
                         <span className="px-2 py-0.5 bg-primary text-primary-foreground text-xs rounded-full animate-pulse-soft">
                           Now
@@ -75,15 +64,15 @@ const TodayTimetable = ({ selectedClass = "I BCA DS A" }: TodayTimetableProps) =
                         <Clock className="w-3.5 h-3.5" />
                         {timeSlot?.time}
                       </span>
-                      {period?.room && (
+                      {period.room && (
                         <span className="flex items-center gap-1">
                           <MapPin className="w-3.5 h-3.5" />
                           {period.room}
                         </span>
                       )}
                     </div>
-                    {period?.faculty && (
-                      <p className="text-xs text-muted-foreground mt-1">{period.faculty}</p>
+                    {period.code && (
+                      <p className="text-xs text-muted-foreground mt-1">{period.code}</p>
                     )}
                   </div>
                 </div>

@@ -1,0 +1,1839 @@
+{
+  "metadata": {
+    "institution": "SRM Institute of Science and Technology",
+    "faculty": "Faculty of Science and Humanities",
+    "semester": "Even Semester 2025-2026",
+    "valid_from": "June 2025",
+    "level": "I Year PostGraduate"
+  },
+  "time_slots": [
+    {
+      "slot": "SESSION I",
+      "time": "8:15 AM - 9:05 AM"
+    },
+    {
+      "slot": "SESSION II",
+      "time": "9:05 AM - 9:55 AM"
+    },
+    {
+      "slot": "SESSION III",
+      "time": "9:55 AM - 10:45 AM"
+    },
+    {
+      "slot": "BREAK",
+      "time": "10:45 AM - 11:00 AM"
+    },
+    {
+      "slot": "SESSION IV",
+      "time": "11:00 AM - 11:45 AM"
+    },
+    {
+      "slot": "SESSION V",
+      "time": "11:45 AM - 12:30 PM"
+    },
+    {
+      "slot": "LUNCH",
+      "time": "12:30 PM - 1:25 PM"
+    },
+    {
+      "slot": "SESSION VII",
+      "time": "1:25 PM - 2:15 PM"
+    },
+    {
+      "slot": "SESSION VIII",
+      "time": "2:15 PM - 3:05 PM"
+    }
+  ],
+  "classes": {
+    "I_MCA_A": {
+      "program": "MCA",
+      "class_name": "I MCA A",
+      "room": "901",
+      "timetable": {
+        "Day 1": [
+          {
+            "slot": "SESSION I",
+            "subject": "Operating Systems",
+            "code": "OS-TS",
+            "type": "theory"
+          },
+          {
+            "slot": "SESSION II",
+            "subject": "Elective Lab",
+            "code": "SPM/MA/DVT",
+            "type": "lab",
+            "room": "POLY1/POLY2/POLY5/402/403/708/908"
+          },
+          {
+            "slot": "SESSION III",
+            "subject": "Elective Lab",
+            "code": "SPM/MA/DVT",
+            "type": "lab",
+            "room": "POLY1/POLY2/POLY5/402/403/708/908"
+          },
+          {
+            "slot": "BREAK",
+            "subject": "Break",
+            "type": "break"
+          },
+          {
+            "slot": "SESSION IV",
+            "subject": "Python Lab",
+            "code": "PY-SV",
+            "type": "lab",
+            "room": "908"
+          },
+          {
+            "slot": "SESSION V",
+            "subject": "Mathematics",
+            "type": "theory"
+          },
+          {
+            "slot": "LUNCH",
+            "subject": "Online",
+            "type": "online"
+          },
+          {
+            "slot": "SESSION VII",
+            "subject": "Python",
+            "code": "PY-SV",
+            "type": "theory"
+          }
+        ],
+        "Day 2": [
+          {
+            "slot": "SESSION I",
+            "subject": "CDC",
+            "type": "theory"
+          },
+          {
+            "slot": "SESSION II",
+            "subject": "Mathematics",
+            "type": "theory"
+          },
+          {
+            "slot": "SESSION III",
+            "subject": "AIML",
+            "code": "AIML-SAR",
+            "type": "theory"
+          },
+          {
+            "slot": "BREAK",
+            "subject": "Break",
+            "type": "break"
+          },
+          {
+            "slot": "SESSION IV",
+            "subject": "Python",
+            "code": "PY-SV",
+            "type": "theory"
+          },
+          {
+            "slot": "SESSION V",
+            "subject": "IoT",
+            "code": "IOT-RS",
+            "type": "theory"
+          },
+          {
+            "slot": "LUNCH",
+            "subject": "Online",
+            "type": "online"
+          },
+          {
+            "slot": "SESSION VII",
+            "subject": "AIML",
+            "code": "AIML-SAR",
+            "type": "theory"
+          }
+        ],
+        "Day 3": [
+          {
+            "slot": "SESSION I",
+            "subject": "Operating Systems",
+            "code": "OS-TS",
+            "type": "online"
+          },
+          {
+            "slot": "SESSION II",
+            "subject": "Elective Theory",
+            "code": "SPM/MA/DVT",
+            "type": "theory"
+          },
+          {
+            "slot": "SESSION III",
+            "subject": "Mathematics",
+            "type": "theory"
+          },
+          {
+            "slot": "BREAK",
+            "subject": "Break",
+            "type": "break"
+          },
+          {
+            "slot": "SESSION IV",
+            "subject": "Operating Systems",
+            "code": "OS-TS",
+            "type": "theory"
+          },
+          {
+            "slot": "SESSION V",
+            "subject": "Library",
+            "type": "library"
+          },
+          {
+            "slot": "LUNCH",
+            "subject": "Online",
+            "type": "online"
+          },
+          {
+            "slot": "SESSION VII",
+            "subject": "AIML Lab",
+            "code": "AIML-SAR",
+            "type": "lab",
+            "room": "402"
+          },
+          {
+            "slot": "SESSION VIII",
+            "subject": "AIML Lab",
+            "code": "AIML-SAR",
+            "type": "lab",
+            "room": "402"
+          }
+        ],
+        "Day 4": [
+          {
+            "slot": "SESSION I",
+            "subject": "IoT Lab",
+            "code": "IOT-RS",
+            "type": "lab",
+            "room": "403"
+          },
+          {
+            "slot": "SESSION II",
+            "subject": "Python",
+            "code": "PY-SV",
+            "type": "theory"
+          },
+          {
+            "slot": "SESSION III",
+            "subject": "Python Lab",
+            "code": "PY-SV",
+            "type": "lab",
+            "room": "402"
+          },
+          {
+            "slot": "BREAK",
+            "subject": "Break",
+            "type": "break"
+          },
+          {
+            "slot": "SESSION IV",
+            "subject": "Elective Theory",
+            "code": "SPM/MA/DVT",
+            "type": "theory"
+          },
+          {
+            "slot": "SESSION V",
+            "subject": "IoT Lab",
+            "code": "IOT-RS",
+            "type": "lab",
+            "room": "403"
+          },
+          {
+            "slot": "LUNCH",
+            "subject": "Online IoT Lab",
+            "code": "IOT-RS",
+            "type": "online"
+          }
+        ],
+        "Day 5": [
+          {
+            "slot": "SESSION I",
+            "subject": "AIML",
+            "code": "AIML-SAR",
+            "type": "theory"
+          },
+          {
+            "slot": "SESSION II",
+            "subject": "Elective Theory",
+            "code": "SPM/MA/DVT",
+            "type": "theory"
+          },
+          {
+            "slot": "SESSION III",
+            "subject": "Operating Systems Lab",
+            "code": "OS-TS",
+            "type": "lab",
+            "room": "402"
+          },
+          {
+            "slot": "BREAK",
+            "subject": "Break",
+            "type": "break"
+          },
+          {
+            "slot": "SESSION IV",
+            "subject": "Operating Systems Lab",
+            "code": "OS-TS",
+            "type": "lab",
+            "room": "402"
+          },
+          {
+            "slot": "SESSION V",
+            "subject": "IoT",
+            "code": "IOT-RS",
+            "type": "theory"
+          },
+          {
+            "slot": "LUNCH",
+            "subject": "Online",
+            "type": "online"
+          },
+          {
+            "slot": "SESSION VII",
+            "subject": "Mathematics",
+            "type": "theory"
+          }
+        ]
+      }
+    },
+    "I_MCA_B": {
+      "program": "MCA",
+      "class_name": "I MCA B",
+      "room": "902",
+      "timetable": {
+        "Day 1": [
+          {
+            "slot": "SESSION I",
+            "subject": "AIML Lab",
+            "code": "AIML-AR",
+            "type": "lab",
+            "room": "POLY2"
+          },
+          {
+            "slot": "SESSION II",
+            "subject": "Elective Lab",
+            "code": "SPM/MA/DVT",
+            "type": "lab",
+            "room": "POLY1/POLY2/POLY5/402/403/708/908"
+          },
+          {
+            "slot": "SESSION III",
+            "subject": "Elective Lab",
+            "code": "SPM/MA/DVT",
+            "type": "lab",
+            "room": "POLY1/POLY2/POLY5/402/403/708/908"
+          },
+          {
+            "slot": "BREAK",
+            "subject": "Break",
+            "type": "break"
+          },
+          {
+            "slot": "SESSION IV",
+            "subject": "Operating Systems Lab",
+            "code": "OS-MP",
+            "type": "lab",
+            "room": "908"
+          },
+          {
+            "slot": "SESSION V",
+            "subject": "Operating Systems Lab",
+            "code": "OS-MP",
+            "type": "lab",
+            "room": "908"
+          },
+          {
+            "slot": "LUNCH",
+            "subject": "CDC",
+            "type": "theory"
+          },
+          {
+            "slot": "SESSION VII",
+            "subject": "None",
+            "type": "free"
+          }
+        ],
+        "Day 2": [
+          {
+            "slot": "SESSION I",
+            "subject": "Python",
+            "code": "PY-RR",
+            "type": "theory"
+          },
+          {
+            "slot": "SESSION II",
+            "subject": "Mathematics",
+            "type": "theory"
+          },
+          {
+            "slot": "SESSION III",
+            "subject": "CDC",
+            "type": "theory"
+          },
+          {
+            "slot": "BREAK",
+            "subject": "Break",
+            "type": "break"
+          },
+          {
+            "slot": "SESSION IV",
+            "subject": "Operating Systems Lab",
+            "code": "OS-MP",
+            "type": "lab",
+            "room": "908"
+          },
+          {
+            "slot": "SESSION V",
+            "subject": "IoT",
+            "code": "IOT-PC",
+            "type": "theory"
+          },
+          {
+            "slot": "LUNCH",
+            "subject": "Online",
+            "type": "online"
+          },
+          {
+            "slot": "SESSION VII",
+            "subject": "AIML",
+            "code": "AIML-AR",
+            "type": "theory"
+          }
+        ],
+        "Day 3": [
+          {
+            "slot": "SESSION I",
+            "subject": "Python Lab",
+            "code": "PY-RR",
+            "type": "lab",
+            "room": "708"
+          },
+          {
+            "slot": "SESSION II",
+            "subject": "Elective Theory",
+            "code": "SPM/MA/DVT",
+            "type": "theory"
+          },
+          {
+            "slot": "SESSION III",
+            "subject": "Mathematics",
+            "type": "theory"
+          },
+          {
+            "slot": "BREAK",
+            "subject": "Break",
+            "type": "break"
+          },
+          {
+            "slot": "SESSION IV",
+            "subject": "Python",
+            "code": "PY-RR",
+            "type": "theory"
+          },
+          {
+            "slot": "SESSION V",
+            "subject": "AIML Lab",
+            "code": "AIML-AR",
+            "type": "lab",
+            "room": "POLY2"
+          },
+          {
+            "slot": "LUNCH",
+            "subject": "Online",
+            "type": "online"
+          },
+          {
+            "slot": "SESSION VII",
+            "subject": "Operating Systems",
+            "code": "OS-MP",
+            "type": "theory"
+          }
+        ],
+        "Day 4": [
+          {
+            "slot": "SESSION I",
+            "subject": "None",
+            "type": "free"
+          },
+          {
+            "slot": "SESSION II",
+            "subject": "IoT",
+            "code": "IOT-PC",
+            "type": "theory"
+          },
+          {
+            "slot": "SESSION III",
+            "subject": "AIML",
+            "code": "AIML-AR",
+            "type": "theory"
+          },
+          {
+            "slot": "BREAK",
+            "subject": "Break",
+            "type": "break"
+          },
+          {
+            "slot": "SESSION IV",
+            "subject": "Elective Theory",
+            "code": "SPM/MA/DVT",
+            "type": "theory"
+          },
+          {
+            "slot": "SESSION V",
+            "subject": "IoT Lab (ONLINE)",
+            "code": "IOT-PC",
+            "type": "online"
+          },
+          {
+            "slot": "LUNCH",
+            "subject": "Mathematics",
+            "type": "theory"
+          },
+          {
+            "slot": "SESSION VII",
+            "subject": "IoT Lab",
+            "code": "IOT-PC",
+            "type": "lab",
+            "room": "908"
+          },
+          {
+            "slot": "SESSION VIII",
+            "subject": "IoT Lab",
+            "code": "IOT-PC",
+            "type": "lab",
+            "room": "908"
+          }
+        ],
+        "Day 5": [
+          {
+            "slot": "SESSION I",
+            "subject": "AIML",
+            "code": "AIML-AR",
+            "type": "theory"
+          },
+          {
+            "slot": "SESSION II",
+            "subject": "Elective Theory",
+            "code": "SPM/MA/DVT",
+            "type": "theory"
+          },
+          {
+            "slot": "SESSION III",
+            "subject": "Mathematics",
+            "type": "theory"
+          },
+          {
+            "slot": "BREAK",
+            "subject": "Break",
+            "type": "break"
+          },
+          {
+            "slot": "SESSION IV",
+            "subject": "Python Lab",
+            "code": "PY-RR",
+            "type": "lab",
+            "room": "708"
+          },
+          {
+            "slot": "SESSION V",
+            "subject": "Operating Systems",
+            "code": "OS-MP",
+            "type": "theory"
+          },
+          {
+            "slot": "LUNCH",
+            "subject": "Online",
+            "type": "online"
+          },
+          {
+            "slot": "SESSION VII",
+            "subject": "Python",
+            "code": "PY-RR",
+            "type": "theory"
+          }
+        ]
+      }
+    },
+    "I_MCA_C": {
+      "program": "MCA",
+      "class_name": "I MCA C",
+      "room": "903",
+      "timetable": {
+        "Day 1": [
+          {
+            "slot": "SESSION I",
+            "subject": "AIML Lab",
+            "code": "AIML-DH",
+            "type": "lab",
+            "room": "403"
+          },
+          {
+            "slot": "SESSION II",
+            "subject": "Elective Lab",
+            "code": "SPM/MA/DVT",
+            "type": "lab",
+            "room": "POLY1/POLY2/POLY5/402/403/708/908"
+          },
+          {
+            "slot": "SESSION III",
+            "subject": "Elective Lab",
+            "code": "SPM/MA/DVT",
+            "type": "lab",
+            "room": "POLY1/POLY2/POLY5/402/403/708/908"
+          },
+          {
+            "slot": "BREAK",
+            "subject": "Break",
+            "type": "break"
+          },
+          {
+            "slot": "SESSION IV",
+            "subject": "Mathematics",
+            "type": "theory"
+          },
+          {
+            "slot": "SESSION V",
+            "subject": "Operating Systems",
+            "code": "OS-RS",
+            "type": "theory"
+          },
+          {
+            "slot": "LUNCH",
+            "subject": "Online",
+            "type": "online"
+          },
+          {
+            "slot": "SESSION VII",
+            "subject": "AIML",
+            "code": "AIML-DH",
+            "type": "theory"
+          }
+        ],
+        "Day 2": [
+          {
+            "slot": "SESSION I",
+            "subject": "Python Lab",
+            "code": "PY-TMS",
+            "type": "lab",
+            "room": "708"
+          },
+          {
+            "slot": "SESSION II",
+            "subject": "Mathematics",
+            "type": "theory"
+          },
+          {
+            "slot": "SESSION III",
+            "subject": "AIML",
+            "code": "AIML-DH",
+            "type": "theory"
+          },
+          {
+            "slot": "BREAK",
+            "subject": "Break",
+            "type": "break"
+          },
+          {
+            "slot": "SESSION IV",
+            "subject": "IoT Lab",
+            "code": "IOT-RR",
+            "type": "lab",
+            "room": "403"
+          },
+          {
+            "slot": "SESSION V",
+            "subject": "IoT Lab",
+            "code": "IOT-RR",
+            "type": "lab",
+            "room": "403"
+          },
+          {
+            "slot": "LUNCH",
+            "subject": "Online",
+            "type": "online"
+          },
+          {
+            "slot": "SESSION VII",
+            "subject": "Operating Systems",
+            "code": "OS-RS",
+            "type": "theory"
+          }
+        ],
+        "Day 3": [
+          {
+            "slot": "SESSION I",
+            "subject": "Operating Systems",
+            "code": "OS-RS",
+            "type": "theory"
+          },
+          {
+            "slot": "SESSION II",
+            "subject": "Elective Theory",
+            "code": "SPM/MA/DVT",
+            "type": "theory"
+          },
+          {
+            "slot": "SESSION III",
+            "subject": "CDC",
+            "type": "theory"
+          },
+          {
+            "slot": "BREAK",
+            "subject": "Break",
+            "type": "break"
+          },
+          {
+            "slot": "SESSION IV",
+            "subject": "AIML",
+            "code": "AIML-DH",
+            "type": "theory"
+          },
+          {
+            "slot": "SESSION V",
+            "subject": "Python",
+            "code": "PY-TMS",
+            "type": "theory"
+          },
+          {
+            "slot": "LUNCH",
+            "subject": "Online",
+            "type": "online"
+          },
+          {
+            "slot": "SESSION VII",
+            "subject": "Mathematics",
+            "type": "theory"
+          }
+        ],
+        "Day 4": [
+          {
+            "slot": "SESSION I",
+            "subject": "Python",
+            "code": "PY-TMS",
+            "type": "theory"
+          },
+          {
+            "slot": "SESSION II",
+            "subject": "AIML Lab",
+            "code": "AIML-DH",
+            "type": "lab",
+            "room": "403"
+          },
+          {
+            "slot": "SESSION III",
+            "subject": "Python Lab",
+            "code": "PY-TMS",
+            "type": "lab",
+            "room": "708"
+          },
+          {
+            "slot": "BREAK",
+            "subject": "Break",
+            "type": "break"
+          },
+          {
+            "slot": "SESSION IV",
+            "subject": "Elective Theory",
+            "code": "SPM/MA/DVT",
+            "type": "theory"
+          },
+          {
+            "slot": "SESSION V",
+            "subject": "IoT",
+            "code": "IOT-RR",
+            "type": "theory"
+          },
+          {
+            "slot": "LUNCH",
+            "subject": "Online",
+            "type": "online"
+          },
+          {
+            "slot": "SESSION VII",
+            "subject": "CDC",
+            "type": "theory"
+          }
+        ],
+        "Day 5": [
+          {
+            "slot": "SESSION I",
+            "subject": "IoT (ONLINE)",
+            "code": "IOT-RR",
+            "type": "online"
+          },
+          {
+            "slot": "SESSION II",
+            "subject": "Elective Theory",
+            "code": "SPM/MA/DVT",
+            "type": "theory"
+          },
+          {
+            "slot": "SESSION III",
+            "subject": "IoT",
+            "code": "IOT-RR",
+            "type": "theory"
+          },
+          {
+            "slot": "BREAK",
+            "subject": "Break",
+            "type": "break"
+          },
+          {
+            "slot": "SESSION IV",
+            "subject": "Mathematics",
+            "type": "theory"
+          },
+          {
+            "slot": "SESSION V",
+            "subject": "None",
+            "type": "free"
+          },
+          {
+            "slot": "LUNCH",
+            "subject": "Python Lab (ONLINE)",
+            "code": "PY-TMS",
+            "type": "online"
+          },
+          {
+            "slot": "SESSION VII",
+            "subject": "Operating Systems Lab",
+            "code": "OS-RS",
+            "type": "lab",
+            "room": "908"
+          },
+          {
+            "slot": "SESSION VIII",
+            "subject": "Operating Systems Lab",
+            "code": "OS-RS",
+            "type": "lab",
+            "room": "908"
+          }
+        ]
+      }
+    },
+    "I_MCA_D": {
+      "program": "MCA",
+      "class_name": "I MCA D",
+      "room": "906",
+      "timetable": {
+        "Day 1": [
+          {
+            "slot": "SESSION I",
+            "subject": "Python",
+            "code": "PY-SL",
+            "type": "theory"
+          },
+          {
+            "slot": "SESSION II",
+            "subject": "Elective Lab",
+            "code": "SPM/MA/DVT",
+            "type": "lab",
+            "room": "POLY1/POLY2/POLY5/402/403/708/908"
+          },
+          {
+            "slot": "SESSION III",
+            "subject": "Elective Lab",
+            "code": "SPM/MA/DVT",
+            "type": "lab",
+            "room": "POLY1/POLY2/POLY5/402/403/708/908"
+          },
+          {
+            "slot": "BREAK",
+            "subject": "Break",
+            "type": "break"
+          },
+          {
+            "slot": "SESSION IV",
+            "subject": "AIML",
+            "code": "AIML-BM",
+            "type": "theory"
+          },
+          {
+            "slot": "SESSION V",
+            "subject": "Mathematics",
+            "type": "theory"
+          },
+          {
+            "slot": "LUNCH",
+            "subject": "CDC",
+            "type": "theory"
+          },
+          {
+            "slot": "SESSION VII",
+            "subject": "None",
+            "type": "free"
+          }
+        ],
+        "Day 2": [
+          {
+            "slot": "SESSION I",
+            "subject": "Python",
+            "code": "PY-SL",
+            "type": "theory"
+          },
+          {
+            "slot": "SESSION II",
+            "subject": "IoT Lab",
+            "code": "IOT-MK",
+            "type": "lab",
+            "room": "708"
+          },
+          {
+            "slot": "SESSION III",
+            "subject": "IoT Lab",
+            "code": "IOT-MK",
+            "type": "lab",
+            "room": "708"
+          },
+          {
+            "slot": "BREAK",
+            "subject": "Break",
+            "type": "break"
+          },
+          {
+            "slot": "SESSION IV",
+            "subject": "Mathematics",
+            "type": "theory"
+          },
+          {
+            "slot": "SESSION V",
+            "subject": "AIML Lab",
+            "code": "AIML-BM",
+            "type": "lab",
+            "room": "908"
+          },
+          {
+            "slot": "LUNCH",
+            "subject": "Online",
+            "type": "online"
+          },
+          {
+            "slot": "SESSION VII",
+            "subject": "AIML",
+            "code": "AIML-BM",
+            "type": "theory"
+          }
+        ],
+        "Day 3": [
+          {
+            "slot": "SESSION I",
+            "subject": "Operating Systems Lab",
+            "code": "OS-NA",
+            "type": "lab",
+            "room": "908"
+          },
+          {
+            "slot": "SESSION II",
+            "subject": "Elective Theory",
+            "code": "SPM/MA/DVT",
+            "type": "theory"
+          },
+          {
+            "slot": "SESSION III",
+            "subject": "IoT",
+            "code": "IOT-MK",
+            "type": "theory"
+          },
+          {
+            "slot": "BREAK",
+            "subject": "Break",
+            "type": "break"
+          },
+          {
+            "slot": "SESSION IV",
+            "subject": "AIML",
+            "code": "AIML-BM",
+            "type": "theory"
+          },
+          {
+            "slot": "SESSION V",
+            "subject": "Operating Systems",
+            "code": "OS-NA",
+            "type": "theory"
+          },
+          {
+            "slot": "LUNCH",
+            "subject": "Online",
+            "type": "online"
+          },
+          {
+            "slot": "SESSION VII",
+            "subject": "Mathematics",
+            "type": "theory"
+          }
+        ],
+        "Day 4": [
+          {
+            "slot": "SESSION I",
+            "subject": "IoT",
+            "code": "IOT-MK",
+            "type": "theory"
+          },
+          {
+            "slot": "SESSION II",
+            "subject": "Operating Systems",
+            "code": "OS-NA",
+            "type": "theory"
+          },
+          {
+            "slot": "SESSION III",
+            "subject": "AIML Lab",
+            "code": "AIML-BM",
+            "type": "lab",
+            "room": "908"
+          },
+          {
+            "slot": "BREAK",
+            "subject": "Break",
+            "type": "break"
+          },
+          {
+            "slot": "SESSION IV",
+            "subject": "Elective Theory",
+            "code": "SPM/MA/DVT",
+            "type": "theory"
+          },
+          {
+            "slot": "SESSION V",
+            "subject": "CDC",
+            "type": "theory"
+          },
+          {
+            "slot": "LUNCH",
+            "subject": "Online",
+            "type": "online"
+          },
+          {
+            "slot": "SESSION VII",
+            "subject": "Python",
+            "code": "PY-SL",
+            "type": "theory"
+          }
+        ],
+        "Day 5": [
+          {
+            "slot": "SESSION I",
+            "subject": "Operating Systems (ONLINE)",
+            "code": "OS-NA",
+            "type": "online"
+          },
+          {
+            "slot": "SESSION II",
+            "subject": "Elective Theory",
+            "code": "SPM/MA/DVT",
+            "type": "theory"
+          },
+          {
+            "slot": "SESSION III",
+            "subject": "Operating Systems Lab",
+            "code": "OS-NA",
+            "type": "lab",
+            "room": "908"
+          },
+          {
+            "slot": "BREAK",
+            "subject": "Break",
+            "type": "break"
+          },
+          {
+            "slot": "SESSION IV",
+            "subject": "Mathematics",
+            "type": "theory"
+          },
+          {
+            "slot": "SESSION V",
+            "subject": "None",
+            "type": "free"
+          },
+          {
+            "slot": "LUNCH",
+            "subject": "IoT Lab (ONLINE)",
+            "code": "IOT-MK",
+            "type": "online"
+          },
+          {
+            "slot": "SESSION VII",
+            "subject": "Python Lab",
+            "code": "PY-SL",
+            "type": "lab",
+            "room": "403"
+          },
+          {
+            "slot": "SESSION VIII",
+            "subject": "Python Lab",
+            "code": "PY-SL",
+            "type": "lab",
+            "room": "403"
+          }
+        ]
+      }
+    },
+    "I_MCA_E": {
+      "program": "MCA",
+      "class_name": "I MCA E",
+      "room": "907",
+      "timetable": {
+        "Day 1": [
+          {
+            "slot": "SESSION I",
+            "subject": "AIML Lab",
+            "code": "AIML-AS",
+            "type": "lab",
+            "room": "908"
+          },
+          {
+            "slot": "SESSION II",
+            "subject": "Elective Lab",
+            "code": "SPM/MA/DVT",
+            "type": "lab",
+            "room": "POLY1/POLY2/POLY5/402/403/708/908"
+          },
+          {
+            "slot": "SESSION III",
+            "subject": "Elective Lab",
+            "code": "SPM/MA/DVT",
+            "type": "lab",
+            "room": "POLY1/POLY2/POLY5/402/403/708/908"
+          },
+          {
+            "slot": "BREAK",
+            "subject": "Break",
+            "type": "break"
+          },
+          {
+            "slot": "SESSION IV",
+            "subject": "Mathematics",
+            "type": "theory"
+          },
+          {
+            "slot": "SESSION V",
+            "subject": "AIML Lab",
+            "code": "AIML-AS",
+            "type": "lab",
+            "room": "708"
+          },
+          {
+            "slot": "LUNCH",
+            "subject": "Python (ONLINE)",
+            "code": "PY-AN",
+            "type": "online"
+          },
+          {
+            "slot": "SESSION VII",
+            "subject": "None",
+            "type": "free"
+          }
+        ],
+        "Day 2": [
+          {
+            "slot": "SESSION I",
+            "subject": "Python",
+            "code": "PY-AN",
+            "type": "theory"
+          },
+          {
+            "slot": "SESSION II",
+            "subject": "AIML",
+            "code": "AIML-AS",
+            "type": "theory"
+          },
+          {
+            "slot": "SESSION III",
+            "subject": "Mathematics",
+            "type": "theory"
+          },
+          {
+            "slot": "BREAK",
+            "subject": "Break",
+            "type": "break"
+          },
+          {
+            "slot": "SESSION IV",
+            "subject": "Operating Systems",
+            "code": "OS-AT",
+            "type": "theory"
+          },
+          {
+            "slot": "SESSION V",
+            "subject": "IoT",
+            "code": "IOT-LB",
+            "type": "theory"
+          },
+          {
+            "slot": "LUNCH",
+            "subject": "Online",
+            "type": "online"
+          },
+          {
+            "slot": "SESSION VII",
+            "subject": "CDC",
+            "type": "theory"
+          }
+        ],
+        "Day 3": [
+          {
+            "slot": "SESSION I",
+            "subject": "Operating Systems (ONLINE)",
+            "code": "OS-AT",
+            "type": "online"
+          },
+          {
+            "slot": "SESSION II",
+            "subject": "Elective Theory",
+            "code": "SPM/MA/DVT",
+            "type": "theory"
+          },
+          {
+            "slot": "SESSION III",
+            "subject": "Operating Systems",
+            "code": "OS-AT",
+            "type": "theory"
+          },
+          {
+            "slot": "BREAK",
+            "subject": "Break",
+            "type": "break"
+          },
+          {
+            "slot": "SESSION IV",
+            "subject": "Python",
+            "code": "PY-AN",
+            "type": "theory"
+          },
+          {
+            "slot": "SESSION V",
+            "subject": "None",
+            "type": "free"
+          },
+          {
+            "slot": "LUNCH",
+            "subject": "Online",
+            "type": "online"
+          },
+          {
+            "slot": "SESSION VII",
+            "subject": "AIML",
+            "code": "AIML-AS",
+            "type": "theory"
+          },
+          {
+            "slot": "SESSION VIII",
+            "subject": "Python Lab",
+            "code": "PY-AN",
+            "type": "lab",
+            "room": "POLY2"
+          }
+        ],
+        "Day 4": [
+          {
+            "slot": "SESSION I",
+            "subject": "IoT Lab",
+            "code": "IOT-LB",
+            "type": "lab",
+            "room": "708"
+          },
+          {
+            "slot": "SESSION II",
+            "subject": "Operating Systems Lab",
+            "code": "OS-AT",
+            "type": "lab",
+            "room": "708"
+          },
+          {
+            "slot": "SESSION III",
+            "subject": "AIML",
+            "code": "AIML-AS",
+            "type": "theory"
+          },
+          {
+            "slot": "BREAK",
+            "subject": "Break",
+            "type": "break"
+          },
+          {
+            "slot": "SESSION IV",
+            "subject": "Elective Theory",
+            "code": "SPM/MA/DVT",
+            "type": "theory"
+          },
+          {
+            "slot": "SESSION V",
+            "subject": "IoT",
+            "code": "IOT-LB",
+            "type": "theory"
+          },
+          {
+            "slot": "LUNCH",
+            "subject": "Online",
+            "type": "online"
+          },
+          {
+            "slot": "SESSION VII",
+            "subject": "Mathematics",
+            "type": "theory"
+          }
+        ],
+        "Day 5": [
+          {
+            "slot": "SESSION I",
+            "subject": "Mathematics",
+            "type": "theory"
+          },
+          {
+            "slot": "SESSION II",
+            "subject": "Elective Theory",
+            "code": "SPM/MA/DVT",
+            "type": "theory"
+          },
+          {
+            "slot": "SESSION III",
+            "subject": "Operating Systems Lab",
+            "code": "OS-AT",
+            "type": "lab",
+            "room": "708"
+          },
+          {
+            "slot": "BREAK",
+            "subject": "Break",
+            "type": "break"
+          },
+          {
+            "slot": "SESSION IV",
+            "subject": "CDC",
+            "type": "theory"
+          },
+          {
+            "slot": "SESSION V",
+            "subject": "IoT Lab",
+            "code": "IOT-LB",
+            "type": "lab",
+            "room": "708"
+          },
+          {
+            "slot": "LUNCH",
+            "subject": "IoT Lab (ONLINE)",
+            "code": "IOT-LB",
+            "type": "online"
+          },
+          {
+            "slot": "SESSION VII",
+            "subject": "None",
+            "type": "free"
+          }
+        ]
+      }
+    },
+    "I_MCA_F": {
+      "program": "MCA",
+      "class_name": "I MCA F",
+      "room": "806",
+      "timetable": {
+        "Day 1": [
+          {
+            "slot": "SESSION I",
+            "subject": "IoT Lab (ONLINE)",
+            "code": "IOT-AT",
+            "type": "online"
+          },
+          {
+            "slot": "SESSION II",
+            "subject": "Elective Lab",
+            "code": "SPM/MA/DVT",
+            "type": "lab",
+            "room": "POLY1/POLY2/POLY5/402/403/708/908"
+          },
+          {
+            "slot": "SESSION III",
+            "subject": "Elective Lab",
+            "code": "SPM/MA/DVT",
+            "type": "lab",
+            "room": "POLY1/POLY2/POLY5/402/403/708/908"
+          },
+          {
+            "slot": "BREAK",
+            "subject": "Break",
+            "type": "break"
+          },
+          {
+            "slot": "SESSION IV",
+            "subject": "IoT",
+            "code": "IOT-AT",
+            "type": "theory"
+          },
+          {
+            "slot": "SESSION V",
+            "subject": "None",
+            "type": "free"
+          },
+          {
+            "slot": "LUNCH",
+            "subject": "Mathematics",
+            "type": "theory"
+          },
+          {
+            "slot": "SESSION VII",
+            "subject": "IoT Lab",
+            "code": "IOT-AT",
+            "type": "lab",
+            "room": "403"
+          },
+          {
+            "slot": "SESSION VIII",
+            "subject": "IoT Lab",
+            "code": "IOT-AT",
+            "type": "lab",
+            "room": "403"
+          }
+        ],
+        "Day 2": [
+          {
+            "slot": "SESSION I",
+            "subject": "Operating Systems",
+            "code": "OS-AG",
+            "type": "theory"
+          },
+          {
+            "slot": "SESSION II",
+            "subject": "Mathematics",
+            "type": "theory"
+          },
+          {
+            "slot": "SESSION III",
+            "subject": "AIML Lab",
+            "code": "AIML-JB",
+            "type": "lab",
+            "room": "402"
+          },
+          {
+            "slot": "BREAK",
+            "subject": "Break",
+            "type": "break"
+          },
+          {
+            "slot": "SESSION IV",
+            "subject": "AIML Lab",
+            "code": "AIML-JB",
+            "type": "lab",
+            "room": "402"
+          },
+          {
+            "slot": "SESSION V",
+            "subject": "IoT",
+            "code": "IOT-AT",
+            "type": "theory"
+          },
+          {
+            "slot": "LUNCH",
+            "subject": "Online",
+            "type": "online"
+          },
+          {
+            "slot": "SESSION VII",
+            "subject": "Python",
+            "code": "PY-SAB",
+            "type": "theory"
+          }
+        ],
+        "Day 3": [
+          {
+            "slot": "SESSION I",
+            "subject": "Mathematics",
+            "type": "theory"
+          },
+          {
+            "slot": "SESSION II",
+            "subject": "Elective Theory",
+            "code": "SPM/MA/DVT",
+            "type": "theory"
+          },
+          {
+            "slot": "SESSION III",
+            "subject": "AIML",
+            "code": "AIML-JB",
+            "type": "theory"
+          },
+          {
+            "slot": "BREAK",
+            "subject": "Break",
+            "type": "break"
+          },
+          {
+            "slot": "SESSION IV",
+            "subject": "Python",
+            "code": "PY-SAB",
+            "type": "theory"
+          },
+          {
+            "slot": "SESSION V",
+            "subject": "Operating Systems",
+            "code": "OS-AG",
+            "type": "theory"
+          },
+          {
+            "slot": "LUNCH",
+            "subject": "Online",
+            "type": "online"
+          },
+          {
+            "slot": "SESSION VII",
+            "subject": "Operating Systems",
+            "code": "OS-AG",
+            "type": "theory"
+          }
+        ],
+        "Day 4": [
+          {
+            "slot": "SESSION I",
+            "subject": "Python Lab",
+            "code": "PY-SAB",
+            "type": "lab",
+            "room": "POLY2"
+          },
+          {
+            "slot": "SESSION II",
+            "subject": "Python",
+            "code": "PY-SAB",
+            "type": "theory"
+          },
+          {
+            "slot": "SESSION III",
+            "subject": "AIML",
+            "code": "AIML-JB",
+            "type": "theory"
+          },
+          {
+            "slot": "BREAK",
+            "subject": "Break",
+            "type": "break"
+          },
+          {
+            "slot": "SESSION IV",
+            "subject": "Elective Theory",
+            "code": "SPM/MA/DVT",
+            "type": "theory"
+          },
+          {
+            "slot": "SESSION V",
+            "subject": "Operating Systems Lab",
+            "code": "OS-AG",
+            "type": "lab",
+            "room": "708"
+          },
+          {
+            "slot": "LUNCH",
+            "subject": "Online",
+            "type": "online"
+          },
+          {
+            "slot": "SESSION VII",
+            "subject": "CDC",
+            "type": "theory"
+          }
+        ],
+        "Day 5": [
+          {
+            "slot": "SESSION I",
+            "subject": "Operating Systems Lab",
+            "code": "OS-AG",
+            "type": "lab",
+            "room": "708"
+          },
+          {
+            "slot": "SESSION II",
+            "subject": "Elective Theory",
+            "code": "SPM/MA/DVT",
+            "type": "theory"
+          },
+          {
+            "slot": "SESSION III",
+            "subject": "CDC",
+            "type": "theory"
+          },
+          {
+            "slot": "BREAK",
+            "subject": "Break",
+            "type": "break"
+          },
+          {
+            "slot": "SESSION IV",
+            "subject": "Mathematics",
+            "type": "theory"
+          },
+          {
+            "slot": "SESSION V",
+            "subject": "Python Lab",
+            "code": "PY-SAB",
+            "type": "lab",
+            "room": "POLY2"
+          },
+          {
+            "slot": "LUNCH",
+            "subject": "Online",
+            "type": "online"
+          },
+          {
+            "slot": "SESSION VII",
+            "subject": "AIML",
+            "code": "AIML-JB",
+            "type": "theory"
+          }
+        ]
+      }
+    },
+    "I_MCA_G": {
+      "program": "MCA",
+      "class_name": "I MCA G",
+      "room": "807",
+      "timetable": {
+        "Day 1": [
+          {
+            "slot": "SESSION I",
+            "subject": "Python",
+            "code": "PY-SH",
+            "type": "theory"
+          },
+          {
+            "slot": "SESSION II",
+            "subject": "Elective Lab",
+            "code": "SPM/MA/DVT",
+            "type": "lab",
+            "room": "POLY1/POLY2/POLY5/402/403/708/908"
+          },
+          {
+            "slot": "SESSION III",
+            "subject": "Elective Lab",
+            "code": "SPM/MA/DVT",
+            "type": "lab",
+            "room": "POLY1/POLY2/POLY5/402/403/708/908"
+          },
+          {
+            "slot": "BREAK",
+            "subject": "Break",
+            "type": "break"
+          },
+          {
+            "slot": "SESSION IV",
+            "subject": "Mathematics",
+            "type": "theory"
+          },
+          {
+            "slot": "SESSION V",
+            "subject": "IoT",
+            "code": "IOT-AG",
+            "type": "theory"
+          },
+          {
+            "slot": "LUNCH",
+            "subject": "CDC",
+            "type": "theory"
+          },
+          {
+            "slot": "SESSION VII",
+            "subject": "None",
+            "type": "free"
+          }
+        ],
+        "Day 2": [
+          {
+            "slot": "SESSION I",
+            "subject": "Operating Systems Lab",
+            "code": "OS-GE",
+            "type": "lab",
+            "room": "908"
+          },
+          {
+            "slot": "SESSION II",
+            "subject": "IoT",
+            "code": "IOT-AG",
+            "type": "theory"
+          },
+          {
+            "slot": "SESSION III",
+            "subject": "Mathematics",
+            "type": "theory"
+          },
+          {
+            "slot": "BREAK",
+            "subject": "Break",
+            "type": "break"
+          },
+          {
+            "slot": "SESSION IV",
+            "subject": "IoT Lab",
+            "code": "IOT-AG",
+            "type": "lab",
+            "room": "708"
+          },
+          {
+            "slot": "SESSION V",
+            "subject": "IoT Lab",
+            "code": "IOT-AG",
+            "type": "lab",
+            "room": "708"
+          },
+          {
+            "slot": "LUNCH",
+            "subject": "Online",
+            "type": "online"
+          },
+          {
+            "slot": "SESSION VII",
+            "subject": "Operating Systems",
+            "code": "OS-GE",
+            "type": "theory"
+          }
+        ],
+        "Day 3": [
+          {
+            "slot": "SESSION I",
+            "subject": "IoT Lab (ONLINE)",
+            "code": "IOT-AG",
+            "type": "online"
+          },
+          {
+            "slot": "SESSION II",
+            "subject": "Elective Theory",
+            "code": "SPM/MA/DVT",
+            "type": "theory"
+          },
+          {
+            "slot": "SESSION III",
+            "subject": "Operating Systems",
+            "code": "OS-GE",
+            "type": "theory"
+          },
+          {
+            "slot": "BREAK",
+            "subject": "Break",
+            "type": "break"
+          },
+          {
+            "slot": "SESSION IV",
+            "subject": "AIML",
+            "code": "AIML-SS",
+            "type": "theory"
+          },
+          {
+            "slot": "SESSION V",
+            "subject": "None",
+            "type": "free"
+          },
+          {
+            "slot": "LUNCH",
+            "subject": "Online",
+            "type": "online"
+          },
+          {
+            "slot": "SESSION VII",
+            "subject": "Mathematics",
+            "type": "theory"
+          },
+          {
+            "slot": "SESSION VIII",
+            "subject": "Python Lab",
+            "code": "PY-SH",
+            "type": "lab",
+            "room": "908"
+          }
+        ],
+        "Day 4": [
+          {
+            "slot": "SESSION I",
+            "subject": "CDC",
+            "type": "theory"
+          },
+          {
+            "slot": "SESSION II",
+            "subject": "Mathematics",
+            "type": "theory"
+          },
+          {
+            "slot": "SESSION III",
+            "subject": "Operating Systems",
+            "code": "OS-GE",
+            "type": "theory"
+          },
+          {
+            "slot": "BREAK",
+            "subject": "Break",
+            "type": "break"
+          },
+          {
+            "slot": "SESSION IV",
+            "subject": "AIML Lab",
+            "code": "AIML-SS",
+            "type": "lab",
+            "room": "908"
+          },
+          {
+            "slot": "SESSION V",
+            "subject": "AIML",
+            "code": "AIML-SS",
+            "type": "theory"
+          },
+          {
+            "slot": "LUNCH",
+            "subject": "Online",
+            "type": "online"
+          },
+          {
+            "slot": "SESSION VII",
+            "subject": "None",
+            "type": "free"
+          }
+        ],
+        "Day 5": [
+          {
+            "slot": "SESSION I",
+            "subject": "AIML",
+            "code": "AIML-SS",
+            "type": "theory"
+          },
+          {
+            "slot": "SESSION II",
+            "subject": "Elective Theory",
+            "code": "SPM/MA/DVT",
+            "type": "theory"
+          },
+          {
+            "slot": "SESSION III",
+            "subject": "Python",
+            "code": "PY-SH",
+            "type": "theory"
+          },
+          {
+            "slot": "BREAK",
+            "subject": "Break",
+            "type": "break"
+          },
+          {
+            "slot": "SESSION IV",
+            "subject": "Operating Systems Lab",
+            "code": "OS-GE",
+            "type": "lab",
+            "room": "908"
+          },
+          {
+            "slot": "SESSION V",
+            "subject": "AIML Lab",
+            "code": "AIML-SS",
+            "type": "lab",
+            "room": "908"
+          },
+          {
+            "slot": "LUNCH",
+            "subject": "Online",
+            "type": "online"
+          },
+          {
+            "slot": "SESSION VII",
+            "subject": "Python",
+            "code": "PY-SH",
+            "type": "theory"
+          }
+        ]
+      }
+    }
+  }
+}
