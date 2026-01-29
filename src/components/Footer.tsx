@@ -9,7 +9,7 @@ const Footer = () => {
           <Heart className="w-3.5 h-3.5 sm:w-4 sm:h-4 text-red-500 animate-pulse-soft" fill="currentColor" />
           <span>by</span>
           <a
-            href="https://techwithshivu.com"
+            href="https://techwithshivam.vercel.app/"
             target="_blank"
             rel="noopener noreferrer"
             className="text-primary font-semibold link-underline transition-colors hover:text-primary/80"
