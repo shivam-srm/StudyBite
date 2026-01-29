@@ -1,5 +1,5 @@
 import { Link, useLocation } from "react-router-dom";
-import { UtensilsCrossed, Calendar, Moon, Sun, Home } from "lucide-react";
+import { UtensilsCrossed, Calendar, Moon, Sun } from "lucide-react";
 import { useState, useEffect } from "react";
 
 const Navbar = () => {
@@ -15,7 +15,7 @@ const Navbar = () => {
   return (
     <header className="sticky top-0 z-50 backdrop-blur-lg bg-background/80 border-b border-border">
       <nav className="container mx-auto px-4 h-16 flex items-center justify-between">
-        <Link to="/" className="flex items-center gap-2">
+        <Link to="/mess" className="flex items-center gap-2">
           <div className="w-10 h-10 rounded-xl bg-primary flex items-center justify-center">
             <span className="text-primary-foreground font-bold text-lg">S</span>
           </div>
@@ -27,21 +27,9 @@ const Navbar = () => {
 
         <div className="flex items-center gap-1">
           <Link
-            to="/"
-            className={`flex items-center gap-2 px-4 py-2 rounded-full text-sm font-medium transition-all ${
-              isActive("/")
-                ? "bg-primary text-primary-foreground"
-                : "text-muted-foreground hover:text-foreground hover:bg-muted"
-            }`}
-          >
-            <Home className="w-4 h-4" />
-            <span className="hidden sm:inline">Home</span>
-          </Link>
-
-          <Link
             to="/mess"
             className={`flex items-center gap-2 px-4 py-2 rounded-full text-sm font-medium transition-all ${
-              isActive("/mess")
+              isActive("/mess") || isActive("/")
                 ? "bg-primary text-primary-foreground"
                 : "text-muted-foreground hover:text-foreground hover:bg-muted"
             }`}
