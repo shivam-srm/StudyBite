@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { weeklyMenu, days, mealTimes, MealType, getTodayName } from "@/data/messMenu";
+import { weeklyMenu, days, mealTimes, MealType, getTodayName, hostelName, menuNotes } from "@/data/messMenu";
 import { ChevronLeft, ChevronRight, Leaf, Drumstick, Sparkles } from "lucide-react";
 
 type FilterType = "all" | "veg" | "nonveg" | "special";
@@ -44,7 +44,7 @@ const MessPage = () => {
           <h1 className="text-3xl md:text-4xl font-bold text-foreground mb-2">
             Mess Menu
           </h1>
-          <p className="text-muted-foreground">Anand Hospitality Services</p>
+          <p className="text-muted-foreground">{hostelName}</p>
         </div>
 
         {/* Day Navigation */}
@@ -209,12 +209,18 @@ const MessPage = () => {
 
         {/* Notes */}
         <div className="mt-8 space-y-3">
-          <div className="p-4 bg-muted/50 rounded-xl text-sm text-muted-foreground">
-            <strong>Note:</strong> Menu subject to change based on availability.
-          </div>
-          <div className="p-4 bg-primary/10 rounded-xl text-sm text-foreground">
-            <strong>Special:</strong> Biryani served on 2nd & 4th Wednesday of every month.
-          </div>
+          {menuNotes.map((note, idx) => (
+            <div 
+              key={idx}
+              className={`p-4 rounded-xl text-sm ${
+                idx === 0 
+                  ? "bg-muted/50 text-muted-foreground font-medium" 
+                  : "bg-primary/10 text-foreground"
+              }`}
+            >
+              {note}
+            </div>
+          ))}
         </div>
       </div>
     </div>
