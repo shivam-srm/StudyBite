@@ -21,7 +21,7 @@ const App = () => (
           <Navbar />
           <main className="flex-1">
             <Routes>
-              <Route path="/" element={<Navigate to="/mess" replace />} />
+              <Route path="/" element={<Navigate to="/timetable" replace />} />
               <Route path="/mess" element={<MessPage />} />
               <Route path="/timetable" element={<TimetablePage />} />
               <Route path="*" element={<NotFound />} />
