@@ -14,7 +14,7 @@ const Footer = () => {
             rel="noopener noreferrer"
             className="text-primary font-semibold link-underline transition-colors hover:text-primary/80"
           >
-            Shivam
+            Shivam | TechwithShivu
           </a>
         </p>
       </div>
