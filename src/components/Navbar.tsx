@@ -27,18 +27,6 @@ const Navbar = () => {
 
         <div className="flex items-center gap-1">
           <Link
-            to="/mess"
-            className={`flex items-center gap-2 px-4 py-2 rounded-full text-sm font-medium transition-all ${
-              isActive("/mess") || isActive("/")
-                ? "bg-primary text-primary-foreground"
-                : "text-muted-foreground hover:text-foreground hover:bg-muted"
-            }`}
-          >
-            <UtensilsCrossed className="w-4 h-4" />
-            <span className="hidden sm:inline">Mess</span>
-          </Link>
-
-          <Link
             to="/timetable"
             className={`flex items-center gap-2 px-4 py-2 rounded-full text-sm font-medium transition-all ${
               isActive("/timetable")
@@ -48,6 +36,18 @@ const Navbar = () => {
           >
             <Calendar className="w-4 h-4" />
             <span className="hidden sm:inline">Classes</span>
+          </Link>
+
+          <Link
+            to="/mess"
+            className={`flex items-center gap-2 px-4 py-2 rounded-full text-sm font-medium transition-all ${
+              isActive("/mess") || isActive("/")
+                ? "bg-primary text-primary-foreground"
+                : "text-muted-foreground hover:text-foreground hover:bg-muted"
+            }`}
+          >
+            <UtensilsCrossed className="w-4 h-4" />
+            <span className="hidden sm:inline">Mess</span>
           </Link>
 
           <button
