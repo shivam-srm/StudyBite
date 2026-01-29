@@ -75,7 +75,7 @@ const TimetablePage = () => {
             </button>
 
             {isDropdownOpen && (
-              <div className="absolute z-20 w-full mt-2 bg-card border border-border rounded-xl shadow-xl max-h-64 overflow-y-auto animate-scale-in">
+              <div className="absolute z-50 w-full mt-2 bg-card border border-border rounded-xl shadow-2xl max-h-64 overflow-y-auto animate-scale-in">
                 {classes.map((option, idx) => (
                   <button
                     key={option}
@@ -86,7 +86,7 @@ const TimetablePage = () => {
                     className={`w-full px-3 sm:px-4 py-2.5 sm:py-3 text-left text-sm hover:bg-muted transition-all duration-200 first:rounded-t-xl last:rounded-b-xl ${
                       selectedClass === option
                         ? "bg-primary/10 text-primary font-medium border-l-2 border-l-primary"
-                        : "text-foreground"
+                        : "text-foreground bg-card"
                     }`}
                     style={{ animationDelay: `${idx * 30}ms` }}
                   >
