@@ -37,7 +37,7 @@ const Navbar = () => {
           </div>
           <div className="hidden sm:block">
             <h1 className="font-semibold text-foreground group-hover:text-primary transition-colors">
-              Mess & Timetable
+              Timetable & Mess
             </h1>
             <p className="text-xs text-muted-foreground">SRM University</p>
           </div>
