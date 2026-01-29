@@ -6,18 +6,26 @@ import logo from "@/assets/logo.png";
 const Navbar = () => {
   const location = useLocation();
   const [isDark, setIsDark] = useState(() => {
-    const saved = localStorage.getItem("theme");
-    if (saved) return saved === "dark";
-    return document.documentElement.classList.contains("dark") || true;
+    if (typeof window !== "undefined") {
+      const saved = localStorage.getItem("theme");
+      if (saved) return saved === "dark";
+      return true; // default to dark
+    }
+    return true;
   });
   const [scrolled, setScrolled] = useState(false);
 
+  const toggleTheme = () => {
+    setIsDark((prev) => !prev);
+  };
+
   useEffect(() => {
+    const root = document.documentElement;
     if (isDark) {
-      document.documentElement.classList.add("dark");
+      root.classList.add("dark");
       localStorage.setItem("theme", "dark");
     } else {
-      document.documentElement.classList.remove("dark");
+      root.classList.remove("dark");
       localStorage.setItem("theme", "light");
     }
   }, [isDark]);
@@ -79,11 +87,16 @@ const Navbar = () => {
           </Link>
 
           <button
-            onClick={() => setIsDark(!isDark)}
-            className="ml-1 p-2 rounded-full text-muted-foreground hover:text-foreground hover:bg-muted/80 transition-all duration-300 hover:rotate-180"
+            onClick={toggleTheme}
+            className="ml-1 p-2 rounded-full text-muted-foreground hover:text-foreground hover:bg-muted/80 transition-all duration-300 active:scale-95"
             aria-label="Toggle theme"
+            type="button"
           >
-            {isDark ? <Sun className="w-5 h-5" /> : <Moon className="w-5 h-5" />}
+            {isDark ? (
+              <Sun className="w-5 h-5 text-yellow-500" />
+            ) : (
+              <Moon className="w-5 h-5 text-blue-500" />
+            )}
           </button>
         </div>
       </nav>
