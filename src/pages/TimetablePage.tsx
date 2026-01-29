@@ -48,8 +48,10 @@ const TimetablePage = () => {
       <div className="container mx-auto px-3 sm:px-4 py-4 sm:py-8">
         {/* Header */}
         <div className="text-center mb-6 sm:mb-8 animate-fade-in-up">
-          <h1 className="text-2xl sm:text-3xl md:text-4xl font-bold text-foreground mb-1 sm:mb-2">
-            <span className="gradient-text">Class Timetable</span>
+          <h1 className="text-2xl sm:text-3xl md:text-4xl font-bold mb-1 sm:mb-2">
+            <span className="inline-block px-4 sm:px-6 py-2 bg-gradient-to-r from-primary/20 via-primary/10 to-primary/20 rounded-2xl border border-primary/30 shadow-lg shadow-primary/10 animate-glow">
+              <span className="gradient-text">Class Timetable</span>
+            </span>
           </h1>
           <p className="text-sm sm:text-base text-muted-foreground animate-fade-in" style={{ animationDelay: "100ms" }}>
             {metadata.semester} • {metadata.level}
