@@ -16,10 +16,10 @@ export interface DayMenu {
 }
 
 export const mealTimes: Record<MealType, { start: string; end: string; icon: string }> = {
-  breakfast: { start: "07:30", end: "09:00", icon: "🍳" },
-  lunch: { start: "12:00", end: "14:00", icon: "🍱" },
-  snacks: { start: "16:30", end: "17:30", icon: "🥨" },
-  dinner: { start: "19:30", end: "21:00", icon: "🍽️" },
+  breakfast: { start: "7:30 AM", end: "9:00 AM", icon: "🍳" },
+  lunch: { start: "12:00 PM", end: "2:00 PM", icon: "🍱" },
+  snacks: { start: "4:30 PM", end: "5:30 PM", icon: "🥨" },
+  dinner: { start: "7:30 PM", end: "9:00 PM", icon: "🍽️" },
 };
 
 // Non-veg items detection
