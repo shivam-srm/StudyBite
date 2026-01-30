@@ -37,8 +37,9 @@ const classOrder = (name: string): number => {
   if (name.includes("MCA") && name.includes("GENAI")) return 2; // MCA Gen-AI second
   if (name.includes("MCA")) return 1; // Regular MCA first
   if (name.includes("MSc") && name.includes("ADS")) return 3; // MSc ADS third
-  if (name.includes("MSc")) return 4; // Regular MSc last
-  return 5; // Any other classes at the end
+  if (name.includes("MSc") && name.includes("Bio")) return 4; // MSc Bio fourth
+  if (name.includes("MSc")) return 5; // Other MSc last
+  return 6; // Any other classes at the end
 };
 
 export const classes: string[] = Object.values(timetableData.classes)
