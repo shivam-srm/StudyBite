@@ -11,7 +11,7 @@ export interface PeriodData {
   slot: string;
   subject: string;
   code?: string;
-  type: string;
+  type?: string;
   room?: string;
 }
 
