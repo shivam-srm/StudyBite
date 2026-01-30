@@ -2095,7 +2095,7 @@
     },
     "I_MSC_A": {
       "program": "MSc",
-      "class_name": "I MSc A",
+      "class_name": "I MSc Bio A",
       "room": "404",
       "timetable": {
         "Day 1": [
@@ -2272,7 +2272,7 @@
     },
     "I_MSC_B": {
       "program": "MSc",
-      "class_name": "I MSc B",
+      "class_name": "I MSc Bio B",
       "room": "404",
       "timetable": {
         "Day 1": [
