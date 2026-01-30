@@ -2092,6 +2092,360 @@
           }
         ]
       }
+    },
+    "I_MSC_A": {
+      "program": "MSc",
+      "class_name": "I MSc A",
+      "room": "404",
+      "timetable": {
+        "Day 1": [
+          {
+            "slot": "SESSION I",
+            "subject": "BMT (Dr. NPB) / PHBT (Dr. PEB)"
+          },
+          {
+            "slot": "SESSION II",
+            "subject": "TB (Dr. TN) / EBT (Dr. PP)"
+          },
+          {
+            "slot": "SESSION III",
+            "subject": "MB (Dr. SG)"
+          },
+          {
+            "slot": "BREAK",
+            "subject": "Break",
+            "type": "break"
+          },
+          {
+            "slot": "SESSION IV",
+            "subject": "PBT (Dr. ISB)"
+          },
+          {
+            "slot": "SESSION V",
+            "subject": "LIBRARY",
+            "type": "library"
+          },
+          {
+            "slot": "LUNCH",
+            "subject": "CDC",
+            "type": "online"
+          }
+        ],
+        "Day 2": [
+          {
+            "slot": "SESSION I",
+            "subject": "LIBRARY",
+            "type": "library"
+          },
+          {
+            "slot": "SESSION II",
+            "subject": "TB (Dr. TN) / EBT (Dr. PP)"
+          },
+          {
+            "slot": "SESSION III",
+            "subject": "GP LAB ROOM 404",
+            "type": "lab"
+          },
+          {
+            "slot": "BREAK",
+            "subject": "Break",
+            "type": "break"
+          },
+          {
+            "slot": "SESSION IV",
+            "subject": "GP LAB ROOM 404",
+            "type": "lab"
+          },
+          {
+            "slot": "SESSION V",
+            "subject": "GP LAB ROOM 404",
+            "type": "lab"
+          },
+          {
+            "slot": "LUNCH",
+            "subject": "PBT (Dr. ISB)",
+            "type": "online"
+          }
+        ],
+        "Day 3": [
+          {
+            "slot": "SESSION I",
+            "subject": "GP (Dr. VVG)"
+          },
+          {
+            "slot": "SESSION II",
+            "subject": "MB (Dr. SG)"
+          },
+          {
+            "slot": "SESSION III",
+            "subject": "GP (Dr. VVG)"
+          },
+          {
+            "slot": "BREAK",
+            "subject": "Break",
+            "type": "break"
+          },
+          {
+            "slot": "SESSION IV",
+            "subject": "MB G2 LAB (Dr. SG) / PBT G1 LAB (Dr. ISB)",
+            "type": "lab"
+          },
+          {
+            "slot": "SESSION V",
+            "subject": "MB G2 LAB (Dr. SG) / PBT G1 LAB (Dr. ISB)",
+            "type": "lab"
+          },
+          {
+            "slot": "LUNCH",
+            "subject": "Free",
+            "type": "free"
+          }
+        ],
+        "Day 4": [
+          {
+            "slot": "SESSION I",
+            "subject": "GP (Dr. VVG)"
+          },
+          {
+            "slot": "SESSION II",
+            "subject": "TB (Dr. TN) / EBT (Dr. PP)"
+          },
+          {
+            "slot": "SESSION III",
+            "subject": "MB (Dr. SG)"
+          },
+          {
+            "slot": "BREAK",
+            "subject": "Break",
+            "type": "break"
+          },
+          {
+            "slot": "SESSION IV",
+            "subject": "BMT (Dr. NPB) / PHBT (Dr. PEB)"
+          },
+          {
+            "slot": "SESSION V",
+            "subject": "PBT (Dr. ISB)"
+          },
+          {
+            "slot": "LUNCH",
+            "subject": "BMT (Dr. NPB) / PHBT (Dr. PEB)",
+            "type": "online"
+          }
+        ],
+        "Day 5": [
+          {
+            "slot": "SESSION I",
+            "subject": "CDC",
+            "type": "online"
+          },
+          {
+            "slot": "SESSION II",
+            "subject": "TB (Dr. TN) / EBT (Dr. PP)"
+          },
+          {
+            "slot": "SESSION III",
+            "subject": "BMT (Dr. NPB) / PHBT (Dr. PEB)"
+          },
+          {
+            "slot": "BREAK",
+            "subject": "Break",
+            "type": "break"
+          },
+          {
+            "slot": "SESSION IV",
+            "subject": "MB G1 LAB (Dr. SG) / PBT G2 LAB (Dr. ISB)",
+            "type": "lab"
+          },
+          {
+            "slot": "SESSION V",
+            "subject": "MB G1 LAB (Dr. SG) / PBT G2 LAB (Dr. ISB)",
+            "type": "lab"
+          },
+          {
+            "slot": "LUNCH",
+            "subject": "Free",
+            "type": "free"
+          }
+        ]
+      }
+    },
+    "I_MSC_B": {
+      "program": "MSc",
+      "class_name": "I MSc B",
+      "room": "404",
+      "timetable": {
+        "Day 1": [
+          {
+            "slot": "SESSION I",
+            "subject": "BMT (Dr. NPB) / PHBT (Dr. PEB)"
+          },
+          {
+            "slot": "SESSION II",
+            "subject": "TB (Dr. TN) / EBT (Dr. PP)"
+          },
+          {
+            "slot": "SESSION III",
+            "subject": "GP LAB ROOM 404",
+            "type": "lab"
+          },
+          {
+            "slot": "BREAK",
+            "subject": "Break",
+            "type": "break"
+          },
+          {
+            "slot": "SESSION IV",
+            "subject": "GP LAB ROOM 404",
+            "type": "lab"
+          },
+          {
+            "slot": "SESSION V",
+            "subject": "GP LAB ROOM 404",
+            "type": "lab"
+          },
+          {
+            "slot": "LUNCH",
+            "subject": "PBT (Dr. ISB)",
+            "type": "online"
+          }
+        ],
+        "Day 2": [
+          {
+            "slot": "SESSION I",
+            "subject": "CDC",
+            "type": "online"
+          },
+          {
+            "slot": "SESSION II",
+            "subject": "TB (Dr. TN) / EBT (Dr. PP)"
+          },
+          {
+            "slot": "SESSION III",
+            "subject": "MB (Dr. SKD)"
+          },
+          {
+            "slot": "BREAK",
+            "subject": "Break",
+            "type": "break"
+          },
+          {
+            "slot": "SESSION IV",
+            "subject": "MB G4 LAB / PBT G3 LAB",
+            "type": "lab"
+          },
+          {
+            "slot": "SESSION V",
+            "subject": "MB G4 LAB / PBT G3 LAB",
+            "type": "lab"
+          },
+          {
+            "slot": "LUNCH",
+            "subject": "Free",
+            "type": "free"
+          }
+        ],
+        "Day 3": [
+          {
+            "slot": "SESSION I",
+            "subject": "MB G3 LAB (Dr. SKD) / PBT G4 LAB (Dr. RG)",
+            "type": "lab"
+          },
+          {
+            "slot": "SESSION II",
+            "subject": "MB G3 LAB (Dr. SKD) / PBT G4 LAB (Dr. RG)",
+            "type": "lab"
+          },
+          {
+            "slot": "SESSION III",
+            "subject": "Free",
+            "type": "free"
+          },
+          {
+            "slot": "BREAK",
+            "subject": "Break",
+            "type": "break"
+          },
+          {
+            "slot": "SESSION IV",
+            "subject": "LIBRARY",
+            "type": "library"
+          },
+          {
+            "slot": "SESSION V",
+            "subject": "GP (Dr. VVG)"
+          },
+          {
+            "slot": "LUNCH",
+            "subject": "LIBRARY",
+            "type": "library"
+          }
+        ],
+        "Day 4": [
+          {
+            "slot": "SESSION I",
+            "subject": "PBT (Dr. ISB)"
+          },
+          {
+            "slot": "SESSION II",
+            "subject": "TB (Dr. TN) / EBT (Dr. PP)"
+          },
+          {
+            "slot": "SESSION III",
+            "subject": "MB (Dr. SKD)"
+          },
+          {
+            "slot": "BREAK",
+            "subject": "Break",
+            "type": "break"
+          },
+          {
+            "slot": "SESSION IV",
+            "subject": "BMT (Dr. NPB) / PHBT (Dr. PEB)"
+          },
+          {
+            "slot": "SESSION V",
+            "subject": "GP (Dr. VVG)"
+          },
+          {
+            "slot": "LUNCH",
+            "subject": "BMT (Dr. NPB) / PHBT (Dr. PEB)",
+            "type": "online"
+          }
+        ],
+        "Day 5": [
+          {
+            "slot": "SESSION I",
+            "subject": "PBT (Dr. ISB)"
+          },
+          {
+            "slot": "SESSION II",
+            "subject": "TB (Dr. TN) / EBT (Dr. PP)"
+          },
+          {
+            "slot": "SESSION III",
+            "subject": "BMT (Dr. NPB) / PHBT (Dr. PEB)"
+          },
+          {
+            "slot": "BREAK",
+            "subject": "Break",
+            "type": "break"
+          },
+          {
+            "slot": "SESSION IV",
+            "subject": "MB (Dr. SKD)"
+          },
+          {
+            "slot": "SESSION V",
+            "subject": "GP (Dr. VVG)"
+          },
+          {
+            "slot": "LUNCH",
+            "subject": "CDC",
+            "type": "online"
+          }
+        ]
+      }
     }
   }
 }
