@@ -32,10 +32,23 @@ export const timeSlots: TimeSlot[] = timetableData.time_slots.map(slot => ({
 
 export const dayOrders = ["Day 1", "Day 2", "Day 3", "Day 4", "Day 5"];
 
-// Extract class names
-export const classes: string[] = Object.values(timetableData.classes).map(
-  (cls) => (cls as ClassInfo).class_name
-);
+// Extract class names with custom ordering
+const classOrder = (name: string): number => {
+  if (name.includes("MCA") && name.includes("GENAI")) return 2; // MCA Gen-AI second
+  if (name.includes("MCA")) return 1; // Regular MCA first
+  if (name.includes("MSc") && name.includes("ADS")) return 3; // MSc ADS third
+  if (name.includes("MSc")) return 4; // Regular MSc last
+  return 5; // Any other classes at the end
+};
+
+export const classes: string[] = Object.values(timetableData.classes)
+  .map((cls) => (cls as ClassInfo).class_name)
+  .sort((a, b) => {
+    const orderDiff = classOrder(a) - classOrder(b);
+    if (orderDiff !== 0) return orderDiff;
+    // Within the same category, sort alphabetically
+    return a.localeCompare(b);
+  });
 
 // Create a map for quick lookup
 const classDataMap: Record<string, ClassInfo> = {};
