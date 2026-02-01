@@ -5,7 +5,7 @@ const Footer = () => {
         <p className="text-xs sm:text-sm text-muted-foreground flex items-center justify-center gap-1.5 flex-wrap animate-fade-in">
           <span>Designed and Developed by</span>
           <a
-            href="https://techwithshivam.vercel.app/"
+            href="https://techwithshivam.in/"
             target="_blank"
             rel="noopener noreferrer"
             className="text-primary font-semibold link-underline transition-colors hover:text-primary/80"
