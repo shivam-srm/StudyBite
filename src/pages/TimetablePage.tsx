@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import {
   getClassTimetable,
   timeSlots,
@@ -10,10 +10,20 @@ import {
 } from "@/data/timetable";
 import { ChevronDown, Users, Clock, MapPin, ChevronLeft, ChevronRight, BookOpen, Laptop, Library, FlaskConical } from "lucide-react";
 
+const SELECTED_CLASS_KEY = "selectedClass";
+
 const TimetablePage = () => {
-  const [selectedClass, setSelectedClass] = useState(classes[0]);
+  const [selectedClass, setSelectedClass] = useState(() => {
+    const saved = localStorage.getItem(SELECTED_CLASS_KEY);
+    return saved && classes.includes(saved) ? saved : classes[0];
+  });
   const [isDropdownOpen, setIsDropdownOpen] = useState(false);
   const [selectedDay, setSelectedDay] = useState(0);
+
+  // Persist selected class to localStorage
+  useEffect(() => {
+    localStorage.setItem(SELECTED_CLASS_KEY, selectedClass);
+  }, [selectedClass]);
 
   const currentTimetable = getClassTimetable(selectedClass) || {};
 
