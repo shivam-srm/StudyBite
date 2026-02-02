@@ -54,6 +54,15 @@ const Navbar = () => {
           : "bg-background/50 backdrop-blur-sm"
       }`}
     >
+      {/* Announcement Banner */}
+      <div className="bg-gradient-to-r from-primary via-primary/90 to-primary overflow-hidden">
+        <div className="animate-marquee whitespace-nowrap py-1.5 text-xs sm:text-sm font-medium text-primary-foreground">
+          <span className="mx-4">🎓 New! Academic Calendar 2025-2026 is now available!</span>
+          <span className="mx-4">📅 Check important dates, holidays & semester schedules</span>
+          <span className="mx-4">🎓 New! Academic Calendar 2025-2026 is now available!</span>
+          <span className="mx-4">📅 Check important dates, holidays & semester schedules</span>
+        </div>
+      </div>
       <nav className="container mx-auto px-3 sm:px-4 h-14 sm:h-16 flex items-center justify-between">
         {/* Logo */}
         <Link to="/mess" className="flex items-center gap-2 group">
