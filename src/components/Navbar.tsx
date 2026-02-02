@@ -210,6 +210,15 @@ const Navbar = () => {
               <CalendarDays className="w-5 h-5" />
               <span>Academic Calendar</span>
             </Link>
+
+            <a
+              href="https://techwithshivam.in/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="flex items-center justify-center gap-2 px-4 py-3 rounded-xl text-sm font-medium bg-gradient-to-r from-primary/10 to-primary/5 border border-primary/20 text-primary hover:bg-primary/20 transition-all duration-300"
+            >
+              Built by <span className="font-semibold">Shivam</span> ✨
+            </a>
           </div>
         </div>
       )}
