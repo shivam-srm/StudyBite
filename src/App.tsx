@@ -7,6 +7,7 @@ import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 import MessPage from "@/pages/MessPage";
 import TimetablePage from "@/pages/TimetablePage";
+import AcademicCalendarPage from "@/pages/AcademicCalendarPage";
 import NotFound from "./pages/NotFound";
 
 const queryClient = new QueryClient();
@@ -24,6 +25,7 @@ const App = () => (
               <Route path="/" element={<Navigate to="/timetable" replace />} />
               <Route path="/mess" element={<MessPage />} />
               <Route path="/timetable" element={<TimetablePage />} />
+              <Route path="/calendar" element={<AcademicCalendarPage />} />
               <Route path="*" element={<NotFound />} />
             </Routes>
           </main>
