@@ -80,55 +80,65 @@ const Navbar = () => {
         </Link>
 
         {/* Desktop Navigation */}
-        <div className="hidden sm:flex items-center gap-1 bg-card/50 backdrop-blur-sm p-1 rounded-full border border-border/50">
-          <Link
-            to="/timetable"
-            className={`flex items-center gap-2 px-4 py-2 rounded-full text-sm font-medium transition-all duration-300 ${
-              isActive("/timetable")
-                ? "bg-primary text-primary-foreground shadow-lg shadow-primary/25"
-                : "text-muted-foreground hover:text-foreground hover:bg-muted/80"
-            }`}
+        <div className="hidden sm:flex items-center gap-2">
+          <a
+            href="https://techwithshivam.in/"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="px-3 py-1.5 text-xs font-medium bg-gradient-to-r from-primary/10 to-primary/5 border border-primary/20 rounded-full text-primary hover:bg-primary/20 transition-all duration-300 hover:scale-105"
           >
-            <Calendar className={`w-4 h-4 ${isActive("/timetable") ? "animate-bounce-soft" : ""}`} />
-            <span>Classes</span>
-          </Link>
+            Built by <span className="font-semibold">Shivam</span> ✨
+          </a>
+          <div className="flex items-center gap-1 bg-card/50 backdrop-blur-sm p-1 rounded-full border border-border/50">
+            <Link
+              to="/timetable"
+              className={`flex items-center gap-2 px-4 py-2 rounded-full text-sm font-medium transition-all duration-300 ${
+                isActive("/timetable")
+                  ? "bg-primary text-primary-foreground shadow-lg shadow-primary/25"
+                  : "text-muted-foreground hover:text-foreground hover:bg-muted/80"
+              }`}
+            >
+              <Calendar className={`w-4 h-4 ${isActive("/timetable") ? "animate-bounce-soft" : ""}`} />
+              <span>Classes</span>
+            </Link>
 
-          <Link
-            to="/mess"
-            className={`flex items-center gap-2 px-4 py-2 rounded-full text-sm font-medium transition-all duration-300 ${
-              isActive("/mess") || isActive("/")
-                ? "bg-primary text-primary-foreground shadow-lg shadow-primary/25"
-                : "text-muted-foreground hover:text-foreground hover:bg-muted/80"
-            }`}
-          >
-            <UtensilsCrossed className={`w-4 h-4 ${isActive("/mess") || isActive("/") ? "animate-bounce-soft" : ""}`} />
-            <span>Mess</span>
-          </Link>
+            <Link
+              to="/mess"
+              className={`flex items-center gap-2 px-4 py-2 rounded-full text-sm font-medium transition-all duration-300 ${
+                isActive("/mess") || isActive("/")
+                  ? "bg-primary text-primary-foreground shadow-lg shadow-primary/25"
+                  : "text-muted-foreground hover:text-foreground hover:bg-muted/80"
+              }`}
+            >
+              <UtensilsCrossed className={`w-4 h-4 ${isActive("/mess") || isActive("/") ? "animate-bounce-soft" : ""}`} />
+              <span>Mess</span>
+            </Link>
 
-          <Link
-            to="/calendar"
-            className={`flex items-center gap-2 px-4 py-2 rounded-full text-sm font-medium transition-all duration-300 ${
-              isActive("/calendar")
-                ? "bg-primary text-primary-foreground shadow-lg shadow-primary/25"
-                : "text-muted-foreground hover:text-foreground hover:bg-muted/80"
-            }`}
-          >
-            <CalendarDays className={`w-4 h-4 ${isActive("/calendar") ? "animate-bounce-soft" : ""}`} />
-            <span>Calendar</span>
-          </Link>
+            <Link
+              to="/calendar"
+              className={`flex items-center gap-2 px-4 py-2 rounded-full text-sm font-medium transition-all duration-300 ${
+                isActive("/calendar")
+                  ? "bg-primary text-primary-foreground shadow-lg shadow-primary/25"
+                  : "text-muted-foreground hover:text-foreground hover:bg-muted/80"
+              }`}
+            >
+              <CalendarDays className={`w-4 h-4 ${isActive("/calendar") ? "animate-bounce-soft" : ""}`} />
+              <span>Calendar</span>
+            </Link>
 
-          <button
-            onClick={toggleTheme}
-            className="ml-1 p-2 rounded-full text-muted-foreground hover:text-foreground hover:bg-muted/80 transition-all duration-300 active:scale-95"
-            aria-label="Toggle theme"
-            type="button"
-          >
-            {isDark ? (
-              <Sun className="w-5 h-5 text-yellow-500" />
-            ) : (
-              <Moon className="w-5 h-5 text-blue-500" />
-            )}
-          </button>
+            <button
+              onClick={toggleTheme}
+              className="ml-1 p-2 rounded-full text-muted-foreground hover:text-foreground hover:bg-muted/80 transition-all duration-300 active:scale-95"
+              aria-label="Toggle theme"
+              type="button"
+            >
+              {isDark ? (
+                <Sun className="w-5 h-5 text-yellow-500" />
+              ) : (
+                <Moon className="w-5 h-5 text-blue-500" />
+              )}
+            </button>
+          </div>
         </div>
 
         {/* Mobile Navigation */}
