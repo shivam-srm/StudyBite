@@ -11,25 +11,25 @@
     "Tuesday": {
       "breakfast": ["Veg Rava Kitchadi", "Vegetable Upma", "Sambar", "Chutney", "Poori", "Aloo Masala", "Bread", "Butter", "Jam", "Milk", "Coffee", "Tea", "Boiled Egg"],
       "lunch": ["Payasam", "Chappathi", "White Peas Curry", "Jeera Pulao", "Steamed Rice", "Karakuzhambu", "More Kuzhambu", "Beetroot Poriyal", "Rasam", "Buttermilk", "Frymes", "Pickle"],
-      "snacks": ["Panni Pori", "Pav Bhaji", "Coffee", "Tea", "Bread", "Butter", "Jam"],
-      "dinner": ["Kal Dosa", "Sambar", "Chutney", "Millet Chappathi", "Dal Panchavarathan", "Steamed Rice", "Rasam", "Idli Podi", "Oil", "Buttermilk", "Pickle", "Salad", "Milk", "Mutton Kuzhambu", "Flavored Gravy"]
+      "snacks": ["Panni Pori", "Pav Bhaji", "Coffee", "Tea", "Milk", "Bread", "Butter", "Jam"],
+      "dinner": ["Kal Dosa", "Sambar", "Chutney", "Millet Chappathi", "Dal Panchavarathan", "Steamed Rice", "Rasam", "Idli Podi", "Oil", "Buttermilk", "Pickle", "Salad", "Milk", "Mutton Kuzhambu", "Flavored Gravy", "Seasonal Fruits"]
     },
     "Wednesday": {
       "breakfast": ["Idiyappam", "Vada Curry", "Veg Stew", "Poha", "Mint Chutney", "Bread", "Butter", "Jam", "Milk", "Coffee", "Tea", "Boiled Egg"],
-      "lunch": ["Chappathi", "Rajma Masala", "Variety Rice", "Curd Rice", "Urulai Kara Curry", "Steamed Rice", "Rasam", "Buttermilk", "Appalam", "Pickle"],
+      "lunch": ["Chappathi", "Rajma Masala", "Variety Rice", "Curd Rice", "Chilli Paneer Curry", "Steamed Rice", "Rasam", "Buttermilk", "Appalam", "Pickle"],
       "snacks": ["Cream Bun", "Brownie", "Cookies", "Milk", "Coffee", "Tea", "Bread", "Butter", "Jam"],
-      "dinner": ["Chappathi", "Paneer Butter Masala", "Kadai Paneer", "Steamed Rice", "Sambar", "Rasam", "Buttermilk", "Pickle", "Milk", "Banana", "Chicken Gravy", "Chicken Biryani", "Mutton Kuzhambu", "Flavored Gravy"]
+      "dinner": ["Chappathi", "Paneer Butter Masala", "Kadai Paneer", "Steamed Rice", "Sambar", "Rasam", "Buttermilk", "Pickle", "Milk", "Banana", "Chicken Gravy", "Chicken Biryani"]
     },
     "Thursday": {
       "breakfast": ["Idli", "Sambar", "Groundnut Chutney", "Chappathi", "Dal Palak", "Idli Podi", "Oil", "Bread", "Butter", "Jam", "Milk", "Coffee", "Tea", "Boiled Egg"],
       "lunch": ["Kesari", "Bondhi", "Chappathi", "Vegetable Sabji", "Ghee Rice", "Steamed Rice", "Vathakuzhambu", "Vegetable Kootu", "Rasam", "Buttermilk", "Frymes", "Pickle"],
-      "snacks": ["Navadhanya Sundal", "Masala Sundal", "Milk", "Coffee", "Tea", "Bread", "Butter"],
-      "dinner": ["Dosa", "Sambar", "Chutney", "Chappathi", "Channa Masala", "Steamed Rice", "Rasam", "Buttermilk", "Pickle", "Salad", "Milk", "Banana", "Mutton Kuzhambu", "Chicken Gravy", "Flavored Gravy", "Cup Ice Cream"]
+      "snacks": ["Bondha Sundal", "Masala Sundal", "Milk", "Coffee", "Tea", "Bread", "Butter"],
+      "dinner": ["Dosa", "Sambar", "Chutney", "Chappathi", "Channa Masala", "Steamed Rice", "Rasam", "Buttermilk", "Pickle", "Salad", "Milk", "Banana", "Mutton Kuzhambu", "Flavored Gravy", "Chicken Gravy", "Ice Cream"]
     },
     "Friday": {
       "breakfast": ["Kal Dosa", "Sambar", "Onion Tomato Chutney", "Semiya Bath", "Idli Podi", "Oil", "Bread", "Butter", "Jam", "Milk", "Coffee", "Tea", "Omelette"],
-      "lunch": ["Chappathi", "Tindly Masala", "Peas Pulao", "Steamed Rice", "Sambar", "Poriyal", "Rasam", "Buttermilk", "Frymes", "Pickle"],
-      "snacks": ["Bajji", "Chutney", "Muruku", "Milk", "Rose Milk", "Badam Milk", "Tea", "Bread", "Butter", "Jam"],
+      "lunch": ["Chappathi", "Aloo Palak", "Peas Pulao", "Steamed Rice", "Sambar", "Poriyal", "Rasam", "Buttermilk", "Frymes", "Pickle"],
+      "snacks": ["Onion Pakoda", "Muruku", "Milk", "Rose Milk", "Badam Milk", "Tea", "Bread", "Butter", "Jam"],
       "dinner": ["Soup", "Chappathi", "Kadai Vegetables", "Pasta", "Veg Noodles", "Fried Rice", "Steamed Rice", "Sambar", "Rasam", "Buttermilk", "Pickle", "Salad", "Milk", "Banana", "Chicken Gravy", "Flavored Gravy"]
     },
     "Saturday": {
