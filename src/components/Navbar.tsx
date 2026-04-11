@@ -1,5 +1,5 @@
 import { Link, useLocation } from "react-router-dom";
-import { UtensilsCrossed, Calendar, Moon, Sun, Menu, X, CalendarDays } from "lucide-react";
+import { UtensilsCrossed, Calendar, Moon, Sun, Menu, X, CalendarDays, Calculator } from "lucide-react";
 import { useState, useEffect } from "react";
 import logo from "@/assets/logo.png";
 
@@ -126,6 +126,18 @@ const Navbar = () => {
               <span>Calendar</span>
             </Link>
 
+            <Link
+              to="/cgpa"
+              className={`flex items-center gap-2 px-4 py-2 rounded-full text-sm font-medium transition-all duration-300 ${
+                isActive("/cgpa")
+                  ? "bg-primary text-primary-foreground shadow-lg shadow-primary/25"
+                  : "text-muted-foreground hover:text-foreground hover:bg-muted/80"
+              }`}
+            >
+              <Calculator className={`w-4 h-4 ${isActive("/cgpa") ? "animate-bounce-soft" : ""}`} />
+              <span>CGPA</span>
+            </Link>
+
             <button
               onClick={toggleTheme}
               className="ml-1 p-2 rounded-full text-muted-foreground hover:text-foreground hover:bg-muted/80 transition-all duration-300 active:scale-95"
@@ -209,6 +221,18 @@ const Navbar = () => {
             >
               <CalendarDays className="w-5 h-5" />
               <span>Academic Calendar</span>
+            </Link>
+
+            <Link
+              to="/cgpa"
+              className={`flex items-center gap-3 px-4 py-3 rounded-xl text-sm font-medium transition-all duration-300 ${
+                isActive("/cgpa")
+                  ? "bg-primary text-primary-foreground shadow-lg shadow-primary/25"
+                  : "text-foreground hover:bg-muted border border-border"
+              }`}
+            >
+              <Calculator className="w-5 h-5" />
+              <span>CGPA Calculator</span>
             </Link>
 
             <a

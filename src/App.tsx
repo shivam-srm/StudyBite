@@ -8,6 +8,7 @@ import Footer from "@/components/Footer";
 import MessPage from "@/pages/MessPage";
 import TimetablePage from "@/pages/TimetablePage";
 import AcademicCalendarPage from "@/pages/AcademicCalendarPage";
+import CgpaCalculatorPage from "@/pages/CgpaCalculatorPage";
 import NotFound from "./pages/NotFound";
 import ExamPopup from "@/components/ExamPopup";
 
@@ -27,6 +28,7 @@ const App = () => (
               <Route path="/mess" element={<MessPage />} />
               <Route path="/timetable" element={<TimetablePage />} />
               <Route path="/calendar" element={<AcademicCalendarPage />} />
+              <Route path="/cgpa" element={<CgpaCalculatorPage />} />
               <Route path="*" element={<NotFound />} />
             </Routes>
           </main>
