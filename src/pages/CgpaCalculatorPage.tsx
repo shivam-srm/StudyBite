@@ -264,24 +264,31 @@ const CgpaCalculatorPage = () => {
     animate();
   }, []);
 
-  // Trigger celebration when GPA crosses threshold
+  // Trigger celebration when 6 subjects are filled
   useEffect(() => {
-    if (gpa >= 8.0 && validSubjects.length >= 6 && !hasCelebratedRef.current) {
+    if (validSubjects.length >= 6 && !hasCelebratedRef.current) {
       hasCelebratedRef.current = true;
-      const msg = MOTIVATIONAL_MESSAGES[Math.floor(Math.random() * MOTIVATIONAL_MESSAGES.length)];
+      const msg = gpa >= 8.0
+        ? MOTIVATIONAL_MESSAGES[Math.floor(Math.random() * MOTIVATIONAL_MESSAGES.length)]
+        : gpa >= 6.0
+        ? "Good effort! Keep pushing higher! \uD83D\uDCAA"
+        : "Every score is a step forward! \uD83D\uDCDA";
       setCelebrationMessage(msg);
       setShowCelebration(true);
       launchConfetti();
 
+      // Vibrate on mobile devices (short-pause-long-pause-short pattern)
+      if (navigator.vibrate) {
+        navigator.vibrate([200, 100, 300, 100, 200]);
+      }
+
       // Second burst after a short delay
       setTimeout(() => launchConfetti(), 800);
-
-      // Hide celebration banner after some time
-      setTimeout(() => setShowCelebration(false), 5000);
     }
-    // Reset celebration flag when GPA drops below threshold
-    if (gpa < 8.0) {
+    // Reset celebration flag when subjects drop below 6
+    if (validSubjects.length < 6) {
       hasCelebratedRef.current = false;
+      setShowCelebration(false);
     }
     prevGpaRef.current = gpa;
   }, [gpa, validSubjects.length, launchConfetti]);
@@ -312,16 +319,61 @@ const CgpaCalculatorPage = () => {
         style={{ width: "100vw", height: "100vh" }}
       />
 
-      {/* Celebration Banner */}
+      {/* CGPA Result Popup */}
       {showCelebration && (
-        <div className="fixed top-20 left-1/2 -translate-x-1/2 z-[101] animate-fade-in-up">
-          <div className="flex items-center gap-3 px-6 py-3 bg-gradient-to-r from-emerald-500 via-green-500 to-teal-500 text-white rounded-2xl shadow-2xl shadow-green-500/30 border border-white/20 backdrop-blur-sm">
-            <PartyPopper className="w-6 h-6 animate-bounce-soft" />
-            <div>
-              <div className="font-bold text-base">Congratulations! 🎉</div>
-              <div className="text-sm text-white/90">{celebrationMessage}</div>
+        <div className="fixed inset-0 z-[101] flex items-center justify-center p-4" onClick={() => setShowCelebration(false)}>
+          {/* Backdrop */}
+          <div className="absolute inset-0 bg-black/60 backdrop-blur-sm animate-fade-in" />
+          
+          {/* Popup Card */}
+          <div
+            className="relative w-full max-w-sm bg-card/95 backdrop-blur-xl rounded-3xl border border-border shadow-2xl animate-scale-in overflow-hidden"
+            onClick={(e) => e.stopPropagation()}
+          >
+            {/* Gradient Top Bar */}
+            <div className={`h-2 bg-gradient-to-r ${gpaBadge.color}`} />
+            
+            <div className="p-6 sm:p-8 text-center">
+              {/* Emoji burst */}
+              <div className="text-5xl mb-3 animate-bounce-soft">{gpaBadge.icon}</div>
+
+              {/* GPA Score */}
+              <div className="relative w-36 h-36 mx-auto mb-4">
+                <svg className="w-full h-full -rotate-90" viewBox="0 0 120 120">
+                  <circle cx="60" cy="60" r="52" fill="none" stroke="hsl(var(--border))" strokeWidth="8" />
+                  <circle
+                    cx="60" cy="60" r="52" fill="none"
+                    stroke="hsl(var(--primary))"
+                    strokeWidth="8" strokeLinecap="round"
+                    strokeDasharray={`${(gpa / 10) * 326.73} 326.73`}
+                    className="transition-all duration-1000 ease-out"
+                  />
+                </svg>
+                <div className="absolute inset-0 flex flex-col items-center justify-center">
+                  <span className="text-4xl font-bold text-foreground">{gpa.toFixed(2)}</span>
+                  <span className="text-xs text-muted-foreground">CGPA</span>
+                </div>
+              </div>
+
+              {/* Badge */}
+              <div className={`inline-flex items-center gap-2 px-4 py-2 rounded-full bg-gradient-to-r ${gpaBadge.color} text-white text-sm font-bold shadow-lg mb-3`}>
+                <PartyPopper className="w-4 h-4" />
+                {gpaBadge.label}
+                <Sparkles className="w-4 h-4" />
+              </div>
+
+              {/* Motivational Message */}
+              <p className="text-sm text-muted-foreground mb-1">{celebrationMessage}</p>
+              <p className="text-xs text-muted-foreground/70 mb-5">{totalCredits} credits across {validSubjects.length} subjects</p>
+
+              {/* Close Button */}
+              <button
+                onClick={() => setShowCelebration(false)}
+                className={`w-full py-3 rounded-xl font-semibold text-white bg-gradient-to-r ${gpaBadge.color} shadow-lg hover:opacity-90 transition-all active:scale-95`}
+              >
+                Awesome! 🚀
+              </button>
             </div>
-            <Sparkles className="w-6 h-6 animate-pulse" />
           </div>
         </div>
       )}
