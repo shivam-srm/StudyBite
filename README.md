@@ -1,73 +1,63 @@
-# Welcome to your Lovable project
+# StudyBite 🎓
 
-## Project info
+StudyBite is a highly responsive, modern student portal designed specifically for **SRM University** students. Built with a premium UI experience in mind, it provides quick and easy access to essential daily academic and hostel information.
 
-**URL**: https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID
+## 🚀 Features
 
-## How can I edit this code?
+* **📅 Class Timetable**: View your daily academic schedule with a clean, easy-to-read interface.
+* **🍛 Daily Mess Menu**: Plan your meals ahead by checking the hostel mess menu for breakfast, lunch, snacks, and dinner.
+* **📆 Academic Calendar**: Access the official university academic calendar to keep track of holidays, internal assessments, and important dates.
+* **📝 Exam Schedule Popup**: Never miss an important exam date. Features a modern glassmorphism popup with a direct "Save Copy" download button for your latest exam schedules.
+* **📱 Mobile-First Design**: Optimized for mobile devices, ensuring you have the information you need right in your pocket.
+* **⚡ Blazing Fast**: Built with React and Vite for incredibly fast load times and smooth transitions.
 
-There are several ways of editing your application.
+## 🛠️ Technology Stack
 
-**Use Lovable**
+This project is built using modern web development technologies to ensure performance, scalability, and a beautiful user interface:
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID) and start prompting.
+* **Frontend Framework**: React 18
+* **Build Tool**: Vite
+* **Language**: TypeScript
+* **Styling**: Tailwind CSS
+* **UI Components**: shadcn/ui & Radix Primitives
+* **Icons**: Lucide React
+* **Routing**: React Router DOM
 
-Changes made via Lovable will be committed automatically to this repo.
+## 💻 Local Development
 
-**Use your preferred IDE**
+To run this project locally on your machine, follow these steps:
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+### Prerequisites
+Make sure you have Node.js and npm (or Bun) installed on your system.
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+### Installation
 
-Follow these steps:
+1. Clone the repository:
+```bash
+git clone https://github.com/shivam-srm/StudyBite.git
+```
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+2. Navigate to the project directory:
+```bash
+cd StudyBite
+```
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+3. Install the required dependencies:
+```bash
+npm install
+```
 
-# Step 3: Install the necessary dependencies.
-npm i
-
-# Step 4: Start the development server with auto-reloading and an instant preview.
+4. Start the development server:
+```bash
 npm run dev
 ```
 
-**Edit a file directly in GitHub**
+5. Open your browser and navigate to `http://localhost:8080` (or the port specified in your terminal).
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+## 🌍 Deployment
 
-**Use GitHub Codespaces**
+StudyBite is completely integrated and ready to be deployed on modern platforms like **Vercel** or **Netlify**. Simply push your latest commits to GitHub and connect your repository to your preferred hosting provider.
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+---
 
-## What technologies are used for this project?
-
-This project is built with:
-
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
-
-## How can I deploy this project?
-
-Simply open [Lovable](https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID) and click on Share -> Publish.
-
-## Can I connect a custom domain to my Lovable project?
-
-Yes, you can!
-
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
-
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/features/custom-domain#custom-domain)
+*Designed and developed to make student life at SRM just a little bit easier.*
