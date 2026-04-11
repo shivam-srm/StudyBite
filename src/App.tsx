@@ -9,6 +9,7 @@ import MessPage from "@/pages/MessPage";
 import TimetablePage from "@/pages/TimetablePage";
 import AcademicCalendarPage from "@/pages/AcademicCalendarPage";
 import NotFound from "./pages/NotFound";
+import ExamPopup from "@/components/ExamPopup";
 
 const queryClient = new QueryClient();
 
@@ -32,6 +33,7 @@ const App = () => (
           <Footer />
         </div>
       </BrowserRouter>
+      <ExamPopup />
     </TooltipProvider>
   </QueryClientProvider>
 );
