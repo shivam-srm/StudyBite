@@ -277,6 +277,41 @@ const CgpaCalculatorPage = () => {
       setShowCelebration(true);
       launchConfetti();
 
+      // Play celebration sound using Web Audio API
+      try {
+        const audioCtx = new (window.AudioContext || (window as any).webkitAudioContext)();
+        const notes = [523.25, 659.25, 783.99, 1046.50]; // C5, E5, G5, C6 - ascending major chord
+        notes.forEach((freq, i) => {
+          const osc = audioCtx.createOscillator();
+          const gain = audioCtx.createGain();
+          osc.type = "sine";
+          osc.frequency.value = freq;
+          gain.gain.setValueAtTime(0.3, audioCtx.currentTime + i * 0.15);
+          gain.gain.exponentialRampToValueAtTime(0.01, audioCtx.currentTime + i * 0.15 + 0.4);
+          osc.connect(gain);
+          gain.connect(audioCtx.destination);
+          osc.start(audioCtx.currentTime + i * 0.15);
+          osc.stop(audioCtx.currentTime + i * 0.15 + 0.4);
+        });
+        // Final sparkle chord
+        setTimeout(() => {
+          [1046.50, 1318.51, 1567.98].forEach((freq) => {
+            const osc = audioCtx.createOscillator();
+            const gain = audioCtx.createGain();
+            osc.type = "triangle";
+            osc.frequency.value = freq;
+            gain.gain.setValueAtTime(0.2, audioCtx.currentTime);
+            gain.gain.exponentialRampToValueAtTime(0.01, audioCtx.currentTime + 0.6);
+            osc.connect(gain);
+            gain.connect(audioCtx.destination);
+            osc.start(audioCtx.currentTime);
+            osc.stop(audioCtx.currentTime + 0.6);
+          });
+        }, 600);
+      } catch (e) {
+        // Audio not supported, silently ignore
+      }
+
       // Vibrate on mobile devices (short-pause-long-pause-short pattern)
       if (navigator.vibrate) {
         navigator.vibrate([200, 100, 300, 100, 200]);
