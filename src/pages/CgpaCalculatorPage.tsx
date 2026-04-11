@@ -1,5 +1,5 @@
-import { useState, useCallback } from "react";
-import { Calculator, Plus, Trash2, RotateCcw, GraduationCap, BarChart3, BookOpen, Award } from "lucide-react";
+import { useState, useCallback, useRef, useEffect } from "react";
+import { Calculator, Plus, Trash2, RotateCcw, GraduationCap, BarChart3, BookOpen, Award, PartyPopper, Sparkles } from "lucide-react";
 
 interface Subject {
   id: number;
@@ -36,14 +36,59 @@ const getGradeColor = (grade: string) => {
 };
 
 const getGpaBadge = (gpa: number) => {
-  if (gpa >= 9.0) return { label: "Outstanding", color: "from-emerald-500 to-green-500", icon: "🏆" };
-  if (gpa >= 8.0) return { label: "Excellent", color: "from-green-500 to-teal-500", icon: "🌟" };
-  if (gpa >= 7.0) return { label: "Very Good", color: "from-teal-500 to-blue-500", icon: "✨" };
-  if (gpa >= 6.0) return { label: "Good", color: "from-blue-500 to-sky-500", icon: "👍" };
-  if (gpa >= 5.0) return { label: "Average", color: "from-amber-500 to-yellow-500", icon: "📖" };
-  if (gpa >= 4.0) return { label: "Below Average", color: "from-orange-500 to-red-400", icon: "⚠️" };
-  return { label: "Needs Improvement", color: "from-red-500 to-rose-600", icon: "📝" };
+  if (gpa >= 9.0) return { label: "Outstanding", color: "from-emerald-500 to-green-500", icon: "🏆", celebrate: true };
+  if (gpa >= 8.0) return { label: "Excellent", color: "from-green-500 to-teal-500", icon: "🌟", celebrate: true };
+  if (gpa >= 7.0) return { label: "Very Good", color: "from-teal-500 to-blue-500", icon: "✨", celebrate: false };
+  if (gpa >= 6.0) return { label: "Good", color: "from-blue-500 to-sky-500", icon: "👍", celebrate: false };
+  if (gpa >= 5.0) return { label: "Average", color: "from-amber-500 to-yellow-500", icon: "📖", celebrate: false };
+  if (gpa >= 4.0) return { label: "Below Average", color: "from-orange-500 to-red-400", icon: "⚠️", celebrate: false };
+  return { label: "Needs Improvement", color: "from-red-500 to-rose-600", icon: "📝", celebrate: false };
 };
+
+const CONFETTI_COLORS = [
+  "#10b981", "#34d399", "#6ee7b7", // greens
+  "#3b82f6", "#60a5fa",             // blues
+  "#f59e0b", "#fbbf24",             // yellows
+  "#ec4899", "#f472b6",             // pinks
+  "#8b5cf6", "#a78bfa",             // purples
+  "#ef4444", "#f87171",             // reds
+  "#ffffff",                         // white
+];
+
+const CELEBRATION_EMOJIS = ["🎉", "🎊", "🏆", "⭐", "💯", "🔥", "✨", "🥇", "🎓", "👏"];
+
+const MOTIVATIONAL_MESSAGES = [
+  "You're crushing it! 🔥",
+  "Academic excellence unlocked! 🏆",
+  "SRM ka topper! 🎓",
+  "Parents will be proud! 👨‍👩‍👧",
+  "Keep this energy going! ⚡",
+  "Scholarship material! 💎",
+];
+
+interface Particle {
+  x: number;
+  y: number;
+  vx: number;
+  vy: number;
+  color: string;
+  size: number;
+  rotation: number;
+  rotationSpeed: number;
+  opacity: number;
+  shape: "rect" | "circle" | "star";
+}
+
+interface EmojiParticle {
+  x: number;
+  y: number;
+  vy: number;
+  vx: number;
+  emoji: string;
+  size: number;
+  opacity: number;
+  rotation: number;
+}
 
 let nextId = 1;
 const createSubject = (): Subject => ({
@@ -56,6 +101,14 @@ const createSubject = (): Subject => ({
 const CgpaCalculatorPage = () => {
   const [subjects, setSubjects] = useState<Subject[]>(() => [createSubject(), createSubject(), createSubject(), createSubject(), createSubject()]);
   const [showGradeRef, setShowGradeRef] = useState(false);
+  const [showCelebration, setShowCelebration] = useState(false);
+  const [celebrationMessage, setCelebrationMessage] = useState("");
+  const canvasRef = useRef<HTMLCanvasElement>(null);
+  const animationRef = useRef<number>(0);
+  const particlesRef = useRef<Particle[]>([]);
+  const emojisRef = useRef<EmojiParticle[]>([]);
+  const prevGpaRef = useRef<number>(0);
+  const hasCelebratedRef = useRef<boolean>(false);
 
   const addSubject = useCallback(() => {
     setSubjects((prev) => [...prev, createSubject()]);
@@ -81,8 +134,197 @@ const CgpaCalculatorPage = () => {
   const gpa = totalCredits > 0 ? totalGradePoints / totalCredits : 0;
   const gpaBadge = getGpaBadge(gpa);
 
+  // Confetti launcher
+  const launchConfetti = useCallback(() => {
+    const canvas = canvasRef.current;
+    if (!canvas) return;
+    const ctx = canvas.getContext("2d");
+    if (!ctx) return;
+
+    canvas.width = window.innerWidth;
+    canvas.height = window.innerHeight;
+
+    // Generate particles from multiple burst points
+    const particles: Particle[] = [];
+    const emojis: EmojiParticle[] = [];
+    const burstPoints = [
+      { x: canvas.width * 0.2, y: canvas.height * 0.5 },
+      { x: canvas.width * 0.5, y: canvas.height * 0.3 },
+      { x: canvas.width * 0.8, y: canvas.height * 0.5 },
+    ];
+
+    burstPoints.forEach((origin) => {
+      for (let i = 0; i < 60; i++) {
+        const angle = (Math.random() * Math.PI * 2);
+        const speed = 3 + Math.random() * 8;
+        particles.push({
+          x: origin.x,
+          y: origin.y,
+          vx: Math.cos(angle) * speed,
+          vy: Math.sin(angle) * speed - 4,
+          color: CONFETTI_COLORS[Math.floor(Math.random() * CONFETTI_COLORS.length)],
+          size: 4 + Math.random() * 8,
+          rotation: Math.random() * 360,
+          rotationSpeed: (Math.random() - 0.5) * 10,
+          opacity: 1,
+          shape: (["rect", "circle", "star"] as const)[Math.floor(Math.random() * 3)],
+        });
+      }
+    });
+
+    // Emoji particles floating up
+    for (let i = 0; i < 15; i++) {
+      emojis.push({
+        x: Math.random() * canvas.width,
+        y: canvas.height + 50 + Math.random() * 200,
+        vy: -(2 + Math.random() * 3),
+        vx: (Math.random() - 0.5) * 2,
+        emoji: CELEBRATION_EMOJIS[Math.floor(Math.random() * CELEBRATION_EMOJIS.length)],
+        size: 24 + Math.random() * 20,
+        opacity: 1,
+        rotation: (Math.random() - 0.5) * 0.5,
+      });
+    }
+
+    particlesRef.current = particles;
+    emojisRef.current = emojis;
+
+    const drawStar = (cx: number, cy: number, size: number) => {
+      ctx.beginPath();
+      for (let i = 0; i < 5; i++) {
+        const angle = (i * 4 * Math.PI) / 5 - Math.PI / 2;
+        const method = i === 0 ? "moveTo" : "lineTo";
+        ctx[method](cx + Math.cos(angle) * size, cy + Math.sin(angle) * size);
+      }
+      ctx.closePath();
+      ctx.fill();
+    };
+
+    const animate = () => {
+      ctx.clearRect(0, 0, canvas.width, canvas.height);
+      let alive = false;
+
+      // Draw confetti particles
+      particlesRef.current.forEach((p) => {
+        p.x += p.vx;
+        p.y += p.vy;
+        p.vy += 0.15; // gravity
+        p.vx *= 0.99; // air resistance
+        p.rotation += p.rotationSpeed;
+        p.opacity -= 0.005;
+
+        if (p.opacity > 0) {
+          alive = true;
+          ctx.save();
+          ctx.globalAlpha = p.opacity;
+          ctx.translate(p.x, p.y);
+          ctx.rotate((p.rotation * Math.PI) / 180);
+          ctx.fillStyle = p.color;
+
+          if (p.shape === "rect") {
+            ctx.fillRect(-p.size / 2, -p.size / 4, p.size, p.size / 2);
+          } else if (p.shape === "circle") {
+            ctx.beginPath();
+            ctx.arc(0, 0, p.size / 2, 0, Math.PI * 2);
+            ctx.fill();
+          } else {
+            drawStar(0, 0, p.size / 2);
+          }
+          ctx.restore();
+        }
+      });
+
+      // Draw emoji particles
+      emojisRef.current.forEach((e) => {
+        e.y += e.vy;
+        e.x += e.vx;
+        e.opacity -= 0.004;
+
+        if (e.opacity > 0 && e.y > -50) {
+          alive = true;
+          ctx.save();
+          ctx.globalAlpha = Math.min(e.opacity, 1);
+          ctx.font = `${e.size}px serif`;
+          ctx.textAlign = "center";
+          ctx.translate(e.x, e.y);
+          ctx.rotate(e.rotation);
+          ctx.fillText(e.emoji, 0, 0);
+          ctx.restore();
+        }
+      });
+
+      if (alive) {
+        animationRef.current = requestAnimationFrame(animate);
+      } else {
+        ctx.clearRect(0, 0, canvas.width, canvas.height);
+      }
+    };
+
+    cancelAnimationFrame(animationRef.current);
+    animate();
+  }, []);
+
+  // Trigger celebration when GPA crosses threshold
+  useEffect(() => {
+    if (gpa >= 8.0 && validSubjects.length >= 2 && !hasCelebratedRef.current) {
+      hasCelebratedRef.current = true;
+      const msg = MOTIVATIONAL_MESSAGES[Math.floor(Math.random() * MOTIVATIONAL_MESSAGES.length)];
+      setCelebrationMessage(msg);
+      setShowCelebration(true);
+      launchConfetti();
+
+      // Second burst after a short delay
+      setTimeout(() => launchConfetti(), 800);
+
+      // Hide celebration banner after some time
+      setTimeout(() => setShowCelebration(false), 5000);
+    }
+    // Reset celebration flag when GPA drops below threshold
+    if (gpa < 8.0) {
+      hasCelebratedRef.current = false;
+    }
+    prevGpaRef.current = gpa;
+  }, [gpa, validSubjects.length, launchConfetti]);
+
+  // Cleanup animation on unmount
+  useEffect(() => {
+    return () => cancelAnimationFrame(animationRef.current);
+  }, []);
+
+  // Handle window resize for canvas
+  useEffect(() => {
+    const handleResize = () => {
+      if (canvasRef.current) {
+        canvasRef.current.width = window.innerWidth;
+        canvasRef.current.height = window.innerHeight;
+      }
+    };
+    window.addEventListener("resize", handleResize);
+    return () => window.removeEventListener("resize", handleResize);
+  }, []);
+
   return (
-    <div className="min-h-[calc(100vh-4rem)] bg-[var(--gradient-mesh)] bg-no-repeat">
+    <div className="min-h-[calc(100vh-4rem)] bg-[var(--gradient-mesh)] bg-no-repeat relative">
+      {/* Confetti Canvas */}
+      <canvas
+        ref={canvasRef}
+        className="fixed inset-0 pointer-events-none z-[100]"
+        style={{ width: "100vw", height: "100vh" }}
+      />
+
+      {/* Celebration Banner */}
+      {showCelebration && (
+        <div className="fixed top-20 left-1/2 -translate-x-1/2 z-[101] animate-fade-in-up">
+          <div className="flex items-center gap-3 px-6 py-3 bg-gradient-to-r from-emerald-500 via-green-500 to-teal-500 text-white rounded-2xl shadow-2xl shadow-green-500/30 border border-white/20 backdrop-blur-sm">
+            <PartyPopper className="w-6 h-6 animate-bounce-soft" />
+            <div>
+              <div className="font-bold text-base">Congratulations! 🎉</div>
+              <div className="text-sm text-white/90">{celebrationMessage}</div>
+            </div>
+            <Sparkles className="w-6 h-6 animate-pulse" />
+          </div>
+        </div>
+      )}
       <div className="container mx-auto px-3 sm:px-4 py-4 sm:py-8 max-w-4xl">
         {/* Header */}
         <div className="text-center mb-6 sm:mb-8 animate-fade-in-up">
