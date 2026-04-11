@@ -266,7 +266,7 @@ const CgpaCalculatorPage = () => {
 
   // Trigger celebration when GPA crosses threshold
   useEffect(() => {
-    if (gpa >= 8.0 && validSubjects.length >= 2 && !hasCelebratedRef.current) {
+    if (gpa >= 8.0 && validSubjects.length >= 6 && !hasCelebratedRef.current) {
       hasCelebratedRef.current = true;
       const msg = MOTIVATIONAL_MESSAGES[Math.floor(Math.random() * MOTIVATIONAL_MESSAGES.length)];
       setCelebrationMessage(msg);
