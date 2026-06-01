@@ -127,12 +127,34 @@ const CgpaCalculatorPage = () => {
     setSubjects([createSubject(), createSubject(), createSubject(), createSubject(), createSubject()]);
   }, []);
 
-  // Calculate GPA
-  const validSubjects = subjects.filter((s) => s.credits && s.grade && Number(s.credits) > 0);
-  const totalCredits = validSubjects.reduce((sum, s) => sum + Number(s.credits), 0);
-  const totalGradePoints = validSubjects.reduce((sum, s) => sum + Number(s.credits) * GRADE_POINTS[s.grade].points, 0);
-  const gpa = totalCredits > 0 ? totalGradePoints / totalCredits : 0;
-  const gpaBadge = getGpaBadge(gpa);
+  // GPA state — only calculated when user clicks the button
+  const [calculated, setCalculated] = useState(false);
+  const [gpa, setGpa] = useState(0);
+  const [totalCredits, setTotalCredits] = useState(0);
+  const [totalGradePoints, setTotalGradePoints] = useState(0);
+  const [calcValidCount, setCalcValidCount] = useState(0);
+
+  const displayGpa = calculated ? gpa : 0;
+  const gpaBadge = getGpaBadge(displayGpa);
+
+  // Reset calculated state when subjects change
+  const updateSubjectAndReset = useCallback((id: number, field: keyof Subject, value: string) => {
+    updateSubject(id, field, value);
+    setCalculated(false);
+  }, [updateSubject]);
+
+  const calculateGpa = useCallback(() => {
+    const valid = subjects.filter((s) => s.credits && s.grade && Number(s.credits) > 0);
+    const credits = valid.reduce((sum, s) => sum + Number(s.credits), 0);
+    const gradePoints = valid.reduce((sum, s) => sum + Number(s.credits) * GRADE_POINTS[s.grade].points, 0);
+    const computedGpa = credits > 0 ? gradePoints / credits : 0;
+
+    setCalcValidCount(valid.length);
+    setTotalCredits(credits);
+    setTotalGradePoints(gradePoints);
+    setGpa(computedGpa);
+    setCalculated(true);
+  }, [subjects]);
 
   // Confetti launcher
   const launchConfetti = useCallback(() => {
@@ -264,9 +286,9 @@ const CgpaCalculatorPage = () => {
     animate();
   }, []);
 
-  // Trigger celebration when 6 subjects are filled
+  // Trigger celebration only after manual calculation with enough subjects
   useEffect(() => {
-    if (validSubjects.length >= 6 && !hasCelebratedRef.current) {
+    if (calculated && calcValidCount >= 6 && !hasCelebratedRef.current) {
       hasCelebratedRef.current = true;
       const msg = gpa >= 8.0
         ? MOTIVATIONAL_MESSAGES[Math.floor(Math.random() * MOTIVATIONAL_MESSAGES.length)]
@@ -320,13 +342,13 @@ const CgpaCalculatorPage = () => {
       // Second burst after a short delay
       setTimeout(() => launchConfetti(), 800);
     }
-    // Reset celebration flag when subjects drop below 6
-    if (validSubjects.length < 6) {
+    // Reset celebration flag when calculation is cleared
+    if (!calculated) {
       hasCelebratedRef.current = false;
       setShowCelebration(false);
     }
     prevGpaRef.current = gpa;
-  }, [gpa, validSubjects.length, launchConfetti]);
+  }, [calculated, gpa, calcValidCount, launchConfetti]);
 
   // Cleanup animation on unmount
   useEffect(() => {
@@ -380,12 +402,12 @@ const CgpaCalculatorPage = () => {
                     cx="60" cy="60" r="52" fill="none"
                     stroke="hsl(var(--primary))"
                     strokeWidth="8" strokeLinecap="round"
-                    strokeDasharray={`${(gpa / 10) * 326.73} 326.73`}
+                    strokeDasharray={`${(displayGpa / 10) * 326.73} 326.73`}
                     className="transition-all duration-1000 ease-out"
                   />
                 </svg>
                 <div className="absolute inset-0 flex flex-col items-center justify-center">
-                  <span className="text-4xl font-bold text-foreground">{gpa.toFixed(2)}</span>
+                  <span className="text-4xl font-bold text-foreground">{displayGpa.toFixed(2)}</span>
                   <span className="text-xs text-muted-foreground">CGPA</span>
                 </div>
               </div>
@@ -399,7 +421,7 @@ const CgpaCalculatorPage = () => {
 
               {/* Motivational Message */}
               <p className="text-sm text-muted-foreground mb-1">{celebrationMessage}</p>
-              <p className="text-xs text-muted-foreground/70 mb-5">{totalCredits} credits across {validSubjects.length} subjects</p>
+              <p className="text-xs text-muted-foreground/70 mb-5">{totalCredits} credits across {calcValidCount} subjects</p>
 
               {/* Close Button */}
               <button
@@ -444,19 +466,19 @@ const CgpaCalculatorPage = () => {
                     stroke="hsl(var(--primary))"
                     strokeWidth="8"
                     strokeLinecap="round"
-                    strokeDasharray={`${(gpa / 10) * 326.73} 326.73`}
+                    strokeDasharray={`${(displayGpa / 10) * 326.73} 326.73`}
                     className="transition-all duration-700 ease-out"
                   />
                 </svg>
                 <div className="absolute inset-0 flex flex-col items-center justify-center">
-                  <span className="text-2xl sm:text-3xl font-bold text-foreground">{gpa.toFixed(2)}</span>
+                  <span className="text-2xl sm:text-3xl font-bold text-foreground">{displayGpa.toFixed(2)}</span>
                   <span className="text-[10px] sm:text-xs text-muted-foreground">out of 10</span>
                 </div>
               </div>
 
               {/* Stats */}
               <div className="flex-1 w-full">
-                {validSubjects.length > 0 ? (
+                {calculated && calcValidCount > 0 ? (
                   <div className="space-y-3">
                     <div className={`inline-flex items-center gap-2 px-3 py-1.5 rounded-full bg-gradient-to-r ${gpaBadge.color} text-white text-sm font-medium shadow-lg`}>
                       <span>{gpaBadge.icon}</span>
@@ -465,7 +487,7 @@ const CgpaCalculatorPage = () => {
                     <div className="grid grid-cols-3 gap-3">
                       <div className="p-3 bg-muted/50 rounded-xl text-center">
                         <BookOpen className="w-4 h-4 mx-auto mb-1 text-primary" />
-                        <div className="text-lg font-bold text-foreground">{validSubjects.length}</div>
+                        <div className="text-lg font-bold text-foreground">{calcValidCount}</div>
                         <div className="text-[10px] text-muted-foreground">Subjects</div>
                       </div>
                       <div className="p-3 bg-muted/50 rounded-xl text-center">
@@ -482,7 +504,7 @@ const CgpaCalculatorPage = () => {
                   </div>
                 ) : (
                   <div className="text-center sm:text-left">
-                    <p className="text-sm text-muted-foreground">Enter your subjects, credits, and grades below to calculate your CGPA.</p>
+                    <p className="text-sm text-muted-foreground">Enter your subjects, credits, and grades below and click <strong>Calculate CGPA</strong> to see your result.</p>
                   </div>
                 )}
               </div>
@@ -516,7 +538,7 @@ const CgpaCalculatorPage = () => {
                   <input
                     type="text"
                     value={subject.name}
-                    onChange={(e) => updateSubject(subject.id, "name", e.target.value)}
+                    onChange={(e) => updateSubjectAndReset(subject.id, "name", e.target.value)}
                     placeholder={`Subject ${idx + 1}`}
                     className="w-full px-3 py-2 text-sm bg-background border border-border rounded-lg focus:outline-none focus:ring-2 focus:ring-primary/50 focus:border-primary transition-all placeholder:text-muted-foreground/50"
                   />
@@ -531,7 +553,7 @@ const CgpaCalculatorPage = () => {
                       min="1"
                       max="10"
                       value={subject.credits}
-                      onChange={(e) => updateSubject(subject.id, "credits", e.target.value)}
+                      onChange={(e) => updateSubjectAndReset(subject.id, "credits", e.target.value)}
                       placeholder="0"
                       className="w-full px-3 py-2 text-sm text-center bg-background border border-border rounded-lg focus:outline-none focus:ring-2 focus:ring-primary/50 focus:border-primary transition-all placeholder:text-muted-foreground/50"
                     />
@@ -542,7 +564,7 @@ const CgpaCalculatorPage = () => {
                     <label className="sm:hidden text-xs text-muted-foreground mb-1 block">Grade</label>
                     <select
                       value={subject.grade}
-                      onChange={(e) => updateSubject(subject.id, "grade", e.target.value)}
+                      onChange={(e) => updateSubjectAndReset(subject.id, "grade", e.target.value)}
                       className={`w-full px-3 py-2 text-sm text-center bg-background border border-border rounded-lg focus:outline-none focus:ring-2 focus:ring-primary/50 focus:border-primary transition-all appearance-none cursor-pointer font-semibold ${subject.grade ? getGradeColor(subject.grade) : "text-muted-foreground/50"}`}
                     >
                       <option value="">--</option>
@@ -588,13 +610,22 @@ const CgpaCalculatorPage = () => {
                 Reset
               </button>
             </div>
-            <button
-              onClick={() => setShowGradeRef(!showGradeRef)}
-              className="flex items-center gap-2 px-4 py-2 text-sm font-medium text-primary bg-primary/10 rounded-full hover:bg-primary/20 border border-primary/20 transition-all duration-300 active:scale-95"
-            >
-              <GraduationCap className="w-4 h-4" />
-              {showGradeRef ? "Hide" : "View"} Grade Scale
-            </button>
+            <div className="flex gap-2">
+              <button
+                onClick={calculateGpa}
+                className="flex items-center gap-2 px-5 py-2.5 text-sm font-semibold bg-gradient-to-r from-emerald-500 to-teal-500 text-white rounded-full hover:from-emerald-600 hover:to-teal-600 transition-all duration-300 shadow-lg shadow-emerald-500/25 active:scale-95"
+              >
+                <Calculator className="w-4 h-4" />
+                Calculate CGPA
+              </button>
+              <button
+                onClick={() => setShowGradeRef(!showGradeRef)}
+                className="flex items-center gap-2 px-4 py-2 text-sm font-medium text-primary bg-primary/10 rounded-full hover:bg-primary/20 border border-primary/20 transition-all duration-300 active:scale-95"
+              >
+                <GraduationCap className="w-4 h-4" />
+                {showGradeRef ? "Hide" : "View"} Grade Scale
+              </button>
+            </div>
           </div>
         </div>
 
