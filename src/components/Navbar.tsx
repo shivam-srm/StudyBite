@@ -1,5 +1,5 @@
 import { Link, useLocation } from "react-router-dom";
-import { UtensilsCrossed, Calendar, Moon, Sun, Menu, X, CalendarDays, Calculator } from "lucide-react";
+import { Calendar, Moon, Sun, Menu, X, CalendarDays, Calculator } from "lucide-react";
 import { useState, useEffect } from "react";
 import logo from "@/assets/logo.png";
 
@@ -54,26 +54,23 @@ const Navbar = () => {
           : "bg-background/50 backdrop-blur-sm"
       }`}
     >
-      {/* Announcement Banner */}
       <div className="bg-gradient-to-r from-primary via-primary/90 to-primary overflow-hidden">
         <div className="animate-marquee whitespace-nowrap py-1.5 text-xs sm:text-sm font-medium text-primary-foreground">
           <span className="mx-4">📚 View your Class Timetable & never miss a lecture!</span>
-          <span className="mx-4">🎓 Academic Calendar 2025-2026 now available!</span>
-          <span className="mx-4">🍽️ Check today's Hostel Mess Menu</span>
+          <span className="mx-4">🎓 Academic Calendar 2026-2027 now available!</span>
           <span className="mx-4">📚 View your Class Timetable & never miss a lecture!</span>
-          <span className="mx-4">🎓 Academic Calendar 2025-2026 now available!</span>
-          <span className="mx-4">🍽️ Check today's Hostel Mess Menu</span>
+          <span className="mx-4">🎓 Academic Calendar 2026-2027 now available!</span>
         </div>
       </div>
       <nav className="container mx-auto px-3 sm:px-4 h-14 sm:h-16 flex items-center justify-between">
         {/* Logo */}
-        <Link to="/mess" className="flex items-center gap-2 group">
+        <Link to="/timetable" className="flex items-center gap-2 group">
           <div className="w-9 h-9 sm:w-10 sm:h-10 rounded-xl bg-gradient-to-br from-primary/20 to-primary/10 flex items-center justify-center shadow-lg group-hover:shadow-primary/25 transition-all duration-300 group-hover:scale-105 overflow-hidden">
             <img src={logo} alt="Logo" className="w-9 h-9 sm:w-10 sm:h-10 object-cover" />
           </div>
           <div className="hidden xs:block">
             <h1 className="font-semibold text-sm sm:text-base text-foreground group-hover:text-primary transition-colors">
-              Timetable & Mess
+              StudyBite Timetable
             </h1>
             <p className="text-[10px] sm:text-xs text-muted-foreground">SRM University</p>
           </div>
@@ -93,25 +90,13 @@ const Navbar = () => {
             <Link
               to="/timetable"
               className={`flex items-center gap-2 px-4 py-2 rounded-full text-sm font-medium transition-all duration-300 ${
-                isActive("/timetable")
+                isActive("/timetable") || isActive("/")
                   ? "bg-primary text-primary-foreground shadow-lg shadow-primary/25"
                   : "text-muted-foreground hover:text-foreground hover:bg-muted/80"
               }`}
             >
-              <Calendar className={`w-4 h-4 ${isActive("/timetable") ? "animate-bounce-soft" : ""}`} />
+              <Calendar className={`w-4 h-4 ${isActive("/timetable") || isActive("/") ? "animate-bounce-soft" : ""}`} />
               <span>Classes</span>
-            </Link>
-
-            <Link
-              to="/mess"
-              className={`flex items-center gap-2 px-4 py-2 rounded-full text-sm font-medium transition-all duration-300 ${
-                isActive("/mess") || isActive("/")
-                  ? "bg-primary text-primary-foreground shadow-lg shadow-primary/25"
-                  : "text-muted-foreground hover:text-foreground hover:bg-muted/80"
-              }`}
-            >
-              <UtensilsCrossed className={`w-4 h-4 ${isActive("/mess") || isActive("/") ? "animate-bounce-soft" : ""}`} />
-              <span>Mess</span>
             </Link>
 
             <Link
@@ -190,25 +175,13 @@ const Navbar = () => {
             <Link
               to="/timetable"
               className={`flex items-center gap-3 px-4 py-3 rounded-xl text-sm font-medium transition-all duration-300 ${
-                isActive("/timetable")
+                isActive("/timetable") || isActive("/")
                   ? "bg-primary text-primary-foreground shadow-lg shadow-primary/25"
                   : "text-foreground hover:bg-muted border border-border"
               }`}
             >
               <Calendar className="w-5 h-5" />
               <span>Classes</span>
-            </Link>
-
-            <Link
-              to="/mess"
-              className={`flex items-center gap-3 px-4 py-3 rounded-xl text-sm font-medium transition-all duration-300 ${
-                isActive("/mess") || isActive("/")
-                  ? "bg-primary text-primary-foreground shadow-lg shadow-primary/25"
-                  : "text-foreground hover:bg-muted border border-border"
-              }`}
-            >
-              <UtensilsCrossed className="w-5 h-5" />
-              <span>Mess Menu</span>
             </Link>
 
             <Link

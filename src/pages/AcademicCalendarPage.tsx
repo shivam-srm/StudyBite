@@ -76,8 +76,8 @@ const AcademicCalendarPage = () => {
 
         {/* Content */}
         <div className="animate-fade-in-up" style={{ animationDelay: "250ms" }}>
-          {activeTab === "odd" && <SemesterTable data={oddSemesterDates} title="Odd Semester 2025-2026" />}
-          {activeTab === "even" && <SemesterTable data={evenSemesterDates} title="Even Semester 2025-2026" isSingleDate />}
+          {activeTab === "odd" && <SemesterTable data={oddSemesterDates} title={`Odd Semester ${metadata.academicYear}`} />}
+          {activeTab === "even" && <SemesterTable data={evenSemesterDates} title={`Even Semester ${metadata.academicYear}`} isSingleDate />}
           {activeTab === "holidays" && <HolidaysSection />}
         </div>
 
@@ -182,12 +182,12 @@ const SemesterTable = ({ data, title, isSingleDate }: SemesterTableProps) => {
 const HolidaysSection = () => {
   return (
     <div className="space-y-6">
-      {/* 2025 Holidays */}
+      {/* 2026 Holidays */}
       <div className="bg-card rounded-2xl border border-border overflow-hidden shadow-xl">
         <div className="p-4 border-b border-border bg-gradient-to-r from-muted/80 to-muted/50">
           <h2 className="text-lg font-semibold flex items-center gap-2">
             <PartyPopper className="w-5 h-5 text-primary" />
-            Holidays 2025
+            Holidays 2026
           </h2>
         </div>
         <div className="p-4 grid gap-3 sm:grid-cols-2 lg:grid-cols-3">
@@ -210,12 +210,12 @@ const HolidaysSection = () => {
         </div>
       </div>
 
-      {/* 2026 Holidays */}
+      {/* 2027 Holidays */}
       <div className="bg-card rounded-2xl border border-border overflow-hidden shadow-xl">
         <div className="p-4 border-b border-border bg-gradient-to-r from-muted/80 to-muted/50">
           <h2 className="text-lg font-semibold flex items-center gap-2">
             <PartyPopper className="w-5 h-5 text-primary" />
-            Holidays 2026
+            Holidays 2027
           </h2>
         </div>
         <div className="p-4 grid gap-3 sm:grid-cols-2 lg:grid-cols-3">

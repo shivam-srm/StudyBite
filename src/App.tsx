@@ -5,7 +5,6 @@ import { QueryClient, QueryClientProvider } from "@tanstack/react-query";
 import { BrowserRouter, Routes, Route, Navigate } from "react-router-dom";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
-import MessPage from "@/pages/MessPage";
 import TimetablePage from "@/pages/TimetablePage";
 import AcademicCalendarPage from "@/pages/AcademicCalendarPage";
 import CgpaCalculatorPage from "@/pages/CgpaCalculatorPage";
@@ -24,7 +23,6 @@ const App = () => (
           <main className="flex-1">
             <Routes>
               <Route path="/" element={<Navigate to="/timetable" replace />} />
-              <Route path="/mess" element={<MessPage />} />
               <Route path="/timetable" element={<TimetablePage />} />
               <Route path="/calendar" element={<AcademicCalendarPage />} />
               <Route path="/cgpa" element={<CgpaCalculatorPage />} />
