@@ -1062,20 +1062,20 @@
     "I_MSC_ADS_A": {
       "program": "MSC Applied Data Science",
       "class_name": "II MSC ADS A",
-      "room": "FSH1 305",
+      "room": "FSH1 301",
       "timetable": {
         "Day 1": [
           {
             "slot": "SESSION I",
-            "subject": "SQL LAB -ONLINE-GE"
+            "subject": "II MSC ELECTIVE1 THEORY(LLM1-DH - 301 ,LLM2-SL - 306 ,EDA-RK- 607)"
           },
           {
             "slot": "SESSION II",
-            "subject": "ELECTIVE (TS-BLOCK2-17 - VENMANI, MDS-BLOCK2-26 - SARAVANAN ,RL-BLOCK1-305-SL)"
+            "subject": "CC THEORY-PC"
           },
           {
             "slot": "SESSION III",
-            "subject": "CV-RK"
+            "subject": "DL LAB - 402 - VN"
           },
           {
             "slot": "BREAK",
@@ -1084,123 +1084,139 @@
           },
           {
             "slot": "SESSION IV",
-            "subject": "SQL-GE"
+            "subject": "DL LAB - 402 - VN"
+          },
+          {
+            "slot": "SESSION V",
+            "subject": ""
           },
           {
             "slot": "LUNCH",
-            "subject": "CV-RK"
-          },
-          {
-            "slot": "SESSION VII",
-            "subject": "NLP LAB - 908 (NA)"
-          },
-          {
-            "slot": "SESSION VIII",
-            "subject": "NLP LAB - 908 (NA)"
+            "subject": "Online Hour of 60 Minutes"
           }
         ],
         "Day 2": [
           {
             "slot": "SESSION I",
-            "subject": "ML-PC"
+            "subject": "DL THEORY - VN"
           },
           {
             "slot": "SESSION II",
-            "subject": "NLP-NA"
+            "subject": "CC THEORY-PC"
           },
           {
             "slot": "SESSION III",
-            "subject": "CV LAB -403 (RK)"
+            "subject": "II MSC ELECTIVE1 THEORY(LLM1-D H - 601 ,LLM2-SL - 301 ,EDA-RK- 306)"
+          },
+          {
+            "slot": "BREAK",
+            "subject": "Break",
+            "type": "break"
           },
           {
             "slot": "SESSION IV",
-            "subject": "CV-RK"
+            "subject": ""
           },
           {
             "slot": "SESSION V",
-            "subject": "ELECTIVE (TS-BLOCK2-17 - VENMANI, MDS-BLOCK2-26 - SARAVANAN ,RL-BLOCK1-305-SL)"
+            "subject": ""
           },
           {
             "slot": "LUNCH",
-            "subject": "CDC"
+            "subject": "Online Hour of 60 Minutes"
           }
         ],
         "Day 3": [
           {
             "slot": "SESSION I",
-            "subject": "CDC"
+            "subject": "II MSC ELECTIVE1 THEORY(LLM1-DH - 601 ,LLM2-SL - 301 ,EDA-RK- 306)"
           },
           {
             "slot": "SESSION II",
-            "subject": "ML-PC"
+            "subject": "ELECTIVE II THEORY - DMA-MRS - 301"
           },
           {
             "slot": "SESSION III",
-            "subject": "SMTA-NI"
+            "subject": "DL THEORY - VN"
+          },
+          {
+            "slot": "BREAK",
+            "subject": "Break",
+            "type": "break"
           },
           {
             "slot": "SESSION IV",
-            "subject": "SQL LAB - 708 (GE)"
+            "subject": ""
           },
           {
             "slot": "SESSION V",
-            "subject": "SQL LAB - 708 (GE)"
+            "subject": ""
           },
           {
             "slot": "LUNCH",
-            "subject": "SMTA-NI"
+            "subject": "Online Hour of 60 Minutes"
           }
         ],
         "Day 4": [
           {
             "slot": "SESSION I",
-            "subject": "SMTA LAB - 402 (NI)"
+            "subject": "ELECTIVE II THEORY - DMA-MRS - 301"
           },
           {
             "slot": "SESSION II",
-            "subject": "SMTA LAB - 402 (NI)"
+            "subject": "DL THEORY - VN"
           },
           {
             "slot": "SESSION III",
-            "subject": "CV LAB -403 (RK)"
+            "subject": "PROJECT - 402 LAB - SV"
+          },
+          {
+            "slot": "BREAK",
+            "subject": "Break",
+            "type": "break"
           },
           {
             "slot": "SESSION IV",
-            "subject": "ELECTIVE (TS-BLOCK2-17 - VENMANI, MDS-BLOCK2-26 - SARAVANAN ,RL-BLOCK1-305-SL)"
+            "subject": "CC THEORY-PC"
           },
           {
             "slot": "SESSION V",
-            "subject": "NLP-NA"
+            "subject": ""
           },
           {
             "slot": "LUNCH",
-            "subject": "NLP-NA"
+            "subject": "Online Hour of 60 Minutes"
           }
         ],
         "Day 5": [
           {
             "slot": "SESSION I",
-            "subject": "ML LAB - POLY1(PC)"
+            "subject": "CC THEORY-PC"
           },
           {
             "slot": "SESSION II",
-            "subject": "ML LAB - POLY1(PC)"
+            "subject": "II MSC ELECTIVE1 LAB - LLM1-402-DH, 403-LLM2-SL, 708-EDA-RK"
           },
           {
             "slot": "SESSION III",
-            "subject": "ELECTIVE (TS-BLOCK2-17 - VENMANI, MDS-BLOCK2-26 - SARAVANAN ,RL-BLOCK1-305-SL)"
+            "subject": "II MSC ELECTIVE1 LAB - LLM1-402-DH, 403-LLM2-SL, 708-EDA-RK"
+          },
+          {
+            "slot": "BREAK",
+            "subject": "Break",
+            "type": "break"
           },
           {
             "slot": "SESSION IV",
-            "subject": "SMTA-NI"
+            "subject": "PROJECT - SV"
           },
           {
             "slot": "SESSION V",
-            "subject": "SQL-GE"
+            "subject": ""
           },
           {
             "slot": "LUNCH",
-            "subject": "ML-PC"
+            "subject": "Online Hour of 60 Minutes"
           }
         ]
       }
