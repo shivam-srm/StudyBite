@@ -9,14 +9,14 @@ interface Subject {
 }
 
 const GRADE_POINTS: Record<string, { points: number; range: string; description: string; status: "pass" | "fail" }> = {
-  O:  { points: 10.0, range: "91-100", description: "Outstanding", status: "pass" },
+  O: { points: 10.0, range: "91-100", description: "Outstanding", status: "pass" },
   "A+": { points: 9.0, range: "81-90", description: "Excellent", status: "pass" },
-  A:  { points: 8.0, range: "71-80", description: "Very Good", status: "pass" },
+  A: { points: 8.0, range: "71-80", description: "Very Good", status: "pass" },
   "B+": { points: 7.0, range: "61-70", description: "Good", status: "pass" },
-  B:  { points: 6.0, range: "51-60", description: "Average", status: "pass" },
-  C:  { points: 5.0, range: "45-50", description: "Below Average", status: "pass" },
-  D:  { points: 4.0, range: "40-44", description: "Poor", status: "pass" },
-  F:  { points: 0.0, range: "0-39", description: "Fail", status: "fail" },
+  B: { points: 6.0, range: "51-60", description: "Average", status: "pass" },
+  C: { points: 5.0, range: "45-50", description: "Below Average", status: "pass" },
+  D: { points: 4.0, range: "40-44", description: "Poor", status: "pass" },
+  F: { points: 0.0, range: "0-39", description: "Fail", status: "fail" },
 };
 
 const GRADE_OPTIONS = Object.keys(GRADE_POINTS);
@@ -293,8 +293,8 @@ const CgpaCalculatorPage = () => {
       const msg = gpa >= 8.0
         ? MOTIVATIONAL_MESSAGES[Math.floor(Math.random() * MOTIVATIONAL_MESSAGES.length)]
         : gpa >= 6.0
-        ? "Good effort! Keep pushing higher! \uD83D\uDCAA"
-        : "Every score is a step forward! \uD83D\uDCDA";
+          ? "Good effort! Keep pushing higher! \uD83D\uDCAA"
+          : "Every score is a step forward! \uD83D\uDCDA";
       setCelebrationMessage(msg);
       setShowCelebration(true);
       launchConfetti();
@@ -381,7 +381,7 @@ const CgpaCalculatorPage = () => {
         <div className="fixed inset-0 z-[101] flex items-center justify-center p-4" onClick={() => setShowCelebration(false)}>
           {/* Backdrop */}
           <div className="absolute inset-0 bg-black/60 backdrop-blur-sm animate-fade-in" />
-          
+
           {/* Popup Card */}
           <div
             className="relative w-full max-w-sm bg-card/95 backdrop-blur-xl rounded-3xl border border-border shadow-2xl animate-scale-in overflow-hidden"
@@ -389,7 +389,7 @@ const CgpaCalculatorPage = () => {
           >
             {/* Gradient Top Bar */}
             <div className={`h-2 bg-gradient-to-r ${gpaBadge.color}`} />
-            
+
             <div className="p-6 sm:p-8 text-center">
               {/* Emoji burst */}
               <div className="text-5xl mb-3 animate-bounce-soft">{gpaBadge.icon}</div>
@@ -660,11 +660,10 @@ const CgpaCalculatorPage = () => {
                         <td className="p-3 text-muted-foreground">{info.description}</td>
                         <td className="p-3 text-center">
                           <span
-                            className={`inline-block px-3 py-1 rounded-full text-xs font-bold ${
-                              info.status === "pass"
+                            className={`inline-block px-3 py-1 rounded-full text-xs font-bold ${info.status === "pass"
                                 ? "bg-green-500/15 text-green-600 dark:text-green-400 border border-green-500/20"
                                 : "bg-red-500/15 text-red-600 dark:text-red-400 border border-red-500/20"
-                            }`}
+                              }`}
                           >
                             {info.status.toUpperCase()}
                           </span>

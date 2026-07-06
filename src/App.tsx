@@ -10,7 +10,6 @@ import TimetablePage from "@/pages/TimetablePage";
 import AcademicCalendarPage from "@/pages/AcademicCalendarPage";
 import CgpaCalculatorPage from "@/pages/CgpaCalculatorPage";
 import NotFound from "./pages/NotFound";
-import ExamPopup from "@/components/ExamPopup";
 
 const queryClient = new QueryClient();
 
@@ -35,7 +34,6 @@ const App = () => (
           <Footer />
         </div>
       </BrowserRouter>
-      <ExamPopup />
     </TooltipProvider>
   </QueryClientProvider>
 );

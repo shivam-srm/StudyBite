@@ -47,7 +47,7 @@
   "classes": {
     "I_MCA_A": {
       "program": "MCA",
-      "class_name": "I MCA A",
+      "class_name": "II MCA A",
       "room": "901",
       "timetable": {
         "Day 1": [
@@ -197,7 +197,7 @@
     },
     "I_MCA_B": {
       "program": "MCA",
-      "class_name": "I MCA B",
+      "class_name": "II MCA B",
       "room": "902",
       "timetable": {
         "Day 1": [
@@ -343,7 +343,7 @@
     },
     "I_MCA_C": {
       "program": "MCA",
-      "class_name": "I MCA C",
+      "class_name": "II MCA C",
       "room": "903",
       "timetable": {
         "Day 1": [
@@ -489,7 +489,7 @@
     },
     "I_MCA_D": {
       "program": "MCA",
-      "class_name": "I MCA D",
+      "class_name": "II MCA D",
       "room": "906",
       "timetable": {
         "Day 1": [
@@ -635,21 +635,44 @@
     },
     "I_MCA_E": {
       "program": "MCA",
-      "class_name": "I MCA E",
+      "class_name": "II MCA E",
       "room": "907",
       "timetable": {
         "Day 1": [
           {
             "slot": "SESSION I",
-            "subject": "AIML LAB - 908 (AS)"
+            "subject": "II MCA ELECTIVE1 LAB - SQA1(POLY1) - MRS / SQA2(POLY2) - BN / SQA3(908) - NI / SQA4(POLY5) - VA / ARVR(402) - FG / CV1(403) - LN / CV2(708) - RR"
           },
           {
             "slot": "SESSION II",
-            "subject": "I MCA ELECTIVE (SPM1-BN(POLY1), SPM2-MRS(POLY2),SPM3-JB (POLY5), MA1-GM(402),  DVT1-DG(403), DVT2-SJ(708)) -LAB, DVT3 - TS(908)"
+            "subject": "II MCA ELECTIVE1 LAB - SQA1(POLY1) - MRS / SQA2(POLY2) - BN / SQA3(908) - NI / SQA4(POLY5) - VA / ARVR(402) - FG / CV1(403) - LN / CV2(708) - RR"
           },
           {
             "slot": "SESSION III",
-            "subject": "I MCA ELECTIVE (SPM1-BN(POLY1), SPM2-MRS(POLY2),SPM3-JB (POLY5), MA1-GM(402),  DVT1-DG(403), DVT2-SJ(708)) -LAB, DVT3 - TS(908)"
+            "subject": "DCN THEORY - MP"
+          },
+          {
+            "slot": "BREAK",
+            "subject": "Break",
+            "type": "break"
+          },
+          {
+            "slot": "LUNCH",
+            "subject": "Online Hour of 60 Minutes"
+          }
+        ],
+        "Day 2": [
+          {
+            "slot": "SESSION I",
+            "subject": "ELECTIVE II THEORY - BT1(GY) - 901 / CF1(SAR) - 902 / CF2(RT) - 903 / CF3(LB) - 906 / BDA1(SG) - 907 / BDA2(TMS) - 807 / BDA3(VA) - 607"
+          },
+          {
+            "slot": "SESSION II",
+            "subject": "PROJECT - 708 LAB - DH"
+          },
+          {
+            "slot": "SESSION III",
+            "subject": "CQC THEORY - AN"
           },
           {
             "slot": "BREAK",
@@ -658,130 +681,95 @@
           },
           {
             "slot": "SESSION IV",
-            "subject": "MATHS"
-          },
-          {
-            "slot": "SESSION V",
-            "subject": "AIML LAB - 708 (AS)"
+            "subject": "DCN LAB - 708-MP"
           },
           {
             "slot": "LUNCH",
-            "subject": "PY-AN-ONLINE"
-          }
-        ],
-        "Day 2": [
-          {
-            "slot": "SESSION I",
-            "subject": "PY-AN"
-          },
-          {
-            "slot": "SESSION II",
-            "subject": "AIML-AS"
-          },
-          {
-            "slot": "SESSION III",
-            "subject": "MATHS"
-          },
-          {
-            "slot": "SESSION IV",
-            "subject": "OS-AT"
-          },
-          {
-            "slot": "SESSION V",
-            "subject": "IOT-LB"
-          },
-          {
-            "slot": "LUNCH",
-            "subject": "CDC"
+            "subject": "Online Hour of 60 Minutes"
           }
         ],
         "Day 3": [
           {
             "slot": "SESSION I",
-            "subject": "OS-AT (ONLINE)"
+            "subject": "CQC THEORY - AN"
           },
           {
             "slot": "SESSION II",
-            "subject": "I MCA ELECTIVE (SPM1-BN(901), SPM2-MRS(902),SPM3-JB(903), MA1-GM(906), DVT 1-DG(907), DVT2-SJ(806), DVT3 - TS(807))"
+            "subject": "DCN THEORY-MP"
           },
           {
             "slot": "SESSION III",
-            "subject": "OS-AT"
+            "subject": "II MCA ELECTIVE1 THEORY - SQA1(MRS) - 901 / SQA2(BN) - 902 / SQA3(NI) - 903 / SQA4(A5) - 906 / ARVR(FG) - 907 / CV1(LN) - 807 / CV2(RR) - 607"
+          },
+          {
+            "slot": "BREAK",
+            "subject": "Break",
+            "type": "break"
           },
           {
             "slot": "SESSION IV",
-            "subject": "PY-AN"
+            "subject": "PROJECT - DH"
           },
           {
             "slot": "LUNCH",
-            "subject": "AIML-AS"
-          },
-          {
-            "slot": "SESSION VII",
-            "subject": "PYTHON LAB - POLY2 (AN)"
-          },
-          {
-            "slot": "SESSION VIII",
-            "subject": "PYTHON LAB - POLY2 (AN)"
+            "subject": "Online Hour of 60 Minutes"
           }
         ],
         "Day 4": [
           {
             "slot": "SESSION I",
-            "subject": "IOT LAB - 708 (LB)"
+            "subject": "ELECTIVE II THEORY - BT1(GY) - 901 / CF1(SAR) - 902 / CF2(RT) - 903 / CF3(LB) - 906 / BDA1(SG) - 907 / BDA2(TMS) - 807 / BDA3(VA) - 607"
           },
           {
             "slot": "SESSION II",
-            "subject": "OS LAB - 708 (AT)"
+            "subject": "II MCA ELECTIVE1 THEORY - SQA1(MRS) - 901 / SQA2(BN) - 902 / SQA3(NI) - 903 / SQA4(A5) - 906 / ARVR(FG) - 907 / CV1(LN) - 807 / CV2(RR) - 607"
           },
           {
             "slot": "SESSION III",
-            "subject": "AIML-AS"
+            "subject": "DCN LAB -708-MP"
+          },
+          {
+            "slot": "BREAK",
+            "subject": "Break",
+            "type": "break"
           },
           {
             "slot": "SESSION IV",
-            "subject": "I MCA ELECTIVE (SPM1-BN(901), SPM2-MRS(902),SPM3-JB(903), MA1-GM(906), DVT 1-DG(907), DVT2-SJ(806), DVT3 - TS(807))"
-          },
-          {
-            "slot": "SESSION V",
-            "subject": "IOT-LB"
+            "subject": "CQC THEORY - AN"
           },
           {
             "slot": "LUNCH",
-            "subject": "MATHS"
+            "subject": "Online Hour of 60 Minutes"
           }
         ],
         "Day 5": [
           {
             "slot": "SESSION I",
-            "subject": "MATHS"
+            "subject": "II MCA ELECTIVE1 THEORY - SQA1(MRS) - 901 / SQA2(BN) - 902 / SQA3(NI) - 903 / SQA4(A5) - 906 / ARVR(FG) - 907 / CV1(LN) - 807 / CV2(RR) - 607"
           },
           {
             "slot": "SESSION II",
-            "subject": "I MCA ELECTIVE (SPM1-BN(901), SPM2-MRS(902),SPM3-JB(903), MA1-GM(906), DVT 1-DG(907), DVT2-SJ(806), DVT3 - TS(807))"
+            "subject": "DCN THEORY-MP"
           },
           {
             "slot": "SESSION III",
-            "subject": "OS LAB - 708 (AT)"
+            "subject": "CQC THEORY-AN"
           },
           {
-            "slot": "SESSION IV",
-            "subject": "CDC"
-          },
-          {
-            "slot": "SESSION V",
-            "subject": "IOT LAB - 708 (LB)"
+            "slot": "BREAK",
+            "subject": "Break",
+            "type": "break"
           },
           {
             "slot": "LUNCH",
-            "subject": "IOT LAB (ONLINE) -LB"
+            "subject": "Online Hour of 60 Minutes"
           }
         ]
       }
     },
     "I_MCA_F": {
       "program": "MCA",
-      "class_name": "I MCA F",
+      "class_name": "II MCA F",
       "room": "806",
       "timetable": {
         "Day 1": [
@@ -927,7 +915,7 @@
     },
     "I_MCA_G": {
       "program": "MCA",
-      "class_name": "I MCA G",
+      "class_name": "II MCA G",
       "room": "807",
       "timetable": {
         "Day 1": [
@@ -1073,7 +1061,7 @@
     },
     "I_MSC_ADS_A": {
       "program": "MSC Applied Data Science",
-      "class_name": "I MSC ADS A",
+      "class_name": "II MSC ADS A",
       "room": "FSH1 305",
       "timetable": {
         "Day 1": [
@@ -1219,7 +1207,7 @@
     },
     "I_MSC_ADS_B": {
       "program": "MSC Applied Data Science",
-      "class_name": "I MSC ADS B",
+      "class_name": "II MSC ADS B",
       "room": "FSH2 16",
       "timetable": {
         "Day 1": [
@@ -1365,7 +1353,7 @@
     },
     "I_MSC_ADS_C": {
       "program": "MSC Applied Data Science",
-      "class_name": "I MSC ADS C",
+      "class_name": "II MSC ADS C",
       "room": "FSH2 25",
       "timetable": {
         "Day 1": [
@@ -1511,7 +1499,7 @@
     },
     "I_MCA_GEN_AI_A": {
       "program": "MCA - Generative AI",
-      "class_name": "I MCA GEN AI-A",
+      "class_name": "II MCA GEN AI-A",
       "room": "601",
       "timetable": {
         "Day 1": [
@@ -1657,7 +1645,7 @@
     },
     "I_MCA_GEN_AI_B": {
       "program": "MCA - Generative AI",
-      "class_name": "I MCA GEN AI-B",
+      "class_name": "II MCA GEN AI-B",
       "room": "602",
       "timetable": {
         "Day 1": [
@@ -1803,7 +1791,7 @@
     },
     "I_MCA_GEN_AI_C": {
       "program": "MCA - Generative AI",
-      "class_name": "I MCA GEN AI-C",
+      "class_name": "II MCA GEN AI-C",
       "room": "606",
       "timetable": {
         "Day 1": [
@@ -1949,7 +1937,7 @@
     },
     "I_MCA_GEN_AI_D": {
       "program": "MCA - Generative AI",
-      "class_name": "I MCA GEN AI-D",
+      "class_name": "II MCA GEN AI-D",
       "room": "607",
       "timetable": {
         "Day 1": [
@@ -2095,7 +2083,7 @@
     },
     "I_MSC_A": {
       "program": "MSc",
-      "class_name": "I MSc Bio A",
+      "class_name": "II MSc Bio A",
       "room": "404",
       "timetable": {
         "Day 1": [
@@ -2272,7 +2260,7 @@
     },
     "I_MSC_B": {
       "program": "MSc",
-      "class_name": "I MSc Bio B",
+      "class_name": "II MSc Bio B",
       "room": "404",
       "timetable": {
         "Day 1": [

@@ -158,7 +158,7 @@ const TimetablePage = () => {
                         {getTypeIcon(period.type)}
                       </div>
                       <div className="flex-1 min-w-0">
-                        <h3 className="font-semibold text-sm sm:text-base line-clamp-2 mb-2">
+                        <h3 className="font-semibold text-sm sm:text-base mb-2">
                           {period.subject}
                         </h3>
                         <div className="flex flex-wrap items-center gap-x-4 gap-y-1 text-xs opacity-80">
@@ -252,7 +252,7 @@ const TimetablePage = () => {
                             className={`p-2 text-center border-l border-border transition-all duration-200 hover:scale-[1.02] ${getPeriodTypeStyle(period.type)}`}
                           >
                             <div className="text-xs">
-                              <div className="font-medium line-clamp-2">{period.subject}</div>
+                              <div className="font-medium">{period.subject}</div>
                               {period.room && (
                                 <div className="text-[10px] opacity-70 mt-0.5 flex items-center justify-center gap-1">
                                   <MapPin className="w-2.5 h-2.5" />
