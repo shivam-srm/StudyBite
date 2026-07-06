@@ -1505,15 +1505,15 @@
         "Day 1": [
           {
             "slot": "SESSION I",
-            "subject": "PROMPT LAB - 402(SAB)"
+            "subject": "DCN THEORY - RS"
           },
           {
             "slot": "SESSION II",
-            "subject": "MATHS"
+            "subject": "CQC THEORY-PP"
           },
           {
             "slot": "SESSION III",
-            "subject": "ELECTIVE THEORY ( ARVR- 601 -FG/LLM(BATCH1) - 602-GY/ IOTC-  606-AR/LLM (BATCH2 - 607- SS)"
+            "subject": "PROJECT - MN"
           },
           {
             "slot": "BREAK",
@@ -1522,123 +1522,91 @@
           },
           {
             "slot": "SESSION IV",
-            "subject": "PYTHON LAB - 402(PP)"
-          },
-          {
-            "slot": "SESSION V",
-            "subject": "PYTHON LAB - 402 (PP)"
-          },
-          {
-            "slot": "LUNCH",
-            "subject": "PY-PP"
+            "subject": "II MCA GEN AI ELECTIVE1 THEORY - CV(LN) - 601 / BAI1(PA) - 602 / BAI2(BE) - 605 / BAI2(TS) - 606"
           }
         ],
         "Day 2": [
           {
             "slot": "SESSION I",
-            "subject": "PROMPT LAB - 402(SAB)"
+            "subject": "II MCA GEN AI ELECTIVE1 THEORY - CV(LN) - 601 / BAI1(PA) - 602 / BAI2(BE) - 605 / BAI2(TS) - 606"
           },
           {
             "slot": "SESSION II",
-            "subject": "PY-PP"
+            "subject": "DCN LAB - 402 - RS"
           },
           {
             "slot": "SESSION III",
-            "subject": "PE-SAB"
+            "subject": "DCN LAB - 402 - RS"
+          },
+          {
+            "slot": "BREAK",
+            "subject": "Break",
+            "type": "break"
           },
           {
             "slot": "SESSION IV",
-            "subject": "ELECTIVE THEORY ( ARVR- 601 -FG/LLM(BATCH1) - 602-GY/ IOTC-  606-AR/LLM (BATCH2 - 607- SS)"
-          },
-          {
-            "slot": "SESSION V",
-            "subject": "AIML-DH"
-          },
-          {
-            "slot": "LUNCH",
-            "subject": "OS-AS"
+            "subject": "CQC THEORY-PP"
           }
         ],
         "Day 3": [
           {
             "slot": "SESSION I",
-            "subject": "PROMPT ONLINE (SAB)"
-          },
-          {
-            "slot": "SESSION II",
-            "subject": "ELECTIVE LAB( ARVR-908  -FG/LLM(BATCH1) - 403-GY/ IOTC-  402-AR/LLM (BATCH2 - 708- SS)"
+            "subject": "CQC THEORY-PP"
           },
           {
             "slot": "SESSION III",
-            "subject": "ELECTIVE LAB( ARVR-908  -FG/LLM(BATCH1) - 403-GY/ IOTC-  402-AR/LLM (BATCH2 - 708- SS)"
+            "subject": "PROJECT - 403 LAB - MN"
+          },
+          {
+            "slot": "BREAK",
+            "subject": "Break",
+            "type": "break"
           },
           {
             "slot": "SESSION IV",
-            "subject": "CDC"
-          },
-          {
-            "slot": "LUNCH",
-            "subject": "MATHS"
-          },
-          {
-            "slot": "SESSION VII",
-            "subject": "OS LAB - 403 (AS)"
-          },
-          {
-            "slot": "SESSION VIII",
-            "subject": "OS LAB - 403 (AS)"
+            "subject": "DCN THEORY - RS"
           }
         ],
         "Day 4": [
           {
             "slot": "SESSION I",
-            "subject": "OS-AS"
+            "subject": "II MCA GEN AI ELECTIVE1 LAB - CV(LN) - 402 / BAI1(PA) - 403 / BAI2(A1) - 708 / BAI2(A2) - 908"
           },
           {
             "slot": "SESSION II",
-            "subject": "PY-PP"
+            "subject": "II MCA GEN AI ELECTIVE1 LAB - CV(LN) - 402 / BAI1(PA) - 403 / BAI2(A1) - 708 / BAI2(A2) - 908"
           },
           {
             "slot": "SESSION III",
-            "subject": "AIML-DH"
+            "subject": "ELECTIVE II THEORY - DDP(RAM) - 601 / DEA1(RV) - 602 / DEA2(PA) - 605 / DE(A3) - 606"
           },
           {
-            "slot": "SESSION IV",
-            "subject": "MATHS"
-          },
-          {
-            "slot": "SESSION V",
-            "subject": "PE-SAB"
-          },
-          {
-            "slot": "LUNCH",
-            "subject": "AIML-DH"
+            "slot": "BREAK",
+            "subject": "Break",
+            "type": "break"
           }
         ],
         "Day 5": [
           {
             "slot": "SESSION I",
-            "subject": "AIML LAB - 402 ( DH)"
+            "subject": "DCN THEORY - RS"
           },
           {
             "slot": "SESSION II",
-            "subject": "OS-AS"
+            "subject": "ELECTIVE II THEORY - DDP(RAM) - 601 / DEA1(RV) - 602 / DEA2(PA) - 605 / DE(A3) - 606"
           },
           {
             "slot": "SESSION III",
-            "subject": "MATHS"
+            "subject": "II MCA GEN AI ELECTIVE1 THEORY - CV(LN) - 601 / BAI1(PA) - 602 / BAI2(A1) - 605"
+          },
+          {
+            "slot": "BREAK",
+            "subject": "Break",
+            "type": "break"
           },
           {
             "slot": "SESSION IV",
-            "subject": "ELECTIVE THEORY ( ARVR- 601 -FG/LLM(BATCH1) - 602-GY/ IOTC-  606-AR/LLM (BATCH2 - 607- SS)"
-          },
-          {
-            "slot": "SESSION V",
-            "subject": "AIML LAB - 402 (DH)"
-          },
-          {
-            "slot": "LUNCH",
-            "subject": "CDC"
+            "subject": "CQC THEORY-PP"
           }
         ]
       }
